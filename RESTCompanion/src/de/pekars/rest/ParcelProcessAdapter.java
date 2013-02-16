@@ -1,10 +1,13 @@
 package de.pekars.rest;
 
-public interface ParcelProcesser {
+import javax.ejb.Local;
+
+@Local
+public interface ParcelProcessAdapter {
 
 	/**
 	 * Receives an encrypted and valid parcel that only includes reading
-	 * operation (and therefore not needs to be synchronized.)
+	 * operation (and therefore not needs to be synchronized).
 	 * 
 	 * @param parcel
 	 */
@@ -12,7 +15,7 @@ public interface ParcelProcesser {
 
 	/**
 	 * Receives an encrypted and valid parcel that only includes write
-	 * operations (and therefore needs to be synchronized.)
+	 * operations (and therefore needs to be synchronized).
 	 * 
 	 * @param parcel
 	 */

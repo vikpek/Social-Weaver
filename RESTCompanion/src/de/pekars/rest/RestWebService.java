@@ -8,16 +8,21 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.xml.bind.JAXBElement;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 @Path("/parcel")
 @Produces(MediaType.APPLICATION_XML)
 @Consumes(MediaType.APPLICATION_XML)
 public class RestWebService {
-
+	
+	private static final Logger logger = LoggerFactory
+			.getLogger(RestWebService.class);
 	@POST
 	@Produces(MediaType.APPLICATION_XML)
 	@Consumes(MediaType.APPLICATION_XML)
-	public Parcel putUser(JAXBElement<Parcel> parcel) {
-		return parcel.getValue();
+	public Parcel putUser(Parcel parcel) {
+		return parcel;
 	}
 
 	@POST

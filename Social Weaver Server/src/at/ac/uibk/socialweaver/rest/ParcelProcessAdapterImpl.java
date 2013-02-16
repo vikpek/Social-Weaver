@@ -1,8 +1,8 @@
 package at.ac.uibk.socialweaver.rest;
 
-import de.pekars.rest.ParcelProcesser;
+import de.pekars.rest.ParcelProcessAdapter;
 
-public class ParcelProcessorImpl implements ParcelProcesser{
+public class ParcelProcessAdapterImpl implements ParcelProcessAdapter{
 
 	@Override
 	public void processReadParcel(String parcel) {
