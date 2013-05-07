@@ -1,0 +1,119 @@
+\documentclass[]{article}
+
+\usepackage{graphicx}
+\usepackage[ngerman, english]{babel}
+
+\usepackage{listings} 
+\usepackage{fancyvrb} 
+\usepackage{hyperref}
+\usepackage{tabularx}
+\usepackage{enumerate}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{floatflt}
+\usepackage{pdfpages}
+\usepackage{xr}
+\usepackage{sidecap}
+\usepackage{epigraph}
+\usepackage[toc,page]{appendix}
+
+\lstdefinelanguage{json}{
+	basicstyle=\footnotesize, \ttfamily,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    backgroundcolor=\color{white},
+    literate=
+     *{0}{{{\color{numb}0}}}{1}
+      {1}{{{\color{numb}1}}}{1}
+      {2}{{{\color{numb}2}}}{1}
+      {3}{{{\color{numb}3}}}{1}
+      {4}{{{\color{numb}4}}}{1}
+      {5}{{{\color{numb}5}}}{1}
+      {6}{{{\color{numb}6}}}{1}
+      {7}{{{\color{numb}7}}}{1}
+      {8}{{{\color{numb}8}}}{1}
+      {9}{{{\color{numb}9}}}{1}
+      {:}{{{\color{punct}{:}}}}{1}
+      {,}{{{\color{punct}{,}}}}{1}
+      {\{}{{{\color{delim}{\{}}}}{1}
+      {\}}{{{\color{delim}{\}}}}}{1}
+      {[}{{{\color{delim}{[}}}}{1}
+      {]}{{{\color{delim}{]}}}}{1}
+}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+
+
+\includegraphics[width=0.5\textwidth]{images/sowebird+uibk.png}~\\[1cm]
+
+\textsc{\LARGE University of Innsbruck}\\[1.5cm]
+
+\textsc{\Large Master Seminar}\\[0.5cm]
+
+% Title
+
+{ \huge \bfseries Social Weaver\\
+ \large A Prototype for Weaving Web 2.0 Features into Web Applications}\\[0.4cm]
+
+
+% Author and supervisor
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+Viktor \textsc{Pekar}
+\end{flushleft}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Supervisor:} \\
+Dr.~Michael \textsc{Felderer}
+\end{flushright}
+\begin{flushright} \large
+\emph{Collaboration:} \\
+Dr.~Dirk \textsc{Draheim}
+\end{flushright}
+
+\end{minipage}
+
+\vfill
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+\end{titlepage}
+\newpage
+
+\tableofcontents
+\newpage
+
+\input{abstract}
+\newpage
+\input{introduction-seminar}
+\newpage
+\input{contribution}
+\newpage
+
+\section{Requirements Analysis}\label{req-analysis}
+\input{socialweaver-abstract-reqs}
+\newpage
+
+\input{socialweaver-concrete}
+\newpage
+
+\input{summary}
+\newpage
+
+\bibliographystyle{plain}
+\bibliography{references}
+\nocite{*}
+
+\end{document}

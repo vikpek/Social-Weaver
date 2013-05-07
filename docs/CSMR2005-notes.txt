@@ -1,0 +1,10 @@
+Reverse Engineering Ideen für Social Weaver
+
+* verschiedene Modi (crawling-, snoop- and guide-mode)
+	* Crawl Mode 
+		automated webbrowser using URLs, links, …
+	* Snoop Mode - fuer uns nicht wirklich anwendbar? Dirk fragen!
+* Angie Model for representation
+* calling instances of pages 'screens'
+* Screen Classification Problem (gute Ergänzung zum UID Recognizing für Elemente)
+* ways to distinguish identities of screens (targets, titel, trivial, …)

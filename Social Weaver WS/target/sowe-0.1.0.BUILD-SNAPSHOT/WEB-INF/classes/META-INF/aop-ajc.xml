@@ -1,0 +1,22 @@
+<aspectj>
+<aspects>
+<aspect name="at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_ActiveRecord"/>
+<aspect name="at.ac.uibk.qe.sowe.Anchor_Roo_Configurable"/>
+<aspect name="at.ac.uibk.qe.sowe.SocialElement_Roo_ToString"/>
+<aspect name="at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_Entity"/>
+<aspect name="at.ac.uibk.qe.sowe.SocialElement_Roo_Json"/>
+<aspect name="at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_ActiveRecord"/>
+<aspect name="at.ac.uibk.qe.sowe.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="at.ac.uibk.qe.sowe.SocialElement_Roo_Configurable"/>
+<aspect name="at.ac.uibk.qe.sowe.SocialElement_Roo_JavaBean"/>
+<aspect name="at.ac.uibk.qe.sowe.Anchor_Roo_ToString"/>
+<aspect name="at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller"/>
+<aspect name="at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller_Json"/>
+<aspect name="at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller_Json"/>
+<aspect name="at.ac.uibk.qe.sowe.Anchor_Roo_Json"/>
+<aspect name="at.ac.uibk.qe.sowe.Anchor_Roo_JavaBean"/>
+<aspect name="at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_Entity"/>
+<aspect name="at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller"/>
+</aspects>
+</aspectj>
+

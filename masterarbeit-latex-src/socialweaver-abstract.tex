@@ -1,0 +1,54 @@
+\section{Social Weaver - Abstract Domain Level}\label{sowe-abstract}
+
+\epigraph{I know it when I see it}{Potter Stewart}
+
+Even though Stewart had something completely different in mind when he used this famous phrase in front of the  United States Supreme Court, it is still a quite good explanation why a prototype is useful. 
+
+We aim to create a vertical prototype. That means that our system should proof that the general idea is possible to implement. Wiegers writes that a vertical prototype should touch all technical layers to serve as a \emph{proof of concept}\cite{wiegers2003software}.
+
+First of all we will start with a prototype driven requirements analysis. In the sections \ref{what_is_sowe} \nameref{what_is_sowe} to \ref{communication_protocol}  we will discuss the requirements on an abstract domain level and put these into a relationship with the \emph{WHY/WHAT/WHO-Model} \cite{van2009requirements}.
+
+Based on that in section \ref{sows-concrete} we will bring the requirements to a concrete domain level and furthermore explain some interesting details about the derived architecture and implementation. 
+
+
+\subsection{The WHY-WHAT-WHO-Model}\label{why-what-who}
+\begin{figure}[h] \centering
+		\includegraphics[width=13cm]{images/why-what-who-model.png}
+		\caption{Three dimensions of the requirements types\cite{van2009requirements}}
+		\label{why-what-who-diagram}
+\end{figure} 
+
+The WHY-WHAT-WHO model (see figure \ref{why-what-who-diagram}) enables us to discuss on different layers of requirements abstraction. The purpose of the WHY-WHAT-WHO model should not be a strict separation into section. It is much more to be seen as a context that we can refer to through this paper.
+
+// @TODO hier muss mehr hin! \\
+
+In the following all layers are described in detail and connected to parts of this thesis. 
+
+\subsubsection{WHY Dimension}
+This dimension analyses the existing system or environment 
+we build on to define what is within a possible reach. Potential problems or limitations should be defined in context of this layer. Furthermore we should try to see what impact our system is going to have on the environment. 
+
+For this task we first of all need background knowledge which we will gather in a domain analysis. Based on that we will be able to define the problem, that should be our motivation for building such a system. 
+
+The sections that are related to the WHY dimension are \ref{domainAnalysis} \nameref{domainAnalysis} and \ref{problemdescription} \nameref{problemdescription}.
+
+\subsubsection{WHAT Dimension}
+
+The WHAT dimension contains services, constraints and processes that are direct results from the WHY dimension and will lead to the actual goal system. At this point the results from the WHY dimension should be verified if they are still applicable and possible to implement. Use Cases and concrete requirements belong to this section. 
+
+This thesis sections \ref{sowe-reqs} \nameref{sowe-reqs} and \ref{usecases} \nameref{usecases} are related to the WHAT dimension.
+
+\subsubsection{WHO Dimension}
+
+The WHO dimension is about distinguishing what component has which responsibility. Components in this context do not need to be necessarily hardware components. For instance some user interaction might be classified as component.
+
+// @TODO irgendwie muss behandelt werden wie sämtliche komponenten zusammen spielen... \\
+
+\subsection{Domain Analysis}
+
+
+\subsection{Problem Description}
+\input{socialweaver-abstract-reqs}
+
+
+
