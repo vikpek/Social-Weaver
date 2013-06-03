@@ -241,3 +241,85 @@ Cleary we accomplish this requirement with the RESTful web service interfaces. T
 \subsubsection{Parse incoming messages}
 
 \subsubsection{Create outgoing messages}
+
+\subsection{Social Weaver - Script Support}
+The following part will explain how the script support looks like in detail for our firefox plugin. We use JSON as format for the scripts because of the support that JavaScript provides for parsing and formin JSON format. The script defines the format for how the payload is created. This payload might be the information for anchors, URL and content related to social elements. The server handles this payload as one value and does not parse it. All meta information that are neede by the server will be transmitted separately from the payload. To understand how the script is used to generate an anchor format take a look at the example:
+
+%%% TODO not verbatim but listing bla
+\begin{verbatim}
+{
+    rules:
+    [
+
+         {"doc_location" : "document.location.toString()"},
+         {"element_content" : "$(matchedElement).text()"},
+         {"element_children" : "$(matchedElement).children().text()"},
+         {"element_content": "matchedElement.innerHTML"},
+         {"dom_path": "true"}	
+    ]
+}
+\end{verbatim}
+
+The purpose of this script example is to show the different possibilities and not a real usage case. It will become obvious why this set of parameters would be no good choice. 
+
+Basically a script is a set of rules. A rule has a keyname and the actual operation that is being used to perform an action. The keyname can be any string withing quotes chosen by the script author. The keynames should be unique in one script though. The operation part offers different opportunities:
+
+\begin{itemize}
+
+	\item jQuery Operation \\ 
+	jQuery is a great possiblity to traverse the DOM tree and it is possibly to inject  jQuery commands directly in the script. It is necessary that the command returns a string that is used for identfitication. The first line:
+		\begin{verbatim}
+		         {"doc_location" : "document.location.toString()"}
+		\end{verbatim}
+	would tell the plugin to save the document location which is the plain URL in most cases. 
+	
+	To trigger an operation related to the element that has been clicked by the user we might use the keyword \verb^matchedElement^. In case a jQuery method is used it is still necessary to transform the matched element to jQuery format (\verb^matchedElement^ $\rightarrow$ \verb^$(matchedElement)^). 
+	
+	\item	 JavaScript Operation \\
+	Even though most functionality related to DOM tree traversing should be covered with jQuery it might be of use sometimes to use JavaScript commands directly. 
+		\begin{verbatim}
+		         {"element_content": "matchedElement.innerHTML"}
+		\end{verbatim}
+	This line would be an example for how to retrieve the HTML content of an element. This information might be used for matching elements for instance. 
+	
+	\item Predefined Operation
+	Some functions we need are not directly provided with JavaScript. The best example is the DOM tree path. We use the DOM tree path for distinguishing similar elements (for example <li> elements). This functionality is provided by the plugin and can be enabled or disabled with the rule:
+		\begin{verbatim}
+		         {"dom_path": "true"}
+		\end{verbatim}
+	
+		
+	
+\end{itemize}
+
+
+\subsection{Requirements for the Script Support}
+
+In the abstract section we defined a couple of abstract requirements that we need to specify for a proper implementation. Those requirements were:
+
+\begin{enumerate}
+	\item Container of all necessary information for element matching
+	\item Decoupled from browser plugin and server backend
+	\item Syntax that is easy to read and write
+	\item Extension of the plugin with parsing methods
+	\item Default matching procedure should be provided (so the overall functionality is not limited when no scripts exist)
+	\item Scripts should be related to a single or a set of URLs
+\end{enumerate}
+
+\subsubsection{Container of all necessary information for element matching}
+
+We solved this issue by introducing the payload container that contains a JSON array with all information that is set by the script. This way we are able to extend information for element matching and modify it just by changing the script. The plugin and backbone of our system will not necessarily have to be changed. 
+
+\subsubsection{Decoupled from browser plugin and server backend}
+The script itself does not contain any information of the browser plugin type or the server module. The defined rules need to be supported by the plugin though. A plugin that does not support jQuery command would not work with our script type. The server on the other hand is completely decoupled from the script support. The payload is just one column and the information about element anchors is of no use for the server. This is way the payload will not be parsed on the server. 
+
+\subsubsection{Syntax that is easy to read and write}
+JSON is commonly used format and even possible to read by persons without software development knowledge. Furthermore our scripts consist of just one rule type that is a tuple of a key and an operation. With the predefined operations a plugin provides it would be possible to generate such a script without the knowledge of JavaScript or jQuery. 
+
+\subsubsection{Extension of the plugin with parsing methods}
+
+\subsubsection{Default matching procedure should be provided}
+
+\subsubsection{Scripts should be related to a single or a set of URLs}
+
+\subsection{Ambiguity Problem}

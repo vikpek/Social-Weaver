@@ -79,3 +79,19 @@ entity jpa --class ~.Anchor
 exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-06 14:42:04
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-07 09:45:59
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-27 16:28:08
+hint
+focus --class ~.Anchor
+field string --fieldName jsonPayload 
+hint
+help
+hint
+perform tests
+test integration
+hint test
+help test
+test mock
+test stub
+quit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-05-29 09:22:26
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-05-29 09:22:40

@@ -17,7 +17,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Anchor, String> ApplicationConversionServiceFactoryBean.getAnchorToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<at.ac.uibk.qe.sowe.Anchor, java.lang.String>() {
             public String convert(Anchor anchor) {
-                return new StringBuilder().append(anchor.getOid()).append(' ').append(anchor.getAncestorId()).append(' ').append(anchor.getUrl()).append(' ').append(anchor.getElementId()).toString();
+                return new StringBuilder().append(anchor.getOid()).append(' ').append(anchor.getUrl()).append(' ').append(anchor.getPayload()).append(' ').append(anchor.getLastModifiedTimestamp()).toString();
             }
         };
     }

@@ -26,13 +26,11 @@ public class Anchor {
     @Column(name = "oid", unique = true)
     private long oid;
 
-    private String ancestorId;
-
+    @Column(name = "url")
     private String url;
 
-    private String elementId;
-
-    private String elementContent;
+    @Column(name = "payload")
+    private String payload;
 
     @Column(name = "lastModifiedTimestamp")
     private long lastModifiedTimestamp;
@@ -41,7 +39,7 @@ public class Anchor {
     private Set<SocialElement> socialElement = new HashSet<SocialElement>();
 
 
-    public static List<Anchor> findAllAnchorsWithNewerTimestamp(long ts) {
+    public static List<at.ac.uibk.qe.sowe.Anchor> findAllAnchorsWithNewerTimestamp(long ts) {
         TypedQuery<Anchor> query = entityManager().createQuery("SELECT o FROM Anchor o WHERE o.lastModifiedTimestamp > :ts", Anchor.class);
         query.setParameter("ts", ts);
         return query.getResultList();
@@ -66,7 +64,6 @@ public class Anchor {
 
     @Transactional
     public void persist() {
-
         if (this.entityManager == null) {
             this.entityManager = entityManager();
         }
@@ -76,6 +73,6 @@ public class Anchor {
     }
 
     private String generateOidRelevantString() {
-        return "" + url + elementId + elementContent + ancestorId;
+        return payload;
     }
 }

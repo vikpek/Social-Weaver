@@ -92,11 +92,44 @@ So the requirements for the server application are:
 \end{enumerate}
 
 
-\subsubsection{Communication Protocol}\label{communication_protocol}
+%%%kommt vermutlich raus %%% \subsubsection{Communication Protocol}\label{communication_protocol}
 
+\subsubsection{Social Weaver - Script Support}
+The support for external scripts is essential for a generic usage of Social Weaver. The reason why script support is extracted into its own section, is that it should be decoupled from the server and plugin that were discussen before. 
+
+The underlying problem is the problematic identification of elements of a web view. There is simply no generic way of identifying elements in the users view across all web sites and applications. For that reason we need an extandable method to support more websites and applications. This could even mean that third-parties could support their own systems by just adding the script without the need to modify Social Weaver directly. In this section we will briefly discuss what the purpose of such scripts is in detail and what requirements we have to fulfill. 
+\\ \\
+The term \textit{script} in our context should contain only information that is needed by the plugin to identify an element. Let us consider the google calendar example once again. The case where we want to match the same appointment field across different user sessions brings the problem that there will be no identifier for the element itself. To the user it is obivous to identify it because of the appointment name, date and time. And those parameters could be just the information we need to extract into our script. How this will look in detail should be discussed in the concrete domain level section. 
+
+The usage of scripts should be related to one or a set of URLs. This affects mostly the root URL of a server. But might be used for subparts of a web page or application. As example a script related to \textit{http://www.opensource.org/} will be applied to all subpages like \textit{http://opensource.org/docs/board-annotated}. 
+
+But it might be of use to have a special matching procedure for sub pages.  In that case a script for \textit{http://opensource.org/faq} would overwrite the more general script. 
+
+A set of URLs could be used for scripts that are applicable for many websites. 
+
+The workflow when a script is used and when the default matching procedure that comes with the plugin is quite straightforward (see \figurename \ref{script-usage-basic}). When opening a new URL then the plugin should check whether there is a script for that case and depending on the search results proceed with the script or default matching procedure.
+
+\begin{figure}\centering
+		\includegraphics[width=8cm]{images/script-usage-basic.png}
+		\caption{Workflow for Script Using}
+		\label{script-usage-basic}
+\end{figure} 
+
+On the abstract level we will have the following requirements:
+
+\begin{enumerate}
+	\item Container of all necessary information for element matching
+	\item Decoupled from browser plugin and server backend
+	\item Syntax that is easy to read and write
+	\item Extension of the plugin with parsing methods
+	\item Default matching procedure should be provided (so the overall functionality is not limited when no scripts exist)
+	\item Scripts should be related to a single or a set of URLs
+\end{enumerate}
 
 \subsection{Technologies}
+
 This section should provide a short overview about the technologies that are being used for Social Weaver. 
+
 \begin{itemize}
 \item Firefox plugin API
 \item REST as Web service Interface

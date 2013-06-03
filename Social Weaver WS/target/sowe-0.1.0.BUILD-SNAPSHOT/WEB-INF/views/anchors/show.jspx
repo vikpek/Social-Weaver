@@ -4,10 +4,9 @@
     <jsp:output omit-xml-declaration="yes"/>
     <page:show id="ps_at_ac_uibk_qe_sowe_Anchor" object="${anchor}" path="/anchors" z="inKVbwvoz1QaLL7fzTJOVEiz2Y8=">
         <field:display field="oid" id="s_at_ac_uibk_qe_sowe_Anchor_oid" object="${anchor}" z="0HuvyFcHAKuMZ7rtplsIOC6J7OE="/>
-        <field:display field="ancestorId" id="s_at_ac_uibk_qe_sowe_Anchor_ancestorId" object="${anchor}" z="oS/i6bV1mnRR0fbxzWbIrtbcKSA="/>
         <field:display field="url" id="s_at_ac_uibk_qe_sowe_Anchor_url" object="${anchor}" z="I0k836jE5GkW0DtEquJ80VVbrtU="/>
-        <field:display field="elementId" id="s_at_ac_uibk_qe_sowe_Anchor_elementId" object="${anchor}" z="A3q/AGc6hczxK5YYbKgqs7qPhrA="/>
-        <field:display field="elementContent" id="s_at_ac_uibk_qe_sowe_Anchor_elementContent" object="${anchor}" z="s3MisKejGvrSyjdyRoMH25g5uvk="/>
         <field:display field="lastModifiedTimestamp" id="s_at_ac_uibk_qe_sowe_Anchor_lastModifiedTimestamp" object="${anchor}" z="fKAbvyfv3I78oySBeXq5VKLgvSk="/>
+        <field:display field="socialElement" id="s_at_ac_uibk_qe_sowe_Anchor_socialElement" object="${anchor}" z="ZMcCVNEXW9we7z9UeYeEFyJbUrA="/>
+        <field:display field="payload" id="s_at_ac_uibk_qe_sowe_Anchor_payload" object="${anchor}" z="wpuLLy8iOfKEGSb8UapTWok76fc="/>
     </page:show>
 </div>

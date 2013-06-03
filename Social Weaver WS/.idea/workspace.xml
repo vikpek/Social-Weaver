@@ -10,11 +10,45 @@
     <ignored path="Social Weaver WS.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Spring Roo Console" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367609414188" ignored="false" />
-    <file path="/Dummy.txt" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367609596769" ignored="false" />
-    <file path="/Anchor.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367915973544" ignored="false" />
+    <file path="/Dummy.txt" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1369740424064" ignored="false" />
+    <file path="/Anchor.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1369741177415" ignored="false" />
     <file path="/a.dummy" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367654284565" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367653993345" ignored="false" />
     <file path="/AnchorController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367915900375" ignored="false" />
+    <file path="/fragment.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1369740439977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/pom.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370015170875" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/PersonalReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/DepartmentReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/TripReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
+    <file path="/database.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370094187649" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/resources/META-INF/spring/database.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014825402" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/webapp/WEB-INF/spring/webmvc-config.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370015170875" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/resources/META-INF/spring/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370016229197" ignored="false" />
+    <file path="/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105858945" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/log.roo" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346963" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/pom.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346963" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/webapp/WEB-INF/spring/webmvc-config.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/webapp/WEB-INF/views/didits/views.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/webapp/WEB-INF/web.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/resources/META-INF/spring/applicationContext.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/java/de/didits/ws/Didit.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/java/de/didits/ws/Didit_Roo_ToString.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/java/de/didits/ws/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/java/de/didits/ws/DiditController_Roo_Controller.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/java/de/didits/ws/DiditController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/java/de/didits/ws/Didit_Roo_JavaBean.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/java/de/didits/ws/ApplicationConversionServiceFactoryBean.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/webapp/WEB-INF/views/views.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/resources/META-INF/spring/database.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370094449873" ignored="false" />
+    <file path="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse7754201169742937876.html" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370094485917" ignored="false" />
+    <file path="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse1114137392808906307.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370094532306" ignored="false" />
+    <file path="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse9169548384783313617.html" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370094563073" ignored="false" />
+    <file path="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse6633418568760877264.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370094571123" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/.idea/workspace.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105862847" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/Person.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105754679" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/Person_Roo_JavaBean.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105754679" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105754679" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/src/main/resources/META-INF/spring/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105858945" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +68,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,6 +104,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -81,58 +115,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Anchor.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Anchor.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="42" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.0">
+            <state line="53" column="5" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1073#1088#0" expanded="true" />
+                <element signature="e#1059#1074#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnchorController.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController.java">
+      <file leaf-file-name="Anchor_Roo_Configurable.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Configurable.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="42" selection-start="656" selection-end="656" vertical-scroll-proportion="0.20179372">
+            <state line="8" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnchorController_Roo_Controller.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj">
+      <file leaf-file-name="Anchor_Roo_JavaBean.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_JavaBean.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="18" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.0">
+            <state line="7" column="18" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AnchorController_Roo_Controller_Json.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller_Json.aj">
+      <file leaf-file-name="Anchor_Roo_Jpa_ActiveRecord.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Jpa_ActiveRecord.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="18" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
+            <state line="11" column="18" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="misc.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <file leaf-file-name="Anchor_Roo_Jpa_Entity.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Jpa_Entity.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="62" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
+            <state line="13" column="18" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="standard.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/standard.properties">
+      <file leaf-file-name="Anchor_Roo_Json.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Json.aj">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="12" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Anchor_Roo_ToString.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_ToString.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="18" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,27 +194,29 @@
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse5545851794682608492.json" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse6056069715779135680.html" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse8531185446315912578.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_JavaBean.aj" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller_Json.aj" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse7285165415104777352.html" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse7951037026093700777.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController.java" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse1748241060742347976.xml" />
+        <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse2111844520370675512.html" />
+        <option value="$PROJECT_DIR$/test.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_JavaBean.aj" />
+        <option value="$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java" />
       </list>
     </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="true" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-18" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
@@ -364,7 +408,6 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -396,18 +439,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -424,114 +455,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="classes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -555,40 +478,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AnchorController" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -619,6 +508,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -628,18 +518,21 @@
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="social_weaver_ws" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RestClientSettings">
-    <option name="LAST_HOST" value="http://localhost:8080/" />
+    <option name="LAST_HOST" value="http://s15335073.onlinehome-server.info:8080/JsonWebservice/" />
   </component>
   <component name="RunManager" selected="Tomcat Server.SoWeWS">
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -788,6 +681,26 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56508" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sowe" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -865,23 +778,45 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56508" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SoWe Unit" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="sowe" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <patterns>
+        <pattern testClass="test/*" />
+      </patterns>
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -965,8 +900,9 @@
         </option>
       </method>
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.SoWeWS" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.SoWe Unit" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.SoWeWS" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -996,8 +932,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="22" width="1280" height="774" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1007,26 +943,26 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6053019" sideWeight="0.3640625" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37702504" sideWeight="0.36328125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.62886596" sideWeight="0.6359375" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30388978" sideWeight="0.6085627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39143732" sideWeight="0.63671875" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.62886596" sideWeight="0.6359375" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.3515625" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29296875" sideWeight="0.371134" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37702504" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Roo Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47275406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1095,118 +1031,99 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="21" column="13" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/banner-graphic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/add.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/alt.css">
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1367607948000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="16" column="67" selection-start="368" selection-end="368" vertical-scroll-proportion="0.038071066" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorIntegrationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="8" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1367914454000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="12" column="32" selection-start="251" selection-end="251" vertical-scroll-proportion="0.41878173" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/standard.properties">
+    <entry file="file://$PROJECT_DIR$/log.roo">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/classes/alt.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorDataOnDemand_Roo_DataOnDemand.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorDataOnDemand_Roo_Configurable.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="62" selection-start="747" selection-end="747" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file:///private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse7951037026093700777.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorDataOnDemand.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorIntegrationTest_Roo_IntegrationTest.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.984252" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="1479" selection-end="1479" vertical-scroll-proportion="0.0">
+        <state line="19" column="18" selection-start="866" selection-end="866" vertical-scroll-proportion="0.23622048" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Configurable.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller_Json.aj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_JavaBean.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="18" selection-start="1294" selection-end="1294" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="42" selection-start="2053" selection-end="2053" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1073#1088#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse5834637992075524607.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4762" selection-start="4846" selection-end="4846" vertical-scroll-proportion="0.75376886">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse1748241060742347976.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="7" column="18" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Jpa_ActiveRecord.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="143" selection-start="1576" selection-end="1576" vertical-scroll-proportion="2.2197309">
+        <state line="11" column="18" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Jpa_Entity.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="42" selection-start="656" selection-end="656" vertical-scroll-proportion="0.20179372">
+        <state line="13" column="18" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Json.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_ToString.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="371" selection-end="371" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="5" selection-start="1576" selection-end="1576" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1059#1074#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

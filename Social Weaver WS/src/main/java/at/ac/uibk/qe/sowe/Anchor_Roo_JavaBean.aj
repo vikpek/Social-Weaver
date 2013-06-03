@@ -3,8 +3,6 @@
 
 package at.ac.uibk.qe.sowe;
 
-import at.ac.uibk.qe.sowe.Anchor;
-import at.ac.uibk.qe.sowe.SocialElement;
 import java.util.Set;
 
 privileged aspect Anchor_Roo_JavaBean {
@@ -17,14 +15,6 @@ privileged aspect Anchor_Roo_JavaBean {
         this.oid = oid;
     }
     
-    public String Anchor.getAncestorId() {
-        return this.ancestorId;
-    }
-    
-    public void Anchor.setAncestorId(String ancestorId) {
-        this.ancestorId = ancestorId;
-    }
-    
     public String Anchor.getUrl() {
         return this.url;
     }
@@ -33,20 +23,12 @@ privileged aspect Anchor_Roo_JavaBean {
         this.url = url;
     }
     
-    public String Anchor.getElementId() {
-        return this.elementId;
+    public String Anchor.getPayload() {
+        return this.payload;
     }
     
-    public void Anchor.setElementId(String elementId) {
-        this.elementId = elementId;
-    }
-    
-    public String Anchor.getElementContent() {
-        return this.elementContent;
-    }
-    
-    public void Anchor.setElementContent(String elementContent) {
-        this.elementContent = elementContent;
+    public void Anchor.setPayload(String payload) {
+        this.payload = payload;
     }
     
     public long Anchor.getLastModifiedTimestamp() {
