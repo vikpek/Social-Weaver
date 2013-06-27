@@ -13,18 +13,18 @@
     <file path="/Dummy.txt" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1369740424064" ignored="false" />
     <file path="/Anchor.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1369741177415" ignored="false" />
     <file path="/a.dummy" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367654284565" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367653993345" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370877819333" ignored="false" />
     <file path="/AnchorController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367915900375" ignored="false" />
     <file path="/fragment.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1369740439977" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/pom.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370015170875" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/PersonalReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/DepartmentReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/TripReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
-    <file path="/database.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370094187649" ignored="false" />
+    <file path="/database.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370891223480" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/resources/META-INF/spring/database.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014825402" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/webapp/WEB-INF/spring/webmvc-config.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370015170875" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/resources/META-INF/spring/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370016229197" ignored="false" />
-    <file path="/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105858945" ignored="false" />
+    <file path="/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370874265146" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/log.roo" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346963" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/pom.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346963" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService/src/main/webapp/WEB-INF/spring/webmvc-config.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370093346554" ignored="false" />
@@ -50,6 +50,87 @@
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105754679" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/src/main/resources/META-INF/spring/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370105858945" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/shared-ase-report/tut3/TravelRoo/src/main/webapp/styles/standard.css" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370265594915" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsPlay/.idea/workspace.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370801588899" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/ws/Didit.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370872642372" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/pom.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370891460599" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/spring/applicationContext-security.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse8495899683678274248.json" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370874977925" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/test/java/de/didits/ws/UserDiditDataOnDemand_Roo_DataOnDemand.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/test/java/de/didits/ws/DUserDataOnDemand_Roo_DataOnDemand.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/spring/applicationContext.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/ws/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/menu.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888485625" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/ws/DUser_Roo_Jpa_ActiveRecord.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/test/java/de/didits/ws/DiditDataOnDemand_Roo_DataOnDemand.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/test/java/de/didits/ws/DiditIntegrationTest_Roo_IntegrationTest.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/ws/Didit_Roo_Jpa_ActiveRecord.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/test/java/de/didits/ws/UserDiditIntegrationTest_Roo_IntegrationTest.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/ws/UserDidit_Roo_Jpa_ActiveRecord.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268052" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/footer.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/login.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890370377" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/test/java/de/didits/ws/DUserIntegrationTest_Roo_IntegrationTest.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876268053" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/ws/web/SignUpController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370876335920" ignored="false" />
+    <file path="/email.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370878812522" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/spring/email.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/signup/index.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/web.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370877814473" ignored="false" />
+    <file path="/web.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370877795774" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/log.roo" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370891460599" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/spring/database.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370891223480" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/persistence.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370881503283" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/resources/dynamic-configuration.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370878469274" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/.idea/modules.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370878485601" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/.idea/compiler.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370878485601" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/.idea/encodings.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370878485601" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/.idea/misc.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888595150" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/.idea/workspace.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890436417" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/Didit.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370878612084" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/UserController_Roo_Controller.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/domain/Role.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/Role.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370879190575" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/domain/User.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/User.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370880311112" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/UserController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/UserController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370880551865" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/roles/show.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/roles/update.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/domain/UserRole_Roo_JavaBean.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/roles/create.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/domain/User_Roo_Finder.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/domain/User_Roo_JavaBean.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/signup/thanks.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/signup/error.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/signup/views.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/changepassword/index.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/changepassword/thanks.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/changepassword/views.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/forgotpassword/index.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/forgotpassword/thanks.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/forgotpassword/views.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/provider/DatabaseAuthenticationProvider.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/ChangePasswordForm.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/SignUpController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/ForgotPasswordForm.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/SignUpValidator.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/UserRegistrationForm.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/ForgotPasswordController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/ChangePasswordValidator.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/ChangePasswordController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/web/UserRoleController_Roo_Controller.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/domain/UserRole_Roo_Finder.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/domain/Role_Roo_JavaBean.aj" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/roles/list.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888061306" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/backend/DiditController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370888485625" ignored="false" />
+    <file path="/login.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370889924707" ignored="false" />
+    <file path="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService/src/main/webapp/WEB-INF/views/users/create.jspx" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370890394940" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/src/main/java/de/didits/Didit.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892287602" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/log.roo" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370891586706" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/pom.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892198927" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/didits.iml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370891682903" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/persistence.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892198927" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/src/main/resources/dynamic-configuration.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892198927" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/spring/applicationContext.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892198927" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +150,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
@@ -107,6 +187,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -120,9 +201,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="21" column="13" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1059#1074#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -137,7 +216,7 @@
       <file leaf-file-name="standard.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="6" selection-start="502" selection-end="502" vertical-scroll-proportion="0.792">
+            <state line="49" column="13" selection-start="689" selection-end="689" vertical-scroll-proportion="0.36407766">
               <folding>
                 <marker date="1367914454000" expanded="true" signature="371:420" placeholder="{...}" />
               </folding>
@@ -469,180 +548,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sowe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sowe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anchor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -654,7 +559,7 @@
     <property name="options.lastSelected" value="preferences.fileTypes" />
     <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../myDevelop/Didits/DiditsWebService" />
+    <property name="last_opened_file_path" value="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="social_weaver_ws" />
@@ -815,22 +720,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
@@ -1029,12 +918,7 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="sowe:war exploded" />
-        </option>
-      </method>
+      <method />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JUnit.SoWe Unit" />
@@ -1072,16 +956,13 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37702504" sideWeight="0.36328125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1089,16 +970,19 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.3515625" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30388978" sideWeight="0.6085627" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3277439" sideWeight="0.3515625" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30388978" sideWeight="0.6722561" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39143732" sideWeight="0.63671875" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.62886596" sideWeight="0.6359375" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Roo Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47275406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1194,9 +1078,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Configurable.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_JavaBean.aj">
@@ -1237,9 +1119,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="13" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1059#1074#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1264,7 +1144,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="502" selection-end="502" vertical-scroll-proportion="0.792">
+        <state line="49" column="13" selection-start="689" selection-end="689" vertical-scroll-proportion="0.36407766">
           <folding>
             <marker date="1367914454000" expanded="true" signature="371:420" placeholder="{...}" />
           </folding>

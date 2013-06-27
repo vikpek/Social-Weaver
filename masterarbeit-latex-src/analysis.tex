@@ -1,0 +1,23 @@
+\section{Social Weaver Analysis}
+\subsection{Social Weaver in Action}
+This chapter will lead us through an real example where Social Weaver is being used. It will be explained which components are used in what situations and how they interact with each other. Because we used the Google Calendar example several times it is only fair to use it finally for an overview.
+
+\newpage
+\subsection{Social Weaver Assessment}
+In the following we will analyse how good Social Weaver will work in several real scenario cases. Since it is developed as a proof-by-concept prototype, a general support for all web sites or web application was out of reach. Anyway the script support allows us to reach at least some flexibility. The testing range should cover static and more dynamic websites. Furthermore some freely available web applications will be tested. We will distinguish some criteria:
+\begin{itemize}
+	\item Level of Marking Support \\
+	This criterion is the ability of the plugin to recognize elements in a web view. This means first of all that all relevant elements should be recognized. The best case would that elements like advertisements or scrolling bars would be left out. Still all buttons, form elements and similar elements would be spotted. This criterion is not purely objective since relevant elements may differ for each user.
+	
+	\item Level of Matching Support \\	
+	Matching Support describes the ability of the plugin to find element that were previously marked. Even though this is at least as important as the Marking Support, there is no guarantee that matching will be handled equally well as marking. For instance if we match an element only by its path in the DOM tree; This path might be ambigious to another element. In this case our social element would be weaved into the wrong place. We consider this as the worst case even worse as if no element could have been matched.
+ 
+	\item Level of Anchor Reliability \\
+	Anchor Reliability can be seen as part of the matching criterion. But with reliability we refer to the time relevant aspect. With the evolution of a web page, our anchor information might become obsolete. The chance for this to happen is increasing with time. News pages are the best example for a very fast evolution. An anchor attached to an article on the frontpage would not last more than a couple of days. But even on such a dynamic web page there mostly are elements that are more reliable (e.g. the search column or navigation bars). 
+	
+	This criterion should evaluate how probably it is that anchors will outlast time. 
+	
+	\item Expense \\
+	Expense in this context means how much effort has been used to give support for the tested environment. The extent of the script itself and an appraisal how tricky the construction of the script is, whether just standard procedure has been used or if it was necessary to insert some hacks. 
+		
+\end{itemize}
