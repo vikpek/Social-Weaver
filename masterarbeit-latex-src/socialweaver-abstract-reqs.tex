@@ -94,7 +94,7 @@ So the requirements for the server application are:
 
 %%%kommt vermutlich raus %%% \subsubsection{Communication Protocol}\label{communication_protocol}
 
-\subsubsection{Social Weaver - Script Support}
+\subsubsection{Social Weaver - Script Support} \label{abstract-script-support-reqs}
 The support for external scripts is essential for a generic usage of Social Weaver. The reason why script support is extracted into its own section, is that it should be decoupled from the server and plugin that were discussen before. 
 
 The underlying problem is the problematic identification of elements of a web view. There is simply no generic way of identifying elements in the users view across all web sites and applications. For that reason we need an extandable method to support more websites and applications. This could even mean that third-parties could support their own systems by just adding the script without the need to modify Social Weaver directly. In this section we will briefly discuss what the purpose of such scripts is in detail and what requirements we have to fulfill. 
@@ -125,15 +125,3 @@ On the abstract level we will have the following requirements:
 	\item Default matching procedure should be provided (so the overall functionality is not limited when no scripts exist)
 	\item Scripts should be related to a single or a set of URLs
 \end{enumerate}
-
-\subsection{Technologies}
-
-This section should provide a short overview about the technologies that are being used for Social Weaver. 
-
-\begin{itemize}
-\item Firefox plugin API
-\item REST as Web service Interface
-\item JavaEE for server application 
-\item PostgreSQL for persistence layer
-\item JSON for formatting data
-\end{itemize}

@@ -1,0 +1,50 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Contribution}{}% 2
+\BOOKMARK [1][-]{section.3}{Social Weaver - Abstract Domain Level}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{The WHY-WHAT-WHO-Model}{section.3}% 4
+\BOOKMARK [2][-]{subsection.3.2}{Domain Analysis}{section.3}% 5
+\BOOKMARK [2][-]{subsection.3.3}{Problem Description}{section.3}% 6
+\BOOKMARK [2][-]{subsection.3.4}{What is Social Weaver}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.5}{Requirements for Social Weaver}{section.3}% 8
+\BOOKMARK [3][-]{subsubsection.3.5.1}{Browser Plugin}{subsection.3.5}% 9
+\BOOKMARK [3][-]{subsubsection.3.5.2}{Server Application}{subsection.3.5}% 10
+\BOOKMARK [3][-]{subsubsection.3.5.3}{Social Weaver - Script Support}{subsection.3.5}% 11
+\BOOKMARK [1][-]{section.4}{Social Weaver - Concrete Domain Level}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{Social Weaver - Firefox Plugin}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Requirements for the Plugin}{section.4}% 14
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Display Management Requirement}{subsection.4.2}% 15
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Managing several comment boxes without disturbing the view on original content}{subsection.4.2}% 16
+\BOOKMARK [3][-]{subsubsection.4.2.3}{Communication to server application}{subsection.4.2}% 17
+\BOOKMARK [2][-]{subsection.4.3}{Social Weaver - Web Service}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.4}{Used Technologies}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.5}{Web Service Architecture}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.6}{Requirements for the Web Service}{section.4}% 21
+\BOOKMARK [3][-]{subsubsection.4.6.1}{Offer service that receives messages from plugin-clients}{subsection.4.6}% 22
+\BOOKMARK [3][-]{subsubsection.4.6.2}{Synchronization for requests from different user-session}{subsection.4.6}% 23
+\BOOKMARK [3][-]{subsubsection.4.6.3}{Persist updates into a database}{subsection.4.6}% 24
+\BOOKMARK [3][-]{subsubsection.4.6.4}{Keep the server application independent to weaved-into web application}{subsection.4.6}% 25
+\BOOKMARK [3][-]{subsubsection.4.6.5}{Parse incoming messages}{subsection.4.6}% 26
+\BOOKMARK [3][-]{subsubsection.4.6.6}{Create outgoing messages}{subsection.4.6}% 27
+\BOOKMARK [2][-]{subsection.4.7}{Social Weaver - Script Support}{section.4}% 28
+\BOOKMARK [2][-]{subsection.4.8}{Requirements for the Script Support}{section.4}% 29
+\BOOKMARK [3][-]{subsubsection.4.8.1}{Container of all necessary information for element matching}{subsection.4.8}% 30
+\BOOKMARK [3][-]{subsubsection.4.8.2}{Decoupled from browser plugin and server backend}{subsection.4.8}% 31
+\BOOKMARK [3][-]{subsubsection.4.8.3}{Syntax that is easy to read and write}{subsection.4.8}% 32
+\BOOKMARK [3][-]{subsubsection.4.8.4}{Extension of the plugin with parsing methods}{subsection.4.8}% 33
+\BOOKMARK [3][-]{subsubsection.4.8.5}{Default matching procedure should be provided}{subsection.4.8}% 34
+\BOOKMARK [3][-]{subsubsection.4.8.6}{Scripts should be related to a single or a set of URLs}{subsection.4.8}% 35
+\BOOKMARK [2][-]{subsection.4.9}{Ambiguity Problem}{section.4}% 36
+\BOOKMARK [3][-]{subsubsection.4.9.1}{Ambiguous Grammar}{subsection.4.9}% 37
+\BOOKMARK [3][-]{subsubsection.4.9.2}{Ambiguity for Element Matching}{subsection.4.9}% 38
+\BOOKMARK [3][-]{subsubsection.4.9.3}{Parameterized Data Object Model Tree}{subsection.4.9}% 39
+\BOOKMARK [1][-]{section.5}{Social Weaver Analysis}{}% 40
+\BOOKMARK [2][-]{subsection.5.1}{Social Weaver in Action}{section.5}% 41
+\BOOKMARK [2][-]{subsection.5.2}{Social Weaver Scripts in Action}{section.5}% 42
+\BOOKMARK [2][-]{subsection.5.3}{Social Weaver Assessment}{section.5}% 43
+\BOOKMARK [1][-]{section.6}{Discussion}{}% 44
+\BOOKMARK [1][-]{section.7}{Future Work}{}% 45
+\BOOKMARK [1][-]{section.8}{Conclusion}{}% 46
+\BOOKMARK [1][-]{section.9}{Defintions}{}% 47
+\BOOKMARK [1][-]{section*.14}{Appendices}{}% 48
+\BOOKMARK [2][-]{subsubsection.1..0.1}{Akteure}{section*.14}% 49
+\BOOKMARK [3][-]{subsubsection.1..0.2}{Use Cases}{subsubsection.1..0.1}% 50

@@ -1,0 +1,47 @@
+# Masterarbeit Vorgehen:
+
+## Implementierung.todo
+	- Vorzeigbares Soziales Element einbinden @high
+	- Neuverlinkung bei kaltem Link @high
+		- Server muss mit PUT geupdated werden
+	- Weavbare Objekte hervorheben @high @done
+
+	- Unterstützung von mehreren Skripten pro URL 
+	- Auswahloption bei mehreren Skripten pro URL @optional
+
+## Theorie.todo
+	- Gibt es nicht referenzierbare Objekte? 
+		- Falls ja - Ursache?
+		- Möglich zu beweisen dass alle referenzierbar sind?
+	- Miteinbeziehung von Kunde-Verkäufer Beratung Idee
+		
+## Masterarbeit.todo
+	- 
+	- Deployment Diagram 
+	- Activity Diagram
+	- UML Diagram
+	- Inhalts Überschriften kürzen (mit \section[kurz]{lang})
+	- SoWe in Action - neu verlinkung ausführen
+	- Search for engl. no-go s and apply to thesis
+	- skizze bzgl. social weaving - zusammensetzung aus wiki/mail/sonstiger kommunikation @done
+	- Reality Use Case StepByStep ausführen  @done
+	- Sequence Diagram für einen Standard Use-Case @done
+
+
+## Unique DOM Tree Idea.todo
+	- DOM tree → Abstract DOM tree (with paramaters) → unique path
+	- DOM tree changes → Abstract DOM tree changes as well → needs mostly manual adjustment?
+		- not scaling for webevolution?
+	- Comparison: Unique DOM path vs. scripts
+		- both need manual evolution support
+		- vdomp - better default matching from scratch
+		- script - more flexible
+	- Generating Parameterized DOM tree:
+		- 1. Traversing complete Dom tree 
+		- 2. Give parameters to every element
+		- 3. copy abstract version to somewhere
+		- 4. Make parameters generation independent 
+			- save/persistent points on levels (e.g. from <div>xy restart counting/parameter generating)
+	- <li><li><li> → 1#<li>,2#<li>,3#<li>, ...
+	- von jeder web view muss kompletter domtree gespeichert werden
+	- vielleicht können selbst änderungen im DOM tree erkannt werden um in den abstract DOM tree übernommen zu werden 
