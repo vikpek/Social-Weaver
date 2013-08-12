@@ -4,6 +4,7 @@
 package at.ac.uibk.qe.sowe.controller;
 
 import at.ac.uibk.qe.sowe.Anchor;
+import at.ac.uibk.qe.sowe.SocialElement;
 import at.ac.uibk.qe.sowe.controller.AnchorController;
 import java.io.UnsupportedEncodingException;
 import javax.servlet.http.HttpServletRequest;
@@ -86,6 +87,7 @@ privileged aspect AnchorController_Roo_Controller {
     
     void AnchorController.populateEditForm(Model uiModel, Anchor anchor) {
         uiModel.addAttribute("anchor", anchor);
+        uiModel.addAttribute("socialelements", SocialElement.findAllSocialElements());
     }
     
     String AnchorController.encodeUrlPathSegment(String pathSegment, HttpServletRequest httpServletRequest) {

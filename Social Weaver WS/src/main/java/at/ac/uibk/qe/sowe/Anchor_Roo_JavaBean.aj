@@ -3,6 +3,8 @@
 
 package at.ac.uibk.qe.sowe;
 
+import at.ac.uibk.qe.sowe.Anchor;
+import at.ac.uibk.qe.sowe.SocialElement;
 import java.util.Set;
 
 privileged aspect Anchor_Roo_JavaBean {

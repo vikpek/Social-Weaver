@@ -13,4 +13,5 @@ public class AnchorTest {
     public void testMethod() {
         int expectedCount = 13;
         Anchor.countAnchors();
+    }
 }

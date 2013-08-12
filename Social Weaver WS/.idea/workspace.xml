@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="sowe:war exploded" />
+      <artifact name="sowe:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -15,7 +15,7 @@
     <file path="/a.dummy" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367654284565" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/plugins/jsp/lib/jsp-impl.jar!/standardSchemas/jspxml2.xsd" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370877819333" ignored="false" />
     <file path="/AnchorController.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1367915900375" ignored="false" />
-    <file path="/fragment.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1369740439977" ignored="false" />
+    <file path="/fragment.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374772068751" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/pom.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370015170875" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/PersonalReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../aktuell_ss13/ase/tuts/tut3/TravelRoo/src/main/java/at/ac/uibk/ase/travel/DepartmentReport.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370014461210" ignored="false" />
@@ -131,6 +131,40 @@
     <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/persistence.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892198927" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/src/main/resources/dynamic-configuration.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892198927" ignored="false" />
     <file path="$PROJECT_DIR$/../../../../../myDevelop/DiditsRepo/DiditsWebService/src/main/resources/META-INF/spring/applicationContext.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1370892198927" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/fourrunaways/javamail/persistedstore/MailBase.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374762676615" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/FolderActionActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766762006" ignored="false" />
+    <file path="/FolderActionActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374762881190" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/FolderActionActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374762884554" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/FolderListActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375171684375" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/FolderListActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768184350" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/fourrunaways/javamail/persistedstore/PersistedFolder.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374765093445" ignored="false" />
+    <file path="/PersistedFolder.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374764449875" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/AccountListActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374767609163" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/DummyMain.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766764587" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/data/SQLiteMailBase.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766762006" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/ConfigParentActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766762006" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/MailListActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768184350" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/CreateGeneralActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766762006" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/MailActionActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766762006" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/data/DataBaseHelper.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768184350" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/util/MyPasswordAuthenticator.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766762006" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/project.properties" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374766763154" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/AndroidManifest.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768184350" ignored="false" />
+    <file path="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/data/SQLiteHandler.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768184350" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/data/SQLiteHandler.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768390292" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/MailListActivity.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768390292" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/data/DataBaseHelper.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374768390293" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/presentation/accountcreation/AutomaticCreation.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374770987415" ignored="false" />
+    <file path="/AutomaticCreation.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1374769791532" ignored="false" />
+    <file path="$PROJECT_DIR$/../sowe-plugin-backup/data/annotation/annotation.html" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375004233219" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/application/Account.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375170137919" ignored="false" />
+    <file path="/Account.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375170049295" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../../../swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android/mail_App/src/de/swarc/mailapp/protocols/IMAPClient.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375174242358" ignored="false" />
+    <file path="/IMAPClient.java" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375174225879" ignored="false" />
+    <file path="/Dummy.regexp" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375190891830" ignored="false" />
+    <file path="/injection.txt" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375190891830" ignored="false" />
+    <file path="$USER_HOME$/mDevelopment/Email-master/res/values/styles.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375191281025" ignored="false" />
+    <file path="/styles.xml" changelist="f5fa6b6f-3c25-45d7-a5b1-97a2dd22226f" time="1375190984680" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,8 +220,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -197,30 +231,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Anchor.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
+      <file leaf-file-name="test.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="31" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.023923445">
-              <folding>
-                <element signature="e#1059#1074#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Anchor_Roo_Json.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Json.aj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+            <state line="41" column="34" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Anchor_Roo_Configurable.aj" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Configurable.aj">
+      <file leaf-file-name="AnchorController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+            <state line="26" column="22" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnchorController_Roo_Controller_Json.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller_Json.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="96" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dynamic-configuration.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/dynamic-configuration.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="persistence.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="59" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="29" selection-start="244" selection-end="244" vertical-scroll-proportion="0.14354067">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocialElementController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/SocialElementController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocialElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/SocialElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Anchor.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="13" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnchorController_Roo_Controller.aj" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="19" selection-start="1700" selection-end="1987" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -236,13 +331,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/log.roo" />
-        <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse5545851794682608492.json" />
-        <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse6056069715779135680.html" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse8531185446315912578.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller_Json.aj" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse7285165415104777352.html" />
-        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj" />
         <option value="$PROJECT_DIR$/src/main/webapp/styles/standard.css" />
         <option value="/private/var/folders/th/90h1ssyd4496lnyzvd1_pt600000gn/T/tmpRestClientResponse7951037026093700777.xml" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController.java" />
@@ -252,6 +342,11 @@
         <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_JavaBean.aj" />
         <option value="$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller_Json.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj" />
+        <option value="$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Jpa_ActiveRecord.aj" />
+        <option value="/readable/Dropbox/uibk/Master/masterarbeit/SocialWeaver/Social Weaver WS/src/test/java/at/ac/uibk/qe/sowe/AnchorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
       </list>
     </option>
   </component>
@@ -262,7 +357,15 @@
     <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="19" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
@@ -454,6 +557,53 @@
       <sortByType ProjectPane="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sowe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sowe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="at.ac.uibk.qe.sowe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sowe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="at.ac.uibk.qe.sowe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -522,7 +672,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Social Weaver WS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -550,51 +778,19 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="sowe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Social Weaver WS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sowe" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Anchor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.fileTypes" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
-    <property name="last_opened_file_path" value="/readable/Dropbox/myDevelop/DiditsRepo/DiditsWebService" />
+    <property name="last_opened_file_path" value="/readable/Dropbox/swarc/mailapp/androidapp/Mail-App-Android/SwArcMail-Android" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="social_weaver_ws" />
@@ -603,14 +799,46 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RestClientSettings">
     <option name="LAST_HOST" value="http://s15335073.onlinehome-server.info:8080/JsonWebservice/" />
   </component>
   <component name="RunManager" selected="Tomcat Server.SoWeWS">
+    <configuration default="false" name="SoWe Unit" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="sowe" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="directory" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
+      <envs />
+      <dir value="$PROJECT_DIR$/src/test" />
+      <patterns>
+        <pattern testClass="test/*" />
+      </patterns>
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -757,26 +985,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56508" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="false" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sowe" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -854,29 +1062,23 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="SoWe Unit" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="sowe" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="directory" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="wholeProject" />
-      </option>
-      <envs />
-      <dir value="$PROJECT_DIR$/src/test" />
-      <patterns>
-        <pattern testClass="test/*" />
-      </patterns>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56508" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -956,9 +1158,14 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.SoWe Unit" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.SoWeWS" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.SoWeWS" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SoWe Unit" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SoWe Unit" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
@@ -987,7 +1194,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="19" y="22" width="1280" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -995,30 +1202,30 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37702504" sideWeight="0.36328125" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24923548" sideWeight="0.3515625" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30388978" sideWeight="0.6085627" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39143732" sideWeight="0.63671875" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30388978" sideWeight="0.66972476" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39027983" sideWeight="0.63671875" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.62886596" sideWeight="0.6359375" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Roo Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.47275406" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33027524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33027524" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1087,98 +1294,216 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorDataOnDemand_Roo_DataOnDemand.aj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/ApplicationConversionServiceFactoryBean_Roo_ConversionService.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorDataOnDemand_Roo_Configurable.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorDataOnDemand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/at/ac/uibk/qe/sowe/AnchorIntegrationTest_Roo_IntegrationTest.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.984252" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="18" selection-start="866" selection-end="866" vertical-scroll-proportion="0.23622048" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/standard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="28" selection-start="825" selection-end="825" vertical-scroll-proportion="0.51724136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/add.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/banner-graphic.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/styles/alt.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="27" selection-start="0" selection-end="4498" vertical-scroll-proportion="0.032327585" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_JavaBean.aj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="18" selection-start="237" selection-end="237" vertical-scroll-proportion="0.032327585">
+        <state line="12" column="18" selection-start="559" selection-end="559" vertical-scroll-proportion="0.024">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Jpa_ActiveRecord.aj">
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="">com</node>
+            <node x="" y="">templates</node>
+            <node x="" y="">at</node>
+            <node x="" y="">netscape</node>
+            <node x="" y="">junit</node>
+            <node x="" y="">org</node>
+            <node x="" y="">net</node>
+            <node x="" y="">META-INF</node>
+            <node x="" y="">sun</node>
+            <node x="" y="">aj</node>
+            <node x="" y="">sunw</node>
+            <node x="" y="">javax</node>
+            <node x="" y="">apple</node>
+            <node x="" y="">flexjson</node>
+            <node x="" y="">java</node>
+            <node x="" y="">serp</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="237.0" y="260.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/at.ac.uibk.qe.sowe">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.ac.uibk.qe.sowe</OriginalElement>
+          <nodes>
+            <node x="1302.0" y="55.0">at.ac.uibk.qe.sowe.SocialElement</node>
+            <node x="127.5" y="1345.0">at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_ActiveRecord</node>
+            <node x="-9.5" y="905.0">at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_Entity</node>
+            <node x="861.0" y="2225.0">at.ac.uibk.qe.sowe.Anchor_Roo_Configurable</node>
+            <node x="294.0" y="2225.0">at.ac.uibk.qe.sowe.SocialElement_Roo_ToString</node>
+            <node x="1107.0" y="2225.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Json</node>
+            <node x="-28.0" y="1478.0">at.ac.uibk.qe.sowe.controller.AnchorController</node>
+            <node x="1986.5" y="265.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_ActiveRecord</node>
+            <node x="495.5" y="1945.0">at.ac.uibk.qe.sowe.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService</node>
+            <node x="-36.0" y="1925.5">at.ac.uibk.qe.sowe.controller.ApplicationConversionServiceFactoryBean</node>
+            <node x="1400.0" y="1945.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Configurable</node>
+            <node x="573.5" y="2225.0">at.ac.uibk.qe.sowe.SocialElement_Roo_JavaBean</node>
+            <node x="1355.0" y="2225.0">at.ac.uibk.qe.sowe.Anchor_Roo_ToString</node>
+            <node x="1238.5" y="905.0">at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller</node>
+            <node x="1000.5" y="1945.0">at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller_Json</node>
+            <node x="-18.5" y="2225.0">at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller_Json</node>
+            <node x="735.0" y="1449.0">at.ac.uibk.qe.sowe.controller.SocialElementController</node>
+            <node x="-32.0" y="2305.0">at.ac.uibk.qe.sowe.Anchor_Roo_Json</node>
+            <node x="1594.5" y="2225.0">at.ac.uibk.qe.sowe.Anchor_Roo_JavaBean</node>
+            <node x="443.5" y="585.0">at.ac.uibk.qe.sowe.Anchor</node>
+            <node x="1489.5" y="1385.0">at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_Entity</node>
+            <node x="457.5" y="265.0">at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2528541226215645" x="360.0" y="929.0" />
+          <SelectedNodes>
+            <node>at.ac.uibk.qe.sowe.SocialElement</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>Production</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sowe.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>at.ac.uibk.qe.sowe</OriginalElement>
+          <nodes>
+            <node x="" y="">at.ac.uibk.qe.sowe.SocialElement</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_ActiveRecord</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.SocialElement_Roo_ToString</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.Anchor_Roo_Jpa_Entity</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.Anchor_Roo_Configurable</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.SocialElement_Roo_Json</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.AnchorController</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_ActiveRecord</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.ApplicationConversionServiceFactoryBean</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.ApplicationConversionServiceFactoryBean_Roo_ConversionService</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.SocialElement_Roo_Configurable</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.SocialElement_Roo_JavaBean</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.Anchor_Roo_ToString</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller_Json</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.AnchorController_Roo_Controller_Json</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.SocialElementController</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.Anchor_Roo_Json</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.Anchor_Roo_JavaBean</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.Anchor</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.SocialElement_Roo_Jpa_Entity</node>
+            <node x="" y="">at.ac.uibk.qe.sowe.controller.SocialElementController_Roo_Controller</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.2528541226215645" x="1109.0" y="1163.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+            <Category>Inner Classes</Category>
+            <Category>Properties</Category>
+          </Categories>
+          <SCOPE>Production</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///readable/Dropbox/uibk/Master/masterarbeit/SocialWeaver/Social Weaver WS/src/test/java/at/ac/uibk/qe/sowe/AnchorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="422" selection-end="422" vertical-scroll-proportion="0.032327585">
+        <state line="12" column="21" selection-start="293" selection-end="293" vertical-scroll-proportion="0.33007336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/SocialElement_Roo_Configurable.aj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="322" selection-end="322" vertical-scroll-proportion="0.29339853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Jpa_Entity.aj">
+    <entry file="file://$PROJECT_DIR$/test.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="460" selection-end="460" vertical-scroll-proportion="0.032327585">
+        <state line="41" column="34" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_ToString.aj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="18" selection-start="371" selection-end="371" vertical-scroll-proportion="0.19396552">
+        <state line="26" column="22" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Json.aj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller_Json.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="18" selection-start="395" selection-end="395" vertical-scroll-proportion="0.0">
+        <state line="20" column="96" selection-start="865" selection-end="865" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dynamic-configuration.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="59" selection-start="896" selection-end="896" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/SocialElementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/SocialElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="31" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.023923445">
-          <folding>
-            <element signature="e#1059#1074#0" expanded="true" />
-          </folding>
+        <state line="21" column="13" selection-start="645" selection-end="645" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/Anchor_Roo_Configurable.aj">
+    <entry file="file://$PROJECT_DIR$/src/main/java/at/ac/uibk/qe/sowe/controller/AnchorController_Roo_Controller.aj">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="18" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+        <state line="44" column="19" selection-start="1700" selection-end="1987" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/spring/database.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="29" selection-start="244" selection-end="244" vertical-scroll-proportion="0.14354067">
           <folding />
         </state>
       </provider>

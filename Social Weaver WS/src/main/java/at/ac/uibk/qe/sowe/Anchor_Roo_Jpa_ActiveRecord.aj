@@ -21,7 +21,7 @@ privileged aspect Anchor_Roo_Jpa_ActiveRecord {
     }
     
     public static long Anchor.countAnchors() {
-        return entityManager().createQuery("SELECT COUNT(o) FROM Anchor o", Long.class).getSingleResult();
+        return entityManager().createQuery("SELECT COUNT(*) FROM Anchor o", Long.class).getSingleResult();
     }
     
     public static List<Anchor> Anchor.findAllAnchors() {

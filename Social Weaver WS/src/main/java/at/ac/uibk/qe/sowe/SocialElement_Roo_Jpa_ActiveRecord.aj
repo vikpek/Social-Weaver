@@ -21,7 +21,7 @@ privileged aspect SocialElement_Roo_Jpa_ActiveRecord {
     }
     
     public static long SocialElement.countSocialElements() {
-        return entityManager().createQuery("SELECT COUNT(o) FROM SocialElement o", Long.class).getSingleResult();
+        return entityManager().createQuery("SELECT COUNT(*) FROM SocialElement o", Long.class).getSingleResult();
     }
     
     public static List<SocialElement> SocialElement.findAllSocialElements() {

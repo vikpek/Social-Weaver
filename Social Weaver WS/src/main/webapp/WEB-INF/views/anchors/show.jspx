@@ -6,7 +6,6 @@
         <field:display field="oid" id="s_at_ac_uibk_qe_sowe_Anchor_oid" object="${anchor}" z="0HuvyFcHAKuMZ7rtplsIOC6J7OE="/>
         <field:display field="url" id="s_at_ac_uibk_qe_sowe_Anchor_url" object="${anchor}" z="I0k836jE5GkW0DtEquJ80VVbrtU="/>
         <field:display field="lastModifiedTimestamp" id="s_at_ac_uibk_qe_sowe_Anchor_lastModifiedTimestamp" object="${anchor}" z="fKAbvyfv3I78oySBeXq5VKLgvSk="/>
-        <field:display field="socialElement" id="s_at_ac_uibk_qe_sowe_Anchor_socialElement" object="${anchor}" z="ZMcCVNEXW9we7z9UeYeEFyJbUrA="/>
         <field:display field="payload" id="s_at_ac_uibk_qe_sowe_Anchor_payload" object="${anchor}" z="wpuLLy8iOfKEGSb8UapTWok76fc="/>
     </page:show>
 </div>

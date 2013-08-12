@@ -1,0 +1,22 @@
+{
+    "rules": [
+        {
+            "doc_location": "document.location.toString()"
+        },
+        {
+            "element_content": "$(matchedElement).text()"
+        },
+        {
+            "element_ancestor": "$(this).closest("[id]").text()"
+        },
+        {
+            "element_children": "$(matchedElement).children().text()"
+        },
+        {
+            "element_prev": "$(matchedElement).prev().text()"
+        },
+        {
+            "element_contents": "$(matchedElement).contents().text()"
+        }
+    ]
+}

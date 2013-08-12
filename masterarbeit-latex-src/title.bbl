@@ -1,0 +1,195 @@
+\begin{thebibliography}{10}
+
+\bibitem{antoniol2000web}
+G~Antoniol, G~Canfora, G~Casazza, and A~De~Lucia.
+\newblock Web site reengineering using rmm.
+\newblock In {\em Proc. of the International Workshop on Web Site Evolution},
+  pages 9--16, 2000.
+
+\bibitem{brabrand2007analyzing}
+Claus Brabrand, Robert Giegerich, and Anders M{\o}ller.
+\newblock {\em Analyzing ambiguity of context-free grammars}.
+\newblock Springer, 2007.
+
+\bibitem{colyer2004eclipse}
+Adrian Colyer, Andy Clement, George Harley, and Matthew Webster.
+\newblock {\em Eclipse aspectj: aspect-oriented programming with aspectj and
+  the eclipse aspectj development tools}.
+\newblock Addison-Wesley Professional, 2004.
+
+\bibitem{ieee1998ieee}
+IEEE Computer Society. Software Engineering~Standards Committee and
+  IEEE-SA~Standards Board.
+\newblock Ieee recommended practice for software requirements specifications.
+\newblock Institute of Electrical and Electronics Engineers, 1998.
+
+\bibitem{world2001document}
+World Wide~Web Consortium et~al.
+\newblock Document object model (dom), 2001.
+
+\bibitem{corman1991algorithms}
+TH~Corman, CE~Leiserson, and RL~Rivest.
+\newblock Algorithms, 1991.
+
+\bibitem{draheim2004generator}
+Dirk Draheim, Christof Lutteroth, and Gerald Weber.
+\newblock Generator code opaque recovery of form-oriented web site models.
+\newblock In {\em Reverse Engineering, 2004. Proceedings. 11th Working
+  Conference on}, pages 302--303. IEEE, 2004.
+
+\bibitem{draheim2004source}
+Dirk Draheim, Christof Lutteroth, and Gerald Weber.
+\newblock {\em Source Code Independent Reverse Engineering of Dynamic Web
+  Sites}.
+\newblock Freie Univ., Fachbereich Mathematik und Informatik, 2004.
+
+\bibitem{draheim2005source}
+Dirk Draheim, Christof Lutteroth, and Gerald Weber.
+\newblock A source code independent reverse engineering tool for dynamic web
+  sites.
+\newblock In {\em Software Maintenance and Reengineering, 2005. CSMR 2005.
+  Ninth European Conference on}, pages 168--177. IEEE, 2005.
+
+\bibitem{erl2004soa}
+Thomas Erl.
+\newblock {\em Service-Oriented Architecture A Field Guide to Integrating XML
+  and Web Services}.
+\newblock Prentice Hall, 2004.
+
+\bibitem{erl2008soa}
+Thomas Erl.
+\newblock {\em SOA Principles of Service Design}.
+\newblock Prentice Hall, 2008.
+
+\bibitem{felderer2011model}
+Michael Felderer, Joanna Chimiak-Opoka, Philipp Zech, Cornelia Haisjackl, Frank
+  Fiedler, and Ruth Breu.
+\newblock Model validation in a tool-based methodology for system testing of
+  service-oriented systems.
+\newblock {\em International Journal On Advances in Software}, 4(1 and
+  2):129--143, 2011.
+
+\bibitem{fielding2000principled}
+Roy~T Fielding and Richard~N Taylor.
+\newblock Principled design of the modern web architecture.
+\newblock In {\em Proceedings of the 22nd international conference on Software
+  engineering}, pages 407--416. ACM, 2000.
+
+\bibitem{fielding2000architectural}
+Roy~Thomas Fielding.
+\newblock {\em Architectural styles and the design of network-based software
+  architectures}.
+\newblock PhD thesis, University of California, 2000.
+
+\bibitem{Fowler:2002:PEA:579257}
+Martin Fowler.
+\newblock {\em Patterns of Enterprise Application Architecture}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., Boston, MA, USA, 2002.
+
+\bibitem{fowler2006gui}
+Martin Fowler.
+\newblock Gui architectures, 2006.
+
+\bibitem{gamma63361design}
+Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+\newblock Design patterns. 1995.
+\newblock {\em Reading, Massachusetts: Addison-W esley. ISBN 0-201-63361-2}.
+
+\bibitem{gelinas2004business}
+Ulric~J Gelinas, Steve~G Sutton, and Jane Fedorowicz.
+\newblock {\em Business processes and information technology}.
+\newblock Thomson/South-Western, 2004.
+
+\bibitem{harrison1978introduction}
+Michael~A Harrison.
+\newblock {\em Introduction to formal language theory}.
+\newblock Addison-Wesley Longman Publishing Co., Inc., 1978.
+
+\bibitem{jeckle2004uml}
+Mario Jeckle, Chris Rupp, Jürgen Hans, Barbara Zengler, and Stefan Queins.
+\newblock {\em UML 2 Glasklar}.
+\newblock Hanser, 2004.
+
+\bibitem{Jiang04e.:towards}
+Yingtao Jiang and Eleni Stroulia.
+\newblock E.: Towards reengineering web sites to web-services providers.
+\newblock In {\em Software Maintenance and Reengineering, 2004. CSMR 2004.
+  Proceedings. Eighth European Conference on}, pages 24--26, 2004.
+
+\bibitem{knuth2003sorting}
+Donald~Ervin Knuth, Donald~Ervin Knuth, and Donald~Ervin Knuth.
+\newblock {\em Sorting and Searching}.
+\newblock Addison-Wesley, 2003.
+
+\bibitem{Krasner:1988:CUM:50757.50759}
+Glenn~E. Krasner and Stephen~T. Pope.
+\newblock A cookbook for using the model-view controller user interface
+  paradigm in smalltalk-80.
+\newblock {\em J. Object Oriented Program.}, 1(3):26--49, August 1988.
+
+\bibitem{laddad2009aspectj}
+Ramnivas Laddad.
+\newblock {\em Aspectj in action: enterprise AOP with spring applications}.
+\newblock Manning Publications Co., 2009.
+
+\bibitem{leff2001web}
+Avraham Leff and James~T Rayfield.
+\newblock Web-application development using the model/view/controller design
+  pattern.
+\newblock In {\em Enterprise Distributed Object Computing Conference, 2001.
+  EDOC'01. Proceedings. Fifth IEEE International}, pages 118--127. IEEE, 2001.
+
+\bibitem{lethbridge2001object}
+T.~Lethbridge and R.~Laganiere.
+\newblock {\em Object-oriented software engineering}.
+\newblock McGraw-Hill Higher Education, 2001.
+
+\bibitem{liggesmeyer2004swqualitaet}
+Peter Liggesmeyer.
+\newblock {\em Software-Qualität}.
+\newblock Spektrum, 2002.
+
+\bibitem{marini2002document}
+Joe Marini.
+\newblock {\em Document Object Model}.
+\newblock McGraw-Hill, Inc., 2002.
+
+\bibitem{mcgov2006soa}
+James McGovern, Oliver Sims, Ashish Jain, and Mark Little.
+\newblock {\em Enterprise Service Oriented Architectures}.
+\newblock Springer, 2006.
+
+\bibitem{summerville2004swengineering}
+Ian Summerville.
+\newblock {\em Software Engineering}.
+\newblock Pearson Education Limited, 2001.
+
+\bibitem{van2009requirements}
+A.~Van~Lamsweerde.
+\newblock Requirements engineering: from system goals to uml models to software
+  specifications.
+\newblock 2009.
+
+\bibitem{vanderdonckt2001flexible}
+Jean Vanderdonckt, Laurent Bouillon, and Nathalie Souchon.
+\newblock Flexible reverse engineering of web pages with vaquista.
+\newblock In {\em Reverse Engineering, 2001. Proceedings. Eighth Working
+  Conference on}, pages 241--248. IEEE, 2001.
+
+\bibitem{webster1993object}
+S~Webster.
+\newblock Object-oriented system development: D de champeaux, d lea and p faure
+  addison-wesley (1993){\pounds} 37.95 532 pp hardback isbn 0 201 56355 x.
+\newblock {\em Information and Software Technology}, 35(11):702, 1993.
+
+\bibitem{wiegers2003software}
+K.E. Wiegers.
+\newblock Software requirements.
+\newblock 2003.
+
+\bibitem{wolfgang1994design}
+Pree Wolfgang.
+\newblock {\em Design patterns for object-oriented software development}.
+\newblock Reading, Mass.: Addison-Wesley, 1994.
+
+\end{thebibliography}

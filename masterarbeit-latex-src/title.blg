@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: title.aux
+The style file: plain.bst
+Database file #1: references.bib
+Warning--empty booktitle in ieee1998ieee
+Warning--empty year in gamma63361design
+Warning--empty journal in van2009requirements
+Warning--empty journal in wiegers2003software
+You've used 35 entries,
+            2118 wiz_defined-function locations,
+            666 strings with 9125 characters,
+and the built_in function-call counts, 10480 in all, are:
+= -- 988
+> -- 486
+< -- 7
++ -- 195
+- -- 158
+* -- 591
+:= -- 1743
+add.period$ -- 107
+call.type$ -- 35
+change.case$ -- 165
+chr.to.int$ -- 0
+cite$ -- 39
+duplicate$ -- 465
+empty$ -- 886
+format.name$ -- 158
+if$ -- 2243
+int.to.chr$ -- 0
+int.to.str$ -- 35
+missing$ -- 48
+newline$ -- 175
+num.names$ -- 70
+pop$ -- 290
+preamble$ -- 1
+purify$ -- 148
+quote$ -- 0
+skip$ -- 307
+stack$ -- 0
+substring$ -- 433
+swap$ -- 97
+text.length$ -- 7
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 106
+warning$ -- 4
+while$ -- 96
+width$ -- 37
+write$ -- 360
+(There were 4 warnings)
