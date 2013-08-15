@@ -7,7 +7,7 @@ The literal language, as we know it, is powerful. In fact so powerful, that teac
 Software makes no exception. Applications are built while keeping in mind, that a user will actually see the interface and interact with it. We are using a button because a user sees it and pushes it. Where the button is located or in which context it has which functionality is obvious to the user. At least it should be. But what if he wants to discuss something about this button with his colleagues? This could be a question or criticism. Nevertheless he will need to describe where the button is; in which work flow it appears and so on. Assuming the colleague is not available on location, the usual way would be to create a screenshot, write an explanation, compose an E-mail and send it. From there on the E-mail thread would become the central discussion point related to our button. This is not efficient at all for several reasons:
 
 \begin{itemize}
-\item What if other colleagues might have something to add to the conversation, but are not in included in the receivers list? 
+\item What if other colleagues might have something to add to the conversation, but are not included in the receivers list? 
 
 \item If it is just a short question, the way with a screenshot etc. is not time efficient and exhausting for all participants. 
 
@@ -42,4 +42,4 @@ This thesis will show what is possible with Social Weaving and where its boundar
 		\label{sowe-nest}
 \end{figure} 
 
-In the following we are first going to discuss the idea of Social Weaving based on  an abstract requirements analysis of a prototype. What functionality does it need to achieve the goals we mentioned above and what are the difficulties? In the second part we are going down on a concrete level where we take the theory from the first part into action and actually explain the architecture and implementation of the prototype, Social Weaver, in detail. 
+In the following we first discuss the idea of Social Weaving based on  an abstract requirements analysis of a prototype. What functionality does it need to achieve the goals we mentioned above and what are the difficulties? In the second part we are going down on a concrete level where we take the theory from the first part into action and actually explain the architecture and implementation of the prototype, Social Weaver, in detail. 

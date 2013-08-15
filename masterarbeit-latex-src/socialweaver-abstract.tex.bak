@@ -6,9 +6,9 @@ Even though Stewart had something completely different in mind when he used this
 
 We aim to create a vertical prototype. That means that our system should proof that the general idea is possible to implement. Wiegers writes that a vertical prototype should touch all technical layers to serve as a \emph{proof of concept}\cite{wiegers2003software}.
 
-First of all we will start with a prototype driven requirements analysis. In the section \ref{what_is_sowe} \nameref{what_is_sowe} we will discuss the requirements on an abstract domain level and put these into a relationship with the \emph{WHY/WHAT/WHO-Model} \cite{van2009requirements}.
+First of all we start with a prototype driven requirements analysis. In Section \ref{what_is_sowe} \nameref{what_is_sowe} we discuss the requirements on an abstract domain level and put these into a relationship with the \emph{WHY/WHAT/WHO-Model} \cite{van2009requirements}.
 
-Based on that in section \ref{sowe-concrete} we will bring the requirements to a concrete domain level and furthermore explain some interesting details about the derived architecture and implementation. 
+Based on that in Section \ref{sowe-concrete} we bring the requirements to a concrete domain level and furthermore explain some interesting details about the derived architecture and implementation. 
 
 
 \subsection{The WHY-WHAT-WHO-Model}\label{why-what-who}
@@ -18,7 +18,7 @@ Based on that in section \ref{sowe-concrete} we will bring the requirements to a
 		\label{why-what-who-diagram}
 \end{figure} 
 
-The WHY-WHAT-WHO model (see figure \ref{why-what-who-diagram}) enables us to discuss on different layers of requirements abstraction. The purpose of the WHY-WHAT-WHO model should not be a strict separation into sections. It is much more to be seen as a context that we can refer to through this paper.
+The WHY-WHAT-WHO model (see Figure \ref{why-what-who-diagram}) enables us to discuss on different layers of requirements abstraction. The purpose of the WHY-WHAT-WHO model should not be a strict separation into sections. It is much more to be seen as a context that we can refer to through this paper.
 
 In the following all layers are described in detail and connected to parts of this thesis. 
 
@@ -26,21 +26,21 @@ In the following all layers are described in detail and connected to parts of th
 This dimension analyses the existing system or environment 
 we build on, to define what is within a possible reach. Potential problems or limitations should be defined in context of this layer. Furthermore we should try to see what impact our system is going to have on the environment. 
 
-For this task we first of all need background knowledge which we will gather in a domain analysis. Based on that we will be able to define the problem, that should be our motivation for building such a system. 
+For this task we first of all need background knowledge which we gather in a domain analysis. Based on that we are be able to define the problem, that should be our motivation for building such a system. 
 
 \nameref{domainAnalysis} \ref{domainAnalysis} is related to the WHY dimension.
 
 \subsubsection*{WHAT Dimension}
 
-The WHAT dimension contains services, constraints and processes that are direct results from the WHY dimension and will lead to the actual goal system. At this point the results from the WHY dimension should be verified if they are still applicable and possible to implement. Use Cases and concrete requirements belong to this section. 
+The WHAT dimension contains services, constraints and processes that are direct results from the WHY dimension and lead to the actual goal system. At this point the results from the WHY dimension should be verified if they are still applicable and possible to implement. Use Cases and concrete requirements belong to this section. 
 
-This thesis sections \ref{sowe-reqs} \nameref{sowe-reqs} and \ref{usecases} \nameref{usecases} are related to the WHAT dimension.
+This thesis Sections \ref{sowe-reqs} \nameref{sowe-reqs} and \ref{usecases} \nameref{usecases} are related to the WHAT dimension.
 
 \subsubsection*{WHO Dimension}
 
-The WHO dimension is about distinguishing what component has which responsibility. Components in this context do not need to be necessarily hardware components. For instance some user interaction might be classified as component. Responsibility in this context means that the component achieves the objectives (\cite{van2009requirements}).
+The WHO dimension is about distinguishing what component has which responsibility. Components in this context don't need to be necessarily hardware components. For instance some user interaction might be classified as component. Responsibility in this context means that the component achieves the objectives (\cite{van2009requirements}).
 
-This dimension is not applicable to certain sections. Throughout the thesis it will become obvious what components have what functions to achieve objectives. 
+This dimension is not applicable to certain sections. Throughout the thesis it becomes obvious what components have what functions to achieve objectives. 
 
 As example imagine the process of weaving a social element to a web view. It includes several components:
 \begin{itemize}
@@ -58,11 +58,11 @@ The users interaction is needed to determine the correct web view within the bro
 
 \begin{enumerate}[A.]
 \item Introduction\\
-The domain analysis contains gathered knowledge about using web applications or web pages and that is related to Social Weaving. This already established environment provides more knowledge that we need for the analysis. We will need to generalize it and additionally create new knowledge about Social Weaving, including meanings of processes and definition of terms. With this as root position we will be able to create requirements and define use cases. 
+The domain analysis contains gathered knowledge about using web applications or web pages and that is related to Social Weaving. This already established environment provides more knowledge that we need for the analysis. We  need to generalize it and additionally create new knowledge about Social Weaving, including meanings of processes and definition of terms. With this as root position we are be able to create requirements and define use cases. 
 	
 \item Glossary
 \begin{description}
-	\item[Web view] describes the environment that is visible withing a browser. It may be a web application, a web page or any other displayed HTML code processed by the browser. In the context of social weaving the back end code will not be an issue at all. 
+	\item[Web view] describes the environment that is visible withing a browser. It may be a web application, a web page or any other displayed HTML code processed by the browser. In the context of social weaving the back end code is is not an issue at all. 
 	
 	\item[Social element] is some user generated content that is weaved into the web view. It is called social element because it provides some kind of collaboration possibilities. This can be a chat, comment box, file upload or just a link to external content.
 	
@@ -79,7 +79,7 @@ The domain analysis contains gathered knowledge about using web applications or 
 \end{itemize}
 
 \item Clients\\
-First of all we distinguish between the types of clients: user and administrators. Even though this as technical domain analysis to support the prototype development process, additionally some categories of possible users types will be mentioned. This should give the reader an idea about possible real world use cases. 
+First of all we distinguish between the types of clients: user and administrators. Even though this as technical domain analysis to support the prototype development process, additionally some categories of possible users types are mentioned. This should give the reader an idea about possible real world use cases. 
 \begin{itemize}
 	\item User \\ 
 		Basically any browser users is a potential client. All that is required besides the browser itself is a compatible plugin that supports Social Weaving. 
@@ -90,13 +90,13 @@ First of all we distinguish between the types of clients: user and administrator
 			Several users have a communally sessions. All users can add, modify and see the social elements. This use case is useful for example when a consultant team works with a system. Questions and other kind of communication is persisted directly to the relevant items in the view.
 		\end{itemize}
 	\item Administrator\\
-	Every Social Weaving session will need an administrator who configures and keeps the web service running. Theoretically this can be also a regular user. Nevertheless this role has to be maintained to make a synchronization between user session possible. 
+	Every Social Weaving session needs an administrator who configures and keeps the web service running. Theoretically this can be also a regular user. Nevertheless this role has to be maintained to make a synchronization between user session possible. 
 \end{itemize}
 	
 \item Environment\\
 For the prototype environment all users need to have a working computer with the Firefox browser and an installed plugin.  Additionally the web service needs to be running on a Tomcat server. 
 
-A future goal is to support more browsers but will not be covered in this thesis. 
+A future goal is to support more browsers but is not covered in this thesis. 
 
 \item Similarity to other software\\
 There is no known software that performs Social Weaving. Anyway the basic idea of annotating something is not new. Many systems provide the possibility of commenting. For instance task managers like Asana\footnote{\url{http://asana.com/}} or agile platforms like \footnote{\url{http://www.jetbrains.com/youtrack/}} provide flexible possibilities to comment a lot of things and upload files in any text field. Nevertheless it is not possible to annotate something that is not meant to be accessible. 
@@ -105,7 +105,7 @@ Another analogical case of Social Weaving is annotation documents. There are man
 
 \item Similarity to other software domains\\
 The idea to analyze web pages or web applications by its source code (meaning both server as well as client side generated HTML code) is not new. Some of these approaches were used as inspiration for the Social Weaving approach. 
-First of all we will see the rudiments to some comparable domains; afterwards the differences will be explained and how Social Weaving differs from already existing work.
+First of all we discuss the rudiments to some comparable domains; afterwards the differences are explained and how Social Weaving differs from already existing work.
 \begin{itemize}
 	\item \textbf{Web Site Re-engineering Using RMM}\\... (\cite{antoniol2000web})
 	\item \textbf{Source Code Independent Reverse Engineering of Dynamic Web Sites}\\ ...\cite{draheim2005source}
@@ -116,9 +116,9 @@ First of all we will see the rudiments to some comparable domains; afterwards th
 \newpage
 
 \subsection{Use Cases}
-The purpose of this section is to give the reader a clear idea about what functions our system should provide. Use cases will be categorized for the plugin (or the client) and the server side. 
+The purpose of this section is to give the reader a clear idea about what functions our system should provide. Use cases are categorized for the plugin (or the client) and the server side. 
 
-\begin{figure}[h!] \centering
+\begin{figure} \centering
 		\includegraphics[width=13cm]{images/plugin-usecase-diagram.png}
 		\caption{Use cases for the plugin}
 		\label{plugin-usecase-diagram}
@@ -126,7 +126,7 @@ The purpose of this section is to give the reader a clear idea about what functi
 
 
 \begin{figure}\centering
-		\includegraphics[width=13cm]{images/server-usecase-diagram.png}
+		\includegraphics[width=8cm]{images/server-usecase-diagram.png}
 		\caption{Use cases for the web service}
 		\label{server-usecase-diagram}
 \end{figure} 
@@ -143,7 +143,7 @@ Social Weaver (SoWe) is the name of a prototype system that weaves social web fe
 
 The plugin takes control of one or multiple user sessions and draws the additional content into the browser view. The server application synchronizes with each plugin and distributes updates between several clients. 
 
-For a better understanding lets step through a generic use case where a user just opens a web application and modifies some content. The use case enumeration is related to the figure \ref{sowe-prototype-use-case}.
+For a better understanding lets step through a generic use case where a user just opens a web application and modifies some content. The use case enumeration is related to the Figure \ref{sowe-prototype-use-case}.
 
 \begin{enumerate}
 \item The user opens a web application
@@ -157,7 +157,7 @@ For a better understanding lets step through a generic use case where a user jus
 \item Plugin redraws the synchronized content
 \end{enumerate}
 
-\begin{figure}[h!] \centering
+\begin{figure}\centering
 		\includegraphics[width=13cm]{images/sowe-prototype-use-case.png}
 		\caption{Social Weaver Prototype Use Case}
 		\label{sowe-prototype-use-case}
@@ -167,7 +167,7 @@ For a better understanding lets step through a generic use case where a user jus
 
 The general goal for Social Weaver is to weave social web 2.0 features into web-based applications. Since this is a broad requirement and impossible to be applied to any web application right from the beginning; it is necessary to break it down for the prototype.
 
-More specifically the primary goal should be to get a system, that weaves one social web feature into a specific web application. SoWe has to be designed in a modular way, so that it will be possible to add more social media features, support multiple platforms and more web applications. Now that we have a rough idea what SoWe is going to be, lets list some concrete high-level requirements:
+More specifically the primary goal should be to get a system, that weaves one social web feature into a specific web application. Social Weaver has to be designed in a modular way, so that it is possible to add more social media features, support multiple platforms and more web applications. Now that we have a rough idea what SoWe is going to be, lets list some concrete high-level requirements:
 
 \begin{enumerate}
 \item Browser plugin that supports a comment box
@@ -179,17 +179,17 @@ More specifically the primary goal should be to get a system, that weaves one so
 With these requirements we can start to specify our enlisting in detail:
 
 \subsubsection{Browser Plugin}\label{browser_plugin}
-In the following we define requirements on a abstract domain level according to \cite{van2009requirements}. A specification to a concrete domain level will follow in section \ref{firefox_plugin_requirements}, where we have specified what technologies to use.
+In the following we define requirements on an abstract domain level according to \cite{van2009requirements}. A specification to a concrete domain level follows in Section \ref{firefox_plugin_requirements}, where we have specified what technologies to use.
 
 As already mentioned the main requirement is that the plugin supports a comment box. That means that the browser has to display a comment box that is related to specific web element. For example in an online calendar an user adds a comment box related to an appointment that he wants to discuss in detail. 
 Because it should be possible to add multiple comment boxes to any web element, we cannot just drop a box inside the user view, overlapping other interesting parts of the web application. Hence we have the requirement to make additional content visible to the user without interfering with the view on the original content. Possibilities would be fold/unfold-windows or just using small icons as references in the original view and outsource additional social content in external windows.
 
-Of course the plugin needs to be able to communicate to the server application as well. (The server application is explained in the next section: \ref{Social Weaver - Server Application}). First of all the plugin needs to receive data that it print to the screen. Secondly changes made by the user has to be reported to the server. Because we are distributing the information between several users, there is also a need for synchronization. User updates may not overwrite updates made by other users etc.
+Of course the plugin needs to be able to communicate to the server application as well. (The server application is explained in the next Section \ref{Social Weaver - Server Application}). First of all the plugin needs to receive data that it print to the screen. Secondly changes made by the user has to be reported to the server. Because we are distributing the information between several users, there is also a need for synchronization. User updates may not overwrite updates made by other users etc.
 
-The parser framework will contain application programming interfaces that create and parse the content of our tuples. This way it will be easier to add plugins for other browsers for instance. 
-The data in the content-part of our tuple should have a uniform format no matter what web application or browser is in use. The server application will not need to know anything about the environment the plugin works in - it manages the social web content independently.
+The parser framework contains application programming interfaces that create and parse the content of our tuples. This way it is easier to add plugins for other browsers for instance. 
+The data in the content-part of our tuple should have a uniform format no matter what web application or browser is in use. The server application doesn't need to be aware about the environment the plugin runs in - it manages the social web content independently.
 
-Another tricky and important point is the interaction with the web application. Most such sites are dynamic and there exists no static URLs we can refer to. And it is not certain that the same element, that two users refer to in their independent sessions, will have a comparable identifier. This issue definitely needs to be handled specifically for any web application. The good news is that this only affects the plugin. The server application just needs clearly defined identifiers. As a solution for the plugin we will need the possibility to use scripts for identifying elements. For example a script that supports the Google calendar will be injected to make the plugin identify same appointments in different user sessions. This requirement is probably the vastly problematic one because it prevents a general usage of Social Weaver.
+Another tricky and important point is the interaction with the web application. Most such sites are dynamic and there exists no static URLs we can refer to. And it is not certain that the same element, that two users refer to in their independent sessions, has a comparable identifier. This issue definitely needs to be handled specifically for any web application. The good news is that this only affects the plugin. The server application just needs clearly defined identifiers. As a solution for the plugin we need the possibility to use scripts for identifying elements. For example a script that supports the Google calendar is injected to make the plugin identify same appointments in different user sessions. This requirement is probably the vastly problematic one because it prevents a general usage of Social Weaver.
 
 Lets summarize all the requirements we gained in this section:
 
@@ -204,7 +204,7 @@ Lets summarize all the requirements we gained in this section:
 \end{enumerate}
 
 \subsubsection{Server Application} \label{Social Weaver - Server Application}
-The server applications primary requirement is to synchronize different user sessions on one or multiple web applications. A user session is defined within the plugin (which does not mean a plugin can manage only one session). The server basically receives messages from different sessions, synchronizes them and distributes the most current state to all sessions.  To establish a loss less synchronization every message contains a time stamp.
+The server applications primary requirement is to synchronize different user sessions on one or multiple web applications. A user session is defined within the plugin (which doesn't mean a plugin can manage only one session). The server basically receives messages from different sessions, synchronizes them and distributes the most current state to all sessions.  To establish a loss less synchronization every message contains a time stamp.
 
 We are assuming that every message contains an user identifier, a time stamp and an unique identifier for an element within the web application. This Anchor is the unique identifier for a single user action. For example if a user adds a comment to an already existing comment box that is related to an appointment in a calendar, the server receives the users identifier, the time stamp for the modification and an identifier for the appointment in the calendar. With this information the server can check its database for the comment box and add the new comment. 
 
@@ -212,7 +212,7 @@ It is important to remember that the server only uses the received data as ident
 
 Also we may assume that the received message have the same Anchor form as discussed in the previous section. 
 \begin{verbatim}(user identifier, time stamp, content)\end{verbatim} 
-The content part from the Anchor will already be in a uniform that has been generated by the plugin. So even the browser type will not matter to the server. The server has to be able to parse the content package and to create a new one that can be parsed by our plugins.
+The content part from the Anchor needs to be in an uniform format that has been generated by the plugin. So even the browser type doesn't matter to the server. The server has to be able to parse the content package and to create a new one that can be parsed by our plugins.
 
 So the requirements for the server application are:
 \begin{enumerate}
@@ -228,17 +228,17 @@ So the requirements for the server application are:
 \subsubsection{Social Weaver - Script Support} \label{abstract-script-support-reqs}
 The support for external scripts is essential for a generic usage of Social Weaver. The reason why script support is extracted into its own section, is that it should be decoupled from the server and plugin that were discussed before. 
 
-The underlying problem is the problematic identification of elements of a web view. There is simply no generic way of identifying elements in the users view across all web sites and applications. For that reason we need an extendable method to support more websites and applications. This could even mean that third-parties could support their own systems by just adding the script without the need to modify Social Weaver directly. In this section we will briefly discuss what the purpose of such scripts is in detail and what requirements we have to fulfill. 
+The underlying problem is the problematic identification of elements of a web view. There is simply no generic way of identifying elements in the users view across all web sites and applications. For that reason we need an extendable method to support more websites and applications. This could even mean that third-parties could support their own systems by just adding the script without the need to modify Social Weaver directly. In this section we briefly discuss what the purpose of such scripts is in detail and what requirements we have to fulfill. 
 \\ \\
-The term \textit{script} in our context should contain only information that is needed by the plugin to identify an element. Let us consider the Google calendar example once again. The case where we want to match the same appointment field across different user sessions brings the problem that there will be no identifier for the element itself. To the user it is obvious to identify it because of the appointment name, date and time. And those parameters could be just the information we need to extract into our script. How this will look in detail should be discussed in the concrete domain level section. 
+The term \textit{script} in our context should contain only information that is needed by the plugin to identify an element. Let us consider the Google calendar example once again. The case where we want to match the same appointment field across different user sessions brings the problem that there is no identifier for the element itself. To the user it is obvious to identify it because of the appointment name, date and time. And those parameters could be just the information we need to extract into our script. How this looks like in detail is discussed in the concrete domain level section. 
 
-The usage of scripts should be related to one or a set of URLs. This affects mostly the root URL of a server. But might be used for sub parts of a web page or application. As example a script related to \textit{http://www.opensource.org/} will be applied to all sub pages like \textit{http://opensource.org/docs/board-annotated}. 
+The usage of scripts should be related to one or a set of URLs. This affects mostly the root URL of a server. But might be used for sub parts of a web page or application. As example a script related to \textit{http://www.opensource.org/} is applied to all sub pages like \textit{http://opensource.org/docs/board-annotated}. 
 
 But it might be of use to have a special matching procedure for sub pages.  In that case a script for \textit{http://opensource.org/faq} would overwrite the more general script. 
 
 A set of URLs could be used for scripts that are applicable for many websites. 
 
-The work flow when a script is used and when the default matching procedure that comes with the plugin is quite straightforward (see \figurename \ref{script-usage-basic}). When opening a new URL then the plugin should check whether there is a script for that case and depending on the search results proceed with the script or default matching procedure.
+The work flow when a script is used and when the default matching procedure that comes with the plugin is quite straightforward (see Figure \ref{script-usage-basic}). When opening a new URL then the plugin should check whether there is a script for that case and depending on the search results proceed with the script or default matching procedure.
 
 \begin{figure}\centering
 		\includegraphics[width=8cm]{images/script-usage-basic.png}
@@ -246,7 +246,7 @@ The work flow when a script is used and when the default matching procedure that
 		\label{script-usage-basic}
 \end{figure} 
 
-On the abstract level we will have the following requirements:
+On the abstract level we have the following requirements:
 
 \begin{enumerate}
 \item \reqSi
