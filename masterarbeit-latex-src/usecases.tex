@@ -1,21 +1,22 @@
+ %!TEX root=title.tex
+\section{Use Cases}
 This part will list the properly formulated use cases that can be derived from the gathered requirements.
 
-\section{Akteure}
+\subsection{Akteure}
 \begin{itemize}
 \item User \\ 
 Common user who uses the plugin to use Social Weaver.
 
 \item Plugin \\ 
-In context of the thesis the firefox plugin mentioned in section \ref{sowe-firefox} \nameref{sowe-firefox}.
+In context of the thesis the Firefox plugin mentioned in section \ref{sowe-firefox} \nameref{sowe-firefox}.
 
 \item Server Service \\ 
 \end{itemize}
 
-\section{Use Cases}
+\subsection{Use Cases}
 
-\begin{enumerate}[UC. A.]
-\item  {User can mark a web element for annotation}\\
-\begin{tabular}{|l| p{5cm} |}
+\subsubsection[Web Element Marking]{User can mark a web element for annotation}
+\begin{tabular}{|l| p{6cm} |}
 \hline 
  \multicolumn{2}{|c|}{\textbf{Use Case}} \\ 
  \multicolumn{2}{|c|}{User can mark web element for annotation} \\ 
@@ -33,8 +34,8 @@ Miscellaneous &  \\
 \hline 
 \end{tabular} 
 
-\item {User can annotate a web element}\\
-\begin{tabular}{|l| p{5cm} |}
+\subsubsection[Web Element Annotating]{User can annotate a web element}
+\begin{tabular}{|l| p{6cm} |}
 \hline 
  \multicolumn{2}{|c|}{\textbf{Use Case }} \\ 
  \multicolumn{2}{|c|}{User can annotate a web element} \\ 
@@ -53,8 +54,8 @@ Miscellaneous &  \\
 \hline 
 \end{tabular} 
 
-\item {Plugin can display annotated elements}\\
-\begin{tabular}{|l| p{5cm} |}
+\subsubsection[Displaying Annotations]{Plugin can display annotated elements}
+\begin{tabular}{|l| p{6cm} |}
 \hline 
  \multicolumn{2}{|c|}{\textbf{Use Case}} \\ 
  \multicolumn{2}{|c|}{Plugin can display annotated elements} \\ 
@@ -73,8 +74,8 @@ Miscellaneous & \\
 \hline 
 \end{tabular} 
 
-\item {Plugin can send Annotations to Server}\\
-\begin{tabular}{|l| p{5cm} |}
+\subsubsection[Client: Sending Annotations]{Plugin can send Annotations to Server}
+\begin{tabular}{|l| p{6cm} |}
 \hline 
  \multicolumn{2}{|c|}{\textbf{Use Case }} \\ 
  \multicolumn{2}{|c|}{Plugin can send Annotations to Server} \\ 
@@ -93,8 +94,8 @@ Miscellaneous &  \\
 \hline 
 \end{tabular} 
 
-\item {Plugin can retrieve Annotations from Server Service}\\
-\begin{tabular}{|l| p{5cm} |}
+\subsubsection[Client: Receiving Annotations]{Plugin can retrieve Annotations from Server Service}
+\begin{tabular}{|l| p{6cm} |}
 \hline 
  \multicolumn{2}{|c|}{\textbf{Use Case }} \\ 
  \multicolumn{2}{|c|}{Plugin can retrieve Annotations from Server Service} \\ 
@@ -114,43 +115,42 @@ Miscellaneous & \\
 \end{tabular} 
 
 
-\item {Server Service can retrieve Annotations from Plugin}\\
+\subsubsection[Server: Sending Annotations]{Server Service can send Annotations Updates to Plugin}
 \begin{tabular}{|l| p{5cm} |}
 \hline 
- \multicolumn{2}{|c|}{\textbf{Use Case }} \\ 
- \multicolumn{2}{|c|}{•} \\ 
+ \multicolumn{2}{|c|}{\textbf{Use Case }}\\
+ \multicolumn{2}{|c|}{Server Service can send Annotations Updates to Plugin}\\ 
 \hline 
-Use Case Description & • \\ 
+Use Case Description & Data that is persisted at the server needs to be transmitted to clients in a according format.\\ 
 \hline 
-Initiator & • \\ 
+Initiator & Web Service. Even though the request may come from the client; the actual procedure is triggered at the back end. \\ 
+\hline
+Pre Condition & Already persisted annotations in server database. \\ 
 \hline 
-Pre Condition & • \\ 
+Process & Once the web service receives the request to send update messages, this happens in a context of a specific URL and an update time stamp. According to those parameters a query is created. The retrieved data is parsed into a format that is readable by the client and transmitted. \\ 
 \hline 
-Process & • \\ 
+After Condition & \\ 
 \hline 
-After Condition & • \\ 
-\hline 
-Miscellaneous & • \\ 
+Miscellaneous & This use case does not consider knowledge about different users. This means that a single server session provides a synchronous view for all users. \\ 
 \hline 
 \end{tabular} 
 
-\item {Server Service can send Annotations Updates to Plugin}\\
+\subsubsection[Server: Receiving Annotations]{Server Service can retrieve Annotations from Plugin}
 \begin{tabular}{|l| p{5cm} |}
 \hline 
  \multicolumn{2}{|c|}{\textbf{Use Case }} \\ 
- \multicolumn{2}{|c|}{•} \\ 
+ \multicolumn{2}{|c|}{Server Service can retrieve Annotations from Plugin} \\ 
 \hline 
-Use Case Description & • \\ 
+Use Case Description &  This use case is the successor for the sending procedure that takes place at the plugin.\\ 
 \hline 
-Initiator & • \\ 
-\hline
-Pre Condition & • \\ 
+Initiator & Plugin \\ 
 \hline 
-Process & • \\ 
+Pre Condition & Successful sending operation from client \\ 
 \hline 
-After Condition & • \\ 
+Process & Assuming the web service receives some kind of JSON message, it needs to be able to parse it and process it. The payload and url needs to be distinguished and persisted. Persisting can either mean that a new entity ist created or updated. In both cases a fresh time stamp is added before the final persistance operation. \\ 
 \hline 
-Miscellaneous & • \\ 
+After Condition & \\ 
+\hline 
+Miscellaneous & Security measures are definitey needed, since otherwise any RESTful request would be processed without validating its origin. \\ 
 \hline 
 \end{tabular} 
-\end{enumerate}

@@ -775,7 +775,8 @@ Webservice}</string>
 		<key>circoSeparation</key>
 		<real>0.0</real>
 		<key>layoutEngine</key>
-		<string>dot</string>
+		<stringdo
+t</string>
 		<key>neatoSeparation</key>
 		<real>0.0</real>
 		<key>twopiSeparation</key>

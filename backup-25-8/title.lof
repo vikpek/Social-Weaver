@@ -1,0 +1,51 @@
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces Social Weaver (Philetairus socius) is a species of bird in the Passeridae family endemic to Southern Africa}}{10}{figure.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Basic idea of Social Weaving}}{14}{figure.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Impressive nest built by social weavers}}{15}{figure.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Three dimensions of the requirements types \cite {van2009requirements}}}{17}{figure.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Web site reengineering phases. \cite {antoniol2000web}}}{22}{figure.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Example for RMM. It is related to the scenario that can be found in \cite {antoniol2000web}}}{23}{figure.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces An example for a formchart. Related scenario is to be found in \cite {draheim2005source}}}{24}{figure.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Use cases for the plugin}}{26}{figure.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Use cases for the web service}}{27}{figure.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Social Weaver Module Overview}}{28}{figure.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces Social Weaver Prototype Use Case}}{29}{figure.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Work flow for Script Using}}{35}{figure.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces An example for a \emph {panel} that shows a list of annotations}}{37}{figure.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Example for a widget serving as activation button}}{39}{figure.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Partition of the first plugin requirement to sub requirements}}{43}{figure.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Rectangle shows that the underlying element is possible for annotation}}{44}{figure.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Rectangle shows that the underlying element is possible for annotation}}{46}{figure.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Widget representation for different modes}}{47}{figure.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Architecture of the Firefox Social Weaver Plugin}}{48}{figure.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Sample JavaScript code for retrieving JSON objects from a web service with a GET REST request}}{49}{figure.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Component diagram for the plugin}}{51}{figure.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces User selects the element pointed by the arrow}}{52}{figure.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Visualization for the different inputs for the matching algorithm}}{55}{figure.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Some of the used technologies for the web service}}{58}{figure.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Basic structure of MVC}}{59}{figure.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Screen shot from Social Weaver Persistence Web View}}{64}{figure.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces UML package diagram from web service}}{67}{figure.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Component diagram for the web service}}{69}{figure.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Example for an ambiguous grammar}}{80}{figure.29}
+\contentsline {figure}{\numberline {30}{\ignorespaces HTML example for showing ambiguity}}{81}{figure.30}
+\contentsline {figure}{\numberline {31}{\ignorespaces DOM tree representation for HTML code in Figure \ref {dom-html-example}}}{81}{figure.31}
+\contentsline {figure}{\numberline {32}{\ignorespaces Algorithm for parameter DOM tree}}{82}{figure.32}
+\contentsline {figure}{\numberline {33}{\ignorespaces Example for parameter DOM tree}}{83}{figure.33}
+\contentsline {figure}{\numberline {34}{\ignorespaces Modified parameter DOM tree}}{85}{figure.34}
+\contentsline {figure}{\numberline {35}{\ignorespaces Component diagram for whole system}}{86}{figure.35}
+\contentsline {figure}{\numberline {36}{\ignorespaces Initial situation in Google Calendar}}{88}{figure.36}
+\contentsline {figure}{\numberline {37}{\ignorespaces Sequence diagram for a successful plugin update}}{91}{figure.37}
+\contentsline {figure}{\numberline {38}{\ignorespaces Sequence diagram for a standard matching procedure}}{92}{figure.38}
+\contentsline {figure}{\numberline {39}{\ignorespaces Activated Marking Mode}}{92}{figure.39}
+\contentsline {figure}{\numberline {40}{\ignorespaces Comment Box}}{93}{figure.40}
+\contentsline {figure}{\numberline {41}{\ignorespaces Sequence diagram for standard marking procedure}}{95}{figure.41}
+\contentsline {figure}{\numberline {42}{\ignorespaces Comment box woven into Google Calendar}}{96}{figure.42}
+\contentsline {figure}{\numberline {43}{\ignorespaces Assessment results for the Social Weaver prototype in differen scenarios}}{98}{figure.43}
+\contentsline {figure}{\numberline {44}{\ignorespaces Default script JSON code}}{99}{figure.44}
+\contentsline {figure}{\numberline {45}{\ignorespaces 3D representation of \url {http://www.uibk.ac.at/}}}{101}{figure.45}
+\contentsline {figure}{\numberline {46}{\ignorespaces Bad example for marking elements.}}{102}{figure.46}
+\contentsline {figure}{\numberline {47}{\ignorespaces 3D representation of \url {http://www.amazon.com/}}}{103}{figure.47}
+\contentsline {figure}{\numberline {48}{\ignorespaces web2}}{105}{figure.48}
+\contentsline {figure}{\numberline {49}{\ignorespaces 3D representation of \url {https://www.google.com/calendar/}}}{107}{figure.49}
+\contentsline {figure}{\numberline {50}{\ignorespaces Specified script for Google Calendar}}{110}{figure.50}

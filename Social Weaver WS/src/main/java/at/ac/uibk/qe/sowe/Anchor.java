@@ -29,7 +29,9 @@ public class Anchor {
     @Column(name = "url")
     private String url;
 
-    @Column(name = "payload")
+    @Column(name = "binaryPayload")
+    private byte[] binaryPayload;
+
     private String payload;
 
     @Column(name = "lastModifiedTimestamp")
@@ -73,6 +75,6 @@ public class Anchor {
     }
 
     private String generateOidRelevantString() {
-        return payload;
+        return new String(binaryPayload);
     }
 }

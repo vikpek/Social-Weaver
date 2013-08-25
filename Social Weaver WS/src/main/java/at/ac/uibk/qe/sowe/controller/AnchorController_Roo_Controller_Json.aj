@@ -4,12 +4,15 @@
 package at.ac.uibk.qe.sowe.controller;
 
 import at.ac.uibk.qe.sowe.Anchor;
+import at.ac.uibk.qe.sowe.controller.AnchorController;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 privileged aspect AnchorController_Roo_Controller_Json {
     
@@ -23,15 +26,6 @@ privileged aspect AnchorController_Roo_Controller_Json {
             return new ResponseEntity<String>(headers, HttpStatus.NOT_FOUND);
         }
         return new ResponseEntity<String>(anchor.toJson(), headers, HttpStatus.OK);
-    }
-    
-    @RequestMapping(headers = "Accept=application/json")
-    @ResponseBody
-    public ResponseEntity<String> AnchorController.listJson() {
-        HttpHeaders headers = new HttpHeaders();
-        headers.add("Content-Type", "application/json; charset=utf-8");
-        List<Anchor> result = Anchor.findAllAnchors();
-        return new ResponseEntity<String>(Anchor.toJsonArray(result), headers, HttpStatus.OK);
     }
     
     @RequestMapping(method = RequestMethod.POST, headers = "Accept=application/json")

@@ -8,6 +8,7 @@
             <table:column id="c_at_ac_uibk_qe_sowe_Anchor_url" property="url" z="vcvPHKDnO6sT6YrrlmEjdgeDL7o="/>
             <table:column id="c_at_ac_uibk_qe_sowe_Anchor_lastModifiedTimestamp" property="lastModifiedTimestamp" z="akYuFTgQnPGNouQ2K7+aQqxV03w="/>
             <table:column id="c_at_ac_uibk_qe_sowe_Anchor_payload" property="payload" z="bnDA3g0M54Wy5qK2tUKtaNadcvY="/>
+            <table:column id="c_at_ac_uibk_qe_sowe_Anchor_binaryPayload" property="binaryPayload" z="OfvVx8hfS3Al45nXCzatOx8PW9g="/>
         </table:table>
     </page:list>
 </div>

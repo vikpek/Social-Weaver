@@ -25,6 +25,14 @@ privileged aspect Anchor_Roo_JavaBean {
         this.url = url;
     }
     
+    public byte[] Anchor.getBinaryPayload() {
+        return this.binaryPayload;
+    }
+    
+    public void Anchor.setBinaryPayload(byte[] binaryPayload) {
+        this.binaryPayload = binaryPayload;
+    }
+    
     public String Anchor.getPayload() {
         return this.payload;
     }

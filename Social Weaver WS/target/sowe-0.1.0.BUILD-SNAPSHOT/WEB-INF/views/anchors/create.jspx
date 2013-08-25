@@ -8,6 +8,7 @@
         <field:input field="lastModifiedTimestamp" id="c_at_ac_uibk_qe_sowe_Anchor_lastModifiedTimestamp" z="dmlblz9cr+lF3f6hhQlNq+TiqoY="/>
         <field:input field="payload" id="c_at_ac_uibk_qe_sowe_Anchor_payload" z="imBzh88Z+a4lZaK8F4pwzRIaNNc="/>
         <field:simple field="socialElement" id="c_at_ac_uibk_qe_sowe_Anchor_socialElement" messageCode="entity_reference_not_managed" messageCodeAttribute="Social Element" z="QzhVZSCf13lDVL/MW3WyDhiC4CM="/>
+        <field:input field="binaryPayload" id="c_at_ac_uibk_qe_sowe_Anchor_binaryPayload" z="7rm2eU9yjc2r+Tgiw5uqPepm1+o="/>
     </form:create>
     <form:dependency dependencies="${dependencies}" id="d_at_ac_uibk_qe_sowe_Anchor" render="${not empty dependencies}" z="YX3Yz1LeVUoXoKefULR01obFWoQ="/>
 </div>

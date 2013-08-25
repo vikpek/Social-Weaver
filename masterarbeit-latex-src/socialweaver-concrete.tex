@@ -1,4 +1,6 @@
-\section{Social Weaver - Concrete Domain Level}\label{sowe-concrete}
+\section{Social Weaver - Implementation Level}\label{sowe-concrete}
+So far, however, the previous section operates on a meta level. Abstract requirements describe universally a Social Weaving system without going into detail or explaining the prototype. The coming section use the results, gathered on the conceptual level, for the development of the prototype, Social Weaver. 
+Each module is illustrated separately. Ahead the technologies are explained that are used in the given modules. Finally for each module the brief architecture and some interesting aspects are mentioned. 
 
 \subsection{Social Weaver - Firefox Plugin} \label{sowe-firefox}
 This section briefly explains what technologies we use for Firefox plugin development and describe in detail how the Social Weaver plugin is implemented.
@@ -6,7 +8,7 @@ This section briefly explains what technologies we use for Firefox plugin develo
 \subsection*{Firefox}
 Firefox is a free web browser that has been released 2004 by the Mozilla Foundation\footnote{\url{www.mozilla.org}}. It is being distributed under multiple licenses under Mozilla Public License (MPL)\footnote{\url{http://www.mozilla.org/MPL/1.1/}}, GNU Lesser General Public License and GNU (LGPL)\footnote{\url{http://www.gnu.org/licenses/lgpl-3.0.de.html}} General Public License (GPL) \footnote{\url{http://www.gnu.org/licenses/gpl-3.0.html}}. 
 
-The reasons why we chose Firefox as prototype environment are the high distribution of the browser and an easy extend ability with plugins, extensions and so on.
+The reasons why we chose Firefox as prototype environment are the high distribution of the browser and an easy extend ability with plugins, and extensions.
 
 \subsection*{Firefox Plugin Development}
 To improve readability of the coming Section \ref{firefox_plugin_requirements} \nameref{firefox_plugin_requirements}, we discuss some aspects from the Mozilla Add-on SDK (Version 1.13) \footnote{\url{https://addons.mozilla.org/en-US/developers/docs/sdk/latest}}. Readers who are not interested to much into technical detail or are familiar with the technologies can skip this section.
@@ -18,10 +20,10 @@ The Add-on SDK allows to create add-ons for the browser using the most common we
 \begin{description}
 \item Panel\\
 A \emph{panel}\footnote{\url{https://addons.mozilla.org/en-US/developers/docs/sdk/latest/modules/sdk/panel.html}} is very flexible dialog window. Its appearance and behavior is specified by a combination of a HTML and a JavaScript file. Additionally a CSS file might be used to change the look even further. The limitations of a panel are the limitations of the mentioned technologies. 
-A panel is meant to be visible temporary and they are easy to dismiss because any user interaction outside the 
+A panel is meant to be visible only temporarily and easy to dismiss because any user interaction outside the panel.
 
 \begin{figure}\centering
-		\includegraphics[width=8cm]{images/example-panel.png}
+		\includegraphics[width=7cm]{images/example-panel.png}
 		\caption{An example for a \emph{panel} that shows a list of annotations}
 		\label{example-panel}
 \end{figure} 
@@ -40,7 +42,7 @@ var ss = require("sdk/simple-storage");
 ss.storage.myNumber = 41.99;
 \end{lstlisting}
 
-we store a number like an object and can it access just as easy like that. The price for such a simple usage is paid with high limitations. For instance searching is basically not possible. Nevertheless we can store an array and search the array. 
+we store a number like an object and can it access just as easy like that. The price for such a simple usage is paid with high limitations. For instance, searching is basically not possible. Nevertheless we can store an array and search the array. 
 
 That is exactly the way how we store our annotations for our prototype. More details are provided in the next section.
 
@@ -71,7 +73,7 @@ This module\footnote{\url{https://addons.mozilla.org/en-US/developers/docs/sdk/l
 We use these to keep the user informed without bothering him to much by forcing him to dismiss trivial notifications.
 
 \item Request\\
-This simple to use but yet powerful module \emph{request}\footnote{\url{https://addons.mozilla.org/en-US/developers/docs/sdk/latest/modules/sdk/request.html}}, lets us perform network requests. Once we create a \emph{Request} object we can specify whether it is a GET, PUT or POST request. These request types are specified by the REST standard so any web service that supports REST is able to interact with this module\cite{fielding2000principled}. The response from a server is directly accessible like any other JavaScript object. 
+This simple to use, but yet powerful module \emph{request}\footnote{\url{https://addons.mozilla.org/en-US/developers/docs/sdk/latest/modules/sdk/request.html}}, enables us o perform network requests. Once we create a \emph{Request} object we can specify whether it is a GET, PUT or POST request. These request types are specified by the REST standard so any web service that supports REST is able to interact with this module\cite{fielding2000principled}. The response from a server is directly accessible like any other JavaScript object. 
 
 We are going to use \emph{request} for our communication with our synchronization web service. This includes sending updates, made with the plugin instance, to the server and receiving updates, that were made in other sessions or with different plugin instances, from the server. 
 
@@ -80,9 +82,9 @@ We are going to use \emph{request} for our communication with our synchronizatio
 \subsubsection*{JQuery}
 \emph{jQuery}\footnote{\url{http://jquery.com/}} is a free JavaScript library under the MIT License\footnote{\url{http://www.mit.edu/}} that offers many functions for modifying DOM trees. It has been released 2006 in context of a BarCamp\footnote{\url{http://en.wikipedia.org/wiki/BarCamp}} in New York.
 
-Even though this library is not a part of the Mozilla Add-on SDK it is being heavily used by it. Basically any operation that changes or traverses the HTML code (like changing the background color of web elements) is being reached with jQuery.
+Even though this library is not a part of the Mozilla Add-on SDK it is being heavily used by it. Basically, any operation that changes or traverses the HTML code (like changing the background color of web elements) is being reached with jQuery.
 
-The reason why jQuery makes it so easy to handle operations on HTML code is based on the selector that searches the DOM tree. Most jQuery operations are based on elements in the DOM tree. With the selector \verb+jQuery()+ (which can be equally written as \verb+$()+) any element in the DOM tree can be used to create a jQuery object. This object can be used to perform modifying operations on it. For instance lets step through the following short operation:
+The reason why jQuery makes it so easy to handle operations on HTML code is based on the selector that searches the DOM tree. Most jQuery operations are based on elements in the DOM tree. With the selector \verb+jQuery()+ (which can be equally written as \verb+$()+) any element in the DOM tree can be used to create a jQuery object. This object can be used to perform modifying operations on it. For instance, we step through the following short operation:
 \begin{lstlisting}[language=JavaScript, numbers=left]
 $('.user-name').click(function(){
    this.empty();
@@ -104,11 +106,11 @@ $(":visible").filter(function(index) {
 
 First of all we request all elements that are visible to the user by using \verb+$(":visible")+. Because it is unlikely that a user tries to select an element without any content - we filter all elements from the result set that are empty. (Such elements can be placeholders, flexible empty space and so on.) Now that our results contains mostly relevant elements to the user, we append \verb+.mouseenter()+ to recognize when the courser is placed above the element. The skipped function itself contains operations to recognize more user operations and element analysis. To discuss more code in detail would be beyond the frame. 
 
-We only have seen a brief overview about jQuery operations. To fully understand how the prototype works and to operate with the script support it is advised to gather a better overview using for instance the official W3 introductions: \url{http://www.w3schools.com/jquery/}. 
+We only have seen a brief overview about jQuery operations. To fully understand how the prototype works and to operate with the script support it is advised to gather a better overview using, for instance, the official W3 introductions: \url{http://www.w3schools.com/jquery/}. 
 
 \newpage
 \subsection{Requirements for the Plugin}\label{firefox_plugin_requirements}
-Let us recap what requirements we gathered in Section \ref{browser_plugin} on the abstract domain level \cite{van2009requirements}:
+Let us recap what requirements we gathered in Section \ref{browser_plugin} on the conceptual level \cite{van2009requirements}:
 
 \begin{enumerate}
 \item \reqPi
@@ -120,7 +122,7 @@ Let us recap what requirements we gathered in Section \ref{browser_plugin} on th
 \item \reqPvii
 \end{enumerate}
 
-In the following concretion we apply the abstract requirements to our environment which is the \emph{Mozilla Plugin Development SDK} \footnote{\url{https://addons.mozilla.org}}. In the following we handle each and every requirement, mentioned above, separately:
+In the following concretion we apply the conceptual requirements to our environment which is the \emph{Mozilla Plugin Development SDK} \footnote{\url{https://addons.mozilla.org}}. In the following we handle each and every requirement, mentioned above, separately:
 
 \subsubsection[Visualizing]{\reqPi}\label{display-management-requirement}
 Obviously "Displaying and managing a comment box related to specific web elements" consists of multiple sub requirement that we need to distinguish. 
@@ -133,10 +135,10 @@ Obviously "Displaying and managing a comment box related to specific web element
 
 Before we are able to annotate something, we first of all need a function to select or recognize a web element the users cursor points to (check 1.1 in Figure \ref{abstract2concrete-1}). \emph{Selecting} in this context means that we analyze the Document Object Model (DOM)\footnote{\url{http://www.w3.org/DOM/}} tree. The selection itself is easy to implement using the function \emph{mouseenter} and \emph{on('click')} from jQuery library\footnote{\url{http://jquery.com/}}. It becomes problematic to find this element again without any user interaction. Therefore we need to set well chosen parameters that are used to determine the element. Next time we need to find the element - only the parameters can be used to find the element in the DOM tree. This issue is topic in the Section \ref{sowe-script-support} \nameref{sowe-script-support}.
 
-Theoretically it could be possible for user to select any element in the web view - but practically this would make the selection procedure confusing for development as well as for the user. Therefore we apply some filters. Elements like empty boxes, placeholders and so on are not selectable. 
+Theoretically it could be possible for user to select any element in the web view - but practically this would make the selection procedure confusing for development as well as for the user. Therefore we apply some filters. Elements like empty boxes and placeholders are not selectable. 
 But still it should be clear to the user what he might select. 
 
-To achieve this functionality we create thin rectangles around every element that is an selection option. These rectangles only appear for time the plugin is in selection-mode and uglify the web view just for a certain time. More on the different mode types in \ref{user-disturbance} \nameref{user-disturbance} .
+To achieve this functionality we create thin rectangles around every element that is a selection option. These rectangles only appear for time the plugin is in selection-mode and uglify the web view just for a certain time. More on the different mode types in \ref{user-disturbance} \nameref{user-disturbance} .
 
 Now that we can locate a specific web element we may annotate some social web element. For reasons of flexibility and simplicity we just annotate a HTML window (check 1.2 in Figure \ref{abstract2concrete-1}), where we can inject any external HTML code. The Mozilla SDK high-level APIs \footnote{\url{https://addons.mozilla.org/en-US/developers/docs/sdk/latest/modules/high-level-modules.html}} offers all necessary tools to insert a HTML box as a \emph{Panel}\footnote{\url{https://addons.mozilla.org/en-US/developers/docs/sdk/latest/modules/sdk/panel.html}}.
 
@@ -155,7 +157,9 @@ The last sub requirement is to re display existing annotations (check 1.4 in Fig
 
 This is actually only trivial on a very simple basis. Let us assume that we have more than one element attached to the same web element. Or we have different user sessions and/or include a work flow so that we need to distinguish the same element for different instances of the web page. Than it becomes quite complicated to generate IDs that we can rely on. Nevertheless these issues just affect the way we assign IDs to elements and how we retrieve them. The requirement 1.4 is just about matching existing IDs to a web page. 
 
-As already mentioned we use a matcher that checks the DOM tree for IDs. In case we have an anchor in our \emph{simple storage} then we modify the web page HTML code similar as we did for requirement 1.1. Visual differences are that we don't modify the background of an element but generate an rectangle around it instead (see screen shot \ref{annotation-rectangle-sample2}). 
+As already mentioned we use a matcher that checks the DOM tree for IDs. In case we have an anchor in our \emph{simple storage} then we modify the web page HTML code similar as we did for requirement 1.1. Visual differences are that we do
+ not
+ modify the background of an element but generate an rectangle around it instead (see screen shot \ref{annotation-rectangle-sample2}). 
 
 \begin{figure} \centering
 		\includegraphics[width=12cm]{images/annotation-rectangle-sample2.png}
@@ -163,7 +167,7 @@ As already mentioned we use a matcher that checks the DOM tree for IDs. In case 
 		\label{annotation-rectangle-sample2}
 \end{figure} 
 
-This way we are able to show the user which elements are annotated. Of course without further information it is not obvious what is annotated exactly. What we need is a easy to access functionality so that the user can find out what the annotation is. 
+This way we are able to show the user which elements are annotated. Of course without further information it is not obvious what is annotated exactly. What we need is anno easy to access functionality so that the user can find out what the annotation is. 
 
 For that reason we modify the above mentioned matcher class to generate a panel in case the user performs a \emph{mouseenter} operation. This panel should show a brief version of the attached social element. In our case it could be the name of the context the comment box is related or the names of the attendees (our example screen shot just print outs "Hello, World!" \ref{annotation-rectangle-sample2}). 
 
@@ -171,7 +175,7 @@ For that reason we modify the above mentioned matcher class to generate a panel 
 
 This requirement is not directly about functionality but should ensure a positive user experience. It is possible to attach annotations to nearly any element in a web application. This is a lot of potential additional footage. Nevertheless the user needs to be in the position to navigate like usually within the application. 
 
-Basically there are two options to guarantee such a requisition. Either we minimize the overhead that we display into the web view or we display additional information only at the appropriate time. To achieve the best results we combine both possibilities by introducing the mode system:
+Basically, there are two options to guarantee such a requisition. Either we minimize the overhead that we display into the web view or we display additional information only at the appropriate time. To achieve the best results we combine both possibilities by introducing the mode system:
 
 The plugin has several modes that support different functionality and show different content. Those modes can be switched by clicking the widget in the add on bar. Every mode has its own logo, see Figure \ref{mode-logos}. 
 
@@ -185,14 +189,18 @@ We distinguish the following modes:
 \begin{enumerate}
 \item Default mode \\
 
-In the default mode the plugin runs passively. It doesn't disturbs the user but runs synchronization and matching procedures in background. When the user opens a new web view, the plugin checks its database for annotations that belong to the view. If a positive match is found, it is into the users web view. 
+In the default mode the plugin runs passively. It does
+ not
+ disturbs the user but runs synchronization and matching procedures in background. When the user opens a new web view, the plugin checks its database for annotations that belong to the view. If a positive match is found, it is into the users web view. 
 
 The navigation of the browser is as usual, except for the annotations that include a click handler that triggers the function for opening the social element.
 
 \item Selection mode \\ 
 
 The selection mode interferes eminently with the navigation and the representation of the regular browser view. Activating the selection mode marks all selectable elements with rectangles around it. Moving the cursor around the web view additionally marks the element beneath the cursor to visualize what element is marked when clicked. 
-In this  mode clicking links, buttons and so on, doesn't trigger the functionality of those elements but instead select them so an annotation might be created. 
+In this  mode clicking links and buttons and, does
+ not
+ trigger the functionality of those elements but instead select them so an annotation might be created. 
 
 Disabling the selection mode clears the view from the previously mentioned marks. Only successfully created annotations remains persistent. 
 
@@ -210,7 +218,7 @@ The mode system could be a starting point for extending Social Weaver for multip
 \end{figure} 
 
 \subsubsection[Communication]{\reqPiii}
-To share our comments or annotations with other users we need a server side synchronization procedure. This section is only about the requirements that are related to the plugin side. (Details to the server side are discussed in \nameref{server} \ref{server}.)
+To share our comments or annotations with other users we need a server side synchronization procedure. This section is only about the requirements that are related to the plugin side. (Details to the web service are discussed in \nameref{ws-architecture-intro} \ref{ws-architecture-intro}.)
 
 The first step to achieve this goal is to establish a communication between the plugin and a web service. For this purpose we are going to make use of the \emph{request} module from the Mozilla Add-on SDK. It provides an easy to use JSON\footnote{\url{http://www.json.org/}} and REST(\cite{fielding2000principled}) assistance. 
 
@@ -251,12 +259,10 @@ When a user creates a new annotation or modifies it - the plugin should send an 
 \end{description}
 
 \begin{figure}
-	\includegraphics[width=13cm]{images/component-plugin-diagram.png}
+	\includegraphics[width=11cm]{images/component-plugin-diagram.png}
 	\caption{Component diagram for the plugin}
 	\label{component-plugin-diagram}
 \end{figure}
-
-How the data format looks like and how we parse incoming messages, is reviewed later (in the Sections \ref{creating_triplets}, \ref{creating_content} and \ref{parsing_content}.)
 
 \subsubsection[Creating Anchors]{\reqPiv}\label{reqPiv}
 We already mentioned anchors in the context of transmission. This section covers how those anchors are created at the plugin before sent to the web service. 
@@ -264,12 +270,10 @@ The first step in the creation of an anchor happens in the \emph{selector} after
 
 \begin{lstlisting}
 event.preventDefault();    
-        self.port.emit('show',
-          [
+        self.port.emit('show',[
             url,
             JSON.stringify(arr.payload)
-          ]
-    );
+          ]);
 \end{lstlisting}
 How the results contained by the payload look like, is discussed in the next Section \ref{reqPv}. 
 The \textit{selector} is initiated in the \textit{main module}, providing a worker that is listening for the emission called \textit{show}. 
@@ -303,7 +307,7 @@ The previous Section \ref{reqPiv} showed how an annotation and its anchor is gen
 \end{figure}
 
 
-Again the first step in creating an anchor is to gather results on the clicked element according to the script. To illustrate that lets show this on an example in Figure \ref{anchor-example-uibk}. 
+Again the first step in creating an anchor is to gather results on the clicked element according to the script. To illustrate that, we show this on an example in Figure \ref{anchor-example-uibk}. 
 Next we use the following script:
 \begin{lstlisting}
 {"rules": [
@@ -331,7 +335,7 @@ Moreover we add the current URL to the annotation, which is redundant in that ca
  ]}
 \end{lstlisting}
 
-The \textit{editor} processes the user input and transforms it to a string that is added to the annotation. To keep the previous example tangible, lets assume that the user creates a link to some wiki upon the element like: \url{http://www.uibk.ac.at/internalwiki/faqs}. 
+The \textit{editor} processes the user input and transforms it to a string that is added to the annotation. To keep the previous example tangible, we assume that the user creates a link to some wiki upon the element like: \url{http://www.uibk.ac.at/internalwiki/faqs}. 
 Consequently the updated annotation contains something like:
 \begin{lstlisting}
 {"annotation":[
@@ -344,10 +348,12 @@ Consequently the updated annotation contains something like:
  ]}
 \end{lstlisting}
 
-This JSON array has the form, ready for being transmitted to the web service. The server side uses the data to create anchor and social element entities, but doesn't modify the values itself, unless it is an update. 
+This JSON array has the form, ready for being transmitted to the web service. The server side uses the data to create anchor and social element entities, but does
+ not
+ modify the values itself, unless it is an update. 
 
 \subsubsection[Parsing Incoming Messages]{\reqPvi}\label{reqPvi}
-Basically parsing incoming messages is quite the analogous opposite to the creation and sending procedure in \ref{reqPv}. After the web service responds to the plugin request for updates, the incoming message is an JSON array of annotations. Formerly we have seen an example for such an annotation like:
+Basically, parsing incoming messages is quite the analogous opposite to the creation and sending procedure in \ref{reqPv}. After the web service responds to the plugin request for updates, the incoming message is an JSON array of annotations. Formerly we have seen an example for such an annotation like:
 \begin{lstlisting}
 {"annotation":[
 	 {"url": "http://www.uibk.ac.at/"},
@@ -397,7 +403,7 @@ for every element e in currentUrl{
 
 Informally the algorithm iterates over every element in a new web view. This web view belongs to a certain URL that we use to determine what rule script to use. In case that no specific script is provided, a set of default rules is established. For every and each element we execute the rules from the script and compare the results to possibly existing annotations. From the existing annotations we store the evaluated rule results. Therefore if an web element has the same results for all rule evaluations as an stored annotation, we assume that the current web element is an anchor that is related to the stored element. 
 
-Since this issue is a little bit confusing, lets explain what sources are used for decision making. See Figure \ref{matching-algorithm}. As sources for element matching we have the current web view and all its displayed elements, the set of static rule contained by the scripts and the local storage that contains existing annotations. In the following every numbered step on Figure \ref{matching-algorithm} is explained in more detail:
+Since this issue is a little bit confusing, we explain what sources are used for decision making. See Figure \ref{matching-algorithm}. As sources for element matching we have the current web view and all its displayed elements, the set of static rule contained by the scripts and the local storage that contains existing annotations. In the following every numbered step on Figure \ref{matching-algorithm} is explained in more detail:
 
 \begin{enumerate}
 \item We simply start with the mentioned iteration over all current web view elements. 
@@ -410,10 +416,12 @@ Since this issue is a little bit confusing, lets explain what sources are used f
 \end{enumerate}
 
 \paragraph{Algorithm Performance}
-The algorithm explained above is not performant. The reason is the obvious $O(n^3)$ complexity due to the triple encapsulated for-loop. Since most web views have a quite limited amount of non empty elements it is now drawback for the prototype testing. However it is easy to understand and to visualize. 
-For reasons of completion lets take a look on a more performant idea:
-The basic problem is that we don't search for keys but values instead. In each step we evaluate the value for the current web element and compare it to the values of all stored annotations. To overcome this issue, it would be necessary to generate hash values over all values of an element. 
-For instance an element that is identified with three rules,  gets a hash value generated from the  composite of all rule results. Then this hash is used as the key of this annotation. 
+The algorithm explained above is not performant. The reason is the obvious $O(n^3)$ complexity due to the triple encapsulated for-loop. Since most web views have a quite limited amount of non empty elements it is no drawback for the prototype testing. However it is easy to understand and to visualize. 
+For reasons of completion, we take a look on a more performant idea:
+The basic problem is that we do
+ not
+ search for keys but values instead. In each step we evaluate the value for the current web element and compare it to the values of all stored annotations. To overcome this issue, it would be necessary to generate hash values over all values of an element. 
+For instance, an element that is identified with three rules,  gets a hash value generated from the  composite of all rule results. Then this hash is used as the key of this annotation. 
 This way we reduce the algorithm to a complexity of $O(n^2)$. The removed for-loop is the iterative search through stored annotations. This has become a hash search procedure that has the complexity of an average $O(1)$ and $O(n)$ in the worst case.
 
 \newpage
@@ -443,10 +451,14 @@ The model view controller is the probably most common used user interface archit
 The basic idea of MVC is to separate displayed content and user interaction. As the name already reveals there are three modules that interact with each other and the user (also check Figure \ref{mvc-expl}):
 
 \begin{description}
-\item[Model] includes the logic of the system. That doesn't mean just business processes and functionality but even the persistence layer belongs to the model from the MVC perspective. 
+\item[Model] includes the logic of the system. That does
+ not
+ mean just business processes and functionality but even the persistence layer belongs to the model from the MVC perspective. 
 The model updates the view and is being manipulated by the controller.
 
-\item[View] is the representation of some data. A view doesn't have to be a whole view in a browser (like it is when we use \emph{web view} outside this MVC context). It might represent a button, sub screen or any other user interface element.
+\item[View] is the representation of some data. A view does
+ not
+ have to be a whole view in a browser (like it is when we use \emph{web view} outside this MVC context). It might represent a button, sub screen or any other user interface element.
 The view is seen by the user and being updated by the model.
 
 \item[Controller] takes input from user actions and use these to trigger operations included by the model. 
@@ -455,7 +467,9 @@ The controller manipulates the model and is being used by the user.
 \item[User] is able to see the content displayed by view and to use the controller parts to interact with the system. This is the essential part of MVC that seeing and interacting is separated. 
 \end{description}
 
-Even though our web service has a proper MVC architecture we don't use it in the conventional way. Later we see that we use only RESTful requests to interact with the web service. It is easy and clean to extend a MVC pattern with additional interfaces for RESTful interactions. And with certain technologies, like Spring Roo, it is faster to generate a classic web service.
+Even though our web service has a proper MVC architecture we do
+ not
+ use it in the conventional way. Later we see that we use only RESTful requests to interact with the web service. It is easy and clean to extend a MVC pattern with additional interfaces for RESTful interactions. And with certain technologies, like Spring Roo, it is faster to generate a classic web service.
 
 \subsubsection*{OpenJPA}
 OpenJPA is a object-relational mapping for the Java Persistence API (\sloppy \verb^javax.persistence^). The implementation makes it easier to interact with the persistence layer. Defining \verb^EntityManager^ for entities with some rules like
@@ -484,10 +498,12 @@ enables us to user persisted data nearly like objects.
 In the web service any operation that writes to database is using OpenJPA.
 
 \subsubsection*{PostgreSQL}
-PostgreSQL is a cross-platform open source object-relational database system that the web service uses for the persistence layer. Since our database usage doesn't exceed basic operations there is no need to explain extended features of PostgreSQL.
+PostgreSQL is a cross-platform open source object-relational database system that the web service uses for the persistence layer. Since our database usage does
+ not
+ exceed basic operations there is no need to explain extended features of PostgreSQL.
 
 \subsubsection*{RESTful Web Services}
-RESTful web service or often called RESTful web API as well use HTTP and REST principles. REST was defined the first time in Roy Fieldings doctoral dissertation \cite{fielding2000architectural}. It stands for \emph{representational state transfer}. REST uses the same types of operations as, for example SOAP. These are:
+RESTful web service or often called RESTful web API as well use HTTP and REST principles. REST was defined the first time in Roy Fieldings doctoral dissertation \cite{fielding2000architectural}. It stands for \emph{representational state transfer}. REST uses the same types of operations as, for example, SOAP. These are:
 
 \begin{enumerate}
 \item GET
@@ -497,7 +513,7 @@ RESTful web service or often called RESTful web API as well use HTTP and REST pr
 \item DELETE
 \end{enumerate}
 
-The central principle is that every accessable resource has its own and unique identifier (URI) in HTTP context. Related to this URI the different operations, mentioned above, can be executed. The RESTful provider handles each operation accordingly. We have two different cases where these operations slightly differ. It depends whether the URI belongs to a single resource entity (like for instance: \verb^http://localhost:8080/anchors/54^) or a set of entities (like \verb^http://localhost:8080/anchors^). Performing requests on a set URI operates logically on sets. This means GET retrieves the whole list, POST adds a list of entities, DELETE deletes everything and so on. On the contrary requests on single resources only apply to the single element.  
+The central principle is that every accessable resource has its own and unique identifier (URI) in HTTP context. Related to this URI the different operations, mentioned above, can be executed. The RESTful provider handles each operation accordingly. We have two different cases where these operations slightly differ. It depends whether the URI belongs to a single resource entity (like for instance: \verb^http://localhost:8080/anchors/54^) or a set of entities (like \verb^http://localhost:8080/anchors^). Performing requests on a set URI operates logically on sets. This means GET retrieves the whole list, POST adds a list of entities and DELETE deletes everything. On the contrary requests on single resources only apply to the single element.  
 	
 \subsubsection*{Spring}
 Spring is an application development framework for Java. Since its first release in 2002 it grew rapidly under the Apache 2.0 license \footnote{\url{http://www.apache.org/licenses/}} into several directions like modern web, data access, integration, mobile, social, security and cloud ready. All those sub frameworks provide different functionality. Besides that there exists several side-projects. The web service makes use of one of those side-project that is called Spring Roo\footnote{\url{http://www.springsource.org/spring-roo}}. Roo is a development tool that makes it easy to create basic structures for web services with database connectivity. This tool makes extensive use of some Spring framework modules like Spring Integration, Spring Framework, Spring Security and Spring Web Flow. 
@@ -505,8 +521,8 @@ Spring is an application development framework for Java. Since its first release
 \subsubsection*{AspectJ}
 	AspectJ is an extension to the Java programming language to provide aspect oriented programming. Even though AspectJ is the probably best known representative for aspect orientation, the basic idea of this programming paradigm is applicable to any object oriented language.
 	Basically an aspect enables us to break down program logic to another layer. In object oriented environment most of the time the logic, that is related to an object, is included in the same class. With aspects it becomes possible to distinguish different behaviors, related to an object, into different classes or even reuse them. 
-	For instance we have an entity controller for the anchor, the \textit{AnchorController}.This object is responsible for handling requests that arrive at the web service. Since there are several request types and different possibilities to answer them, we can distinguish between JSON and HTML requests. JSON requests can be sent by any client, whereas HTML is requested from the web client. We split those cases up into two separate aspect classes. By default these are called \textit{AnchorController\_Roo\_Controller} and \textit{AnchorController\_Roo\_Json}. 
-	Using aspects becomes more valuable with increasing complexity. The \textit{Anchor} entity is split into aspects for bean-, JPA entity-, JSON-functionality and so on. 
+	For instance, we have an entity controller for the anchor, the \textit{AnchorController}.This object is responsible for handling requests that arrive at the web service. Since there are several request types and different possibilities to answer them, we can distinguish between JSON and HTML requests. JSON requests can be sent by any client, whereas HTML is requested from the web client. We split those cases up into two separate aspect classes. By default these are called \textit{AnchorController\_Roo\_Controller} and \textit{AnchorController\_Roo\_Json}. 
+	Using aspects becomes more valuable with increasing complexity. The \textit{Anchor} entity is split into aspects for bean-, JPA entity-, JSON-functionality etc.
 
 \newpage
 \subsection{Web Service Architecture}\label{ws-architecture-intro}
@@ -522,7 +538,7 @@ The entities are implemented as beans and therefore being directly persisted in 
 According to the model view controller pattern there are also controllers for the entities that provides several interfaces that are accessible through the standard REST requests. 
 
 \begin{figure}\centering
-		\includegraphics[width=9cm]{images/sowe-mvc-view-screenshot.png}
+		\includegraphics[width=7cm]{images/sowe-mvc-view-screenshot.png}
 		\caption{Screen shot from Social Weaver Persistence Web View}
 		\label{sowe-mvc-view-screenshot}
 \end{figure} 
@@ -581,10 +597,12 @@ This way of receiving requests is very simple and provides no handling for user 
 
 \subsubsection[User Session Synchronization]{\reqWSii}
 
-The prototype doesn't provide specific user sessions. This would be desirable as an extended feature. The web service handles a synchronization between different users exactly as for one user. 
+The prototype does
+ not
+ provide specific user sessions. This would be desirable as an extended feature. The web service handles a synchronization between different users exactly as for one user. 
 Any message with an anchor that is received, injects into the data set of anchors. We use a time stamp to signalize that updates were made. When users synchronize with the server the simply receive all anchors that are newer than the newest anchor located in the users plugin. 
 
-Lets clarify this on a small use case scenario with Alice and Bob:
+We clarify this on a small use case scenario with Alice and Bob:
 \begin{enumerate}
 \item Alice starts the plugin and synchronizes at time n. It is a new session so no anchors are sent back to Alice. Both parties, Alice and the web service, have n set as update time stamp.
 \item Alice adds two anchors to the data set. These anchors are transmitted to the server and get the time stamp n+1.
@@ -631,7 +649,7 @@ As entity manager we use the standard from the \verb^javax.persistence^ library\
 
 \subsubsection[Decoupling Web Service and Target Web View]{\reqWSiv}\label{reqWSiv}
 In the decoupling requirement it is about the content of the annotation messages that are transmitted between plugin and web service. The requirement should ensure that the message form is independent from the target web view. The target web view is the web page or application the annotation belongs to. 
-The web service needs to be able to synchronize all annotations simultaneously no matter where they are annotated. For instance one annotation made on \url{http://www.uibk.ac.at/} has the same form and is handled equally as an annotation from \url{internal-sap.examplecoorp:4567}. 
+The web service needs to be able to synchronize all annotations simultaneously no matter where they are annotated. For instance, one annotation made on \url{http://www.uibk.ac.at/} has the same form and is handled equally as an annotation from \url{internal-sap.examplecoorp:4567}. 
 
 To affirm that this constraint is not disturbed, messages are handled as information containers. Once they arrive at the web service, it provides those without any knowledge about the inside of the message. All operations on the data is read-only. 
 
@@ -642,7 +660,9 @@ The exact format of the messages has been discussed already in the context of pl
 
 \subsubsection[Message Parsing]{\reqWSvi}\label{reqWSvi}
 
-Formerly message parsing was discussed in Section \ref{reqPvi}. Hence this section doesn't cover the way of creating the message. We just assume the defined format, which was:
+Formerly message parsing was discussed in Section \ref{reqPvi}. Hence this section does
+ not
+ cover the way of creating the message. We just assume the defined format, which was:
 \begin{lstlisting}
 {"annotation":[
 	 {"url": "http://www.uibk.ac.at/"},
@@ -654,7 +674,9 @@ Formerly message parsing was discussed in Section \ref{reqPvi}. Hence this secti
  ]}
 \end{lstlisting}
 
-In Section \ref{reqWSv} we stated that the web service doesn't modify the content of the message. The only operations are read only. The following steps take place when a new annotation array arrives:
+In Section \ref{reqWSv} we stated that the web service does
+ not
+ modify the content of the message. The only operations are read only. The following steps take place when a new annotation array arrives:
 
 \begin{enumerate}
 	\item The array is split and the annotations handled separately 
@@ -691,17 +713,22 @@ It is possible as well to retrieve specific annotations by its value or key. Mos
     }
 \end{lstlisting}
 
-Since these methods are formed according to the spring standard, the only part that requires explanation is the actual \verb^finder^ method in line five. Behind the scenes we use a \verb^TypedQuery^ to create a modified SQL query that returns all entities that has a newer time stamp than the parameter, that has been passed from the plugin.
+Since these methods are formed according to the spring standard, the only part that requires explanation is the actual \verb^finder^ method in line five. Behind the scenes we use a \verb^TypedQuery^ (Figure. \ref{typed-query}) to create a modified SQL query that returns all entities that has a newer time stamp than the parameter, that has been passed from the plugin.
 
+\begin{figure}\centering
 \begin{lstlisting}
 TypedQuery<Anchor> query = entityManager().createQuery("SELECT o FROM Anchor o WHERE o.lastModifiedTimestamp > :ts", Anchor.class);
 \end{lstlisting}
+\label{typed-query}
+\end{figure} 
 
 \newpage
 \subsection{Social Weaver - Script Support}\label{sowe-script-support}
 The following part explains how the script support looks like in detail for our Firefox plugin. In Section \ref{abstract-script-support-reqs} we discussed the purpose of the script support and what its goals are. The coming part applies this knowledge practically to the prototype development. Before we start stepping through the gathered requirements from \ref{abstract-script-support-reqs}, a brief example of a script use case is explained to provide a better overview to the reader.
 
-A script contains the information about how an element in a web view might be found. We use JSON as format for the scripts because of the support that JavaScript provides for that standard. The script defines a set of rules that are used to perform operations on the selected element. The results from these operations are generated to a payload. This payload might be the information for anchors, URL and content related to social elements. The server handles this payload as one value and doesn't parse it. All meta information that are needed by the server are transmitted separately from it. To understand how the script is used to generate an anchor format take a look at the example:
+A script contains the information about how an element in a web view might be found. We use JSON as format for the scripts because of the support that JavaScript provides for that standard. The script defines a set of rules that are used to perform operations on the selected element. The results from these operations are generated to a payload. This payload might be the information for anchors, URL and content related to social elements. The server handles this payload as one value and does
+ not
+ parse it. All meta information that are needed by the server are transmitted separately from it. To understand how the script is used to generate an anchor format take a look at the example:
 
 \begin{lstlisting}
 {
@@ -720,7 +747,7 @@ A script contains the information about how an element in a web view might be fo
 The purpose of this script example is to show the different possibilities and not a real scenario use case. It 
  becomes obvious why this set of parameters would be no good choice. 
 
-Basically a script is a set of rules. A rule consists of a key name and the actual operation that is being used to perform an action. The key name can be any string withing quotes chosen by the script author. The key names should be unique in one script though. The operation part offers different opportunities:
+Basically, a script is a set of rules. A rule consists of a key name and the actual operation that is being used to perform an action. The key name can be any string withing quotes chosen by the script author. The key names should be unique in one script though. The operation part offers different opportunities:
 
 \begin{itemize}
 	\item jQuery Operation \\ 
@@ -763,13 +790,19 @@ In the conceptual Section \ref{abstract-script-support-reqs} we defined a couple
 
 For matching different elements we need the flexibility to use a variable set of rules. It would be a drawback to have a static rule system. The problem is that in some web views we need different operations to match elements than on others. Depending on the environment we need a specific container with the rule set. 
 
-We solve this issue by introducing the payload container that contains a JSON array with all information that is set by the script. This way we are able to extend information for element matching and modify it just by changing the script. The plugin and backbone of our system doesn't necessarily have to be changed because it always is handled as a single JSON string.
+We solve this issue by introducing the payload container that contains a JSON array with all information that is set by the script. This way we are able to extend information for element matching and modify it just by changing the script. The plugin and backbone of our system does
+ not
+ necessarily have to be changed because it always is handled as a single JSON string.
 
 \subsubsection[Decoupling]{\reqSii}\label{decoupled-req}
 
-The script itself doesn't contain any information of the browser plugin type or the server module. The defined rules need to be supported by the plugin though. 
+The script itself does
+ not
+ contain any information of the browser plugin type or the server module. The defined rules need to be supported by the plugin though. 
 
-A plugin that doesn't support jQuery commands would not work with our script example from above. Or the \emph{predefined operation} (mentioned in \ref{predefined-operation}) is another case that needs to be supported by the plugin. Using unknown or unsupported operations leads to unexpected results.  
+A plugin that does
+ not
+ support jQuery commands would not work with our script example from above. Or the \emph{predefined operation} (mentioned in \ref{predefined-operation}) is another case that needs to be supported by the plugin. Using unknown or unsupported operations leads to unexpected results.  
 
 The server on the other hand is completely decoupled from the script support. The payload is just one column and the information about element anchors is of no use for the server. This is way the payload is not be parsed on the server. 
 
@@ -788,7 +821,7 @@ Beyond the criterion that scripts are human readable it would be easy to create 
 
 When we were talking about rules and operations for element matching, this included short Java Script or jQuery commands. Technically we are not limited to short commands and it is possible to insert a whole command block as a rule. But for debugging reasons this is not a good solution. And some operations may require more than just a chain of jQuery commands. 
 
-For example lets take the procedure of determining the DOM path of an element in the tree. The idea is to start with the class name of the element itself. Then check the class name of its parents so long until the root of the DOM tree is reached. All names chained together describe the path of the element in the tree. The fact that this result is not necessarily unique underlies the problem that DOM trees are often ambiguous. We take a closer look on this issue in \ref{ambiguity-problem} \nameref{ambiguity-problem}. But for some web views the DOM path still might be the right choice. 
+For example, we take the procedure of determining the DOM path of an element in the tree. The idea is to start with the class name of the element itself. Then check the class name of its parents so long until the root of the DOM tree is reached. All names chained together describe the path of the element in the tree. The fact that this result is not necessarily unique underlies the problem that DOM trees are often ambiguous. We take a closer look on this issue in \ref{ambiguity-problem} \nameref{ambiguity-problem}. But for some web views the DOM path still might be the right choice. 
 
 To understand why such a procedure is not possible to be fitted in a script we need to take a look at the code first:
 
@@ -828,7 +861,7 @@ To fulfill this requirement, the plugin provides a default script. When a new we
 
 \subsubsection[Relation to URL set]{\reqSvi}
 
-Every script, except for the default script from \ref{reqSv}, mostly needs to be related to a specific environment. When we talk about environment in this case, it means views that inherit from a root URL. As example a script can be related to \url{http://www.gnu.org}. But any page that has this URL as root, like for instance \url{http://www.gnu.org/philosophy/philosophy.html}, still applies to the same script. 
+Every script, except for the default script from \ref{reqSv}, mostly needs to be related to a specific environment. When we talk about environment in this case, it means views that inherit from a root URL. As example a script can be related to \url{http://www.gnu.org}. But any page that has this URL as root, like, for instance ,\url{http://www.gnu.org/philosophy/philosophy.html}, still applies to the same script. 
 
 The assumption is that views in the same environment apply to the same web architecture and hence its elements can be identified similarly. 
 
@@ -855,7 +888,7 @@ The fact that we can only assume, finally leads us to the actual problem of this
 
 \subsubsection{Ambiguous Grammar}
 \begin{figure}\centering
-		\includegraphics[width=11cm]{images/ambiguous-grammar.png}
+		\includegraphics[width=10cm]{images/ambiguous-grammar.png}
 		\caption{Example for an ambiguous grammar}
 		\label{ambiguous-grammar-pic}
 \end{figure} 
@@ -908,7 +941,7 @@ We explain the problem with the HTML example in Figure \ref{dom-html-example}.
 Determining the DOM path for \verb^Software Development^ would return the value: \verb^<html>,<head>,<title>^. In this case the path would be a unique identifier in this environment. 
 The DOM path for \verb^Construction^ would be \verb^<html>,<body>,<ul>,<li>^. This path would not only apply to all \verb^<li>^ elements in the same \verb^<ul>^ context, but to all \verb^<ul>^ lists in the same subpath (which is \verb^<html>,<body>^ so far). Using this path would apply to all six list elements. 
 
-\subsubsection{Parameter Data Object Model Tree}
+\subsubsection{Parameter Data Object Model Tree}\label{param-dom-tree}
 
 For the moment we forget that we can use other parameters (like the \verb^<li>^ content or surrounding parameters like the \verb^<b>^ blocks to identify elements. 
 When we represent the HTML code as DOM tree, we receive a structure where it seems that every element can be located uniquely (see Figure \ref{dom-tree-example}). The parameter DOM path for \verb^Construction^, which has the regular DOM path \verb^<html>,<body>,<ul>,<li>^, would become \verb^#0<html>,#0<body>,#0<ul>,#1<li>^. 
@@ -930,7 +963,7 @@ Applying this algorithm to the DOM tree in Figure \ref{dom-tree-example} we rece
 The advantage of using increment for same class types only is a better robustness. If the HTML code change it might happen that the parameter DOM tree becomes corrupt. With independent counters impacts from changes are attenuated. 
 The idea of the parameter DOM tree is just mentioned for reasons of completeness. The algorithm is not implemented in the prototype because of practical reasons. 
 
-The parameter DOM path is more effective than the regular path, because it overcomes the ambiguity problem. But there still are problem that apply to both methods. Web applications and pages changes frequently and though the underlying HTML code. When we use the a tree representation for the whole code - basically any changes becomes critical and might affect the element matching. 
+The parameter DOM path is more effective than the regular path, because it overcomes the ambiguity problem. But there still are problem that apply to both methods. Web applications and pages changes frequently and though the underlying HTML code. When we use the a tree representation for the whole code - basically, any changes becomes critical and might affect the element matching. 
 
 For that reason the prototype focuses on the script support approach. It provides more flexibility and is more independent of changes that appear not near its location. 
 
@@ -942,7 +975,9 @@ For that reason the prototype focuses on the script support approach. It provide
 
 \subsubsection{Effects of Web Evolution Element Matching}
 
-This section compares the script support and parameter DOM path approach in regard to web evolution. Web evolution means any changes that happen to the HTML code we use for element matching. We don't care whether those changes are updates made by user or that happen automatically. Changes are a risk for both approaches so that elements can not be matched anymore. But the script support is more robust to changes that appear somewhere not near the elements location. The parameter DOM path might affect on any element anchors.
+This section compares the script support and parameter DOM path approach in regard to web evolution. Web evolution means any changes that happen to the HTML code we use for element matching. We do
+ not
+ care whether those changes are updates made by user or that happen automatically. Changes are a risk for both approaches so that elements can not be matched anymore. But the script support is more robust to changes that appear somewhere not near the elements location. The parameter DOM path might affect on any element anchors.
 To show this, we use the HTML example from Figure \ref{dom-html-example}. The element \verb^Construction^ should be matched with the parameter DOM path and a simple script. Then we change the structure of the HTML code and observe the effects on both procedures.
 
 In the previous section we already determined the parameter DOM path for the element \verb^Construction^ which is \verb^\#0<html>,\#0<body>,\#0<ul>,\#1<li>^. This parameter is enough to clearly find the right element. 
@@ -977,17 +1012,19 @@ The update that happens to the HTML code is a newly inserted element into the \e
 		\label{dom-paramaterized-modified-tree-example}
 \end{figure} 
 
-But the script still finds the element correctly since its independent from most of the environment. The results for the script execution we received earlier, doesn't change. 
+But the script still finds the element correctly since its independent from most of the environment. The results for the script execution we received earlier, does
+ not
+ change. 
 
-Keep in mind that there still are changes that can happen in the HTML code and that would affect scripts. There simply is no guarantee for a reliable anchor without exception.
-
-\newpage
-\subsection{Dependencies accross Modules}\label{module-dependencies}
 \begin{figure}\centering
 	\includegraphics[width=13cm]{images/component-wholesystem-diagram.png}
 	\caption{Component diagram for whole system}
 	\label{component-wholesystem-diagram}
 \end{figure}
 
+Keep in mind that there still are changes that can happen in the HTML code and that would affect scripts. There simply is no guarantee for a reliable anchor without exception.
+
+\newpage
+%\subsection{Dependencies accross Modules}\label{module-dependencies}
 
  

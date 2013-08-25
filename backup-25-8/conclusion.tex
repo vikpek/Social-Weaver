@@ -1,0 +1,56 @@
+ %!TEX root=title.tex
+\section{Conclusion}
+Across the whole thesis we found what opportunities Social Weaving offers and what drawbacks we have to deal with. In this section all aspects are gathered and discussed from an elevated platform. 
+Furthermore a short analysis about market potential and possible future work is demonstrated. 
+
+\subsection{Summary}
+
+In this thesis we examined what Social Weaving is, a how it is a contribution to current ways of digital communication. Furthermore a prototype, Social Weaver, was discussed into detail on several levels. The main goal of the prototype is to give a proof of concept, for the hypothesis, that Social Weaving is possible in different scenarios. Besides that, the prototype development was used to parallel introduce theory and replenish it with a vivid example. 
+
+Social Weaving addresses a common communication issue, that takes place in any conversation about some web based user interface. Assuming that the conversational partners are located in different places, it is tricky to describe user interfaces textually or via audio. An additional layer in the user interface 
+of a web site or application enables both partners to interact with it, and to relate the problem directly to the visible element using social elements, like chat boxes or links to other resources.
+ 
+We started with a domain and requirements analysis. In this section was specified that Social Weaver is to be realized as a browser plugin, that interacts with a server based web service. This way several user sessions, that are synchronized with each other, become possible. As preparation for the actual development, we gathered requirements for all necessary modules, which are the client, the web service and the script support. 
+
+The script support is a methodology to support different environments. It's possible to inject scripts into the plugin. This changes the behavior of the plugin, based on how the elements in the web view are recognized. 
+Moving from the theoretic conceptual level, we proceeded to the implementation level. 
+
+Based on the requirements, we discussed how these are realized by the prototype modules. In quite a technical detail, the used technologies were listed and interesting parts from system shown in even closer detail. Besides the implementation of the single modules, the dependencies between them and interactions were shown. 
+
+While this development process, some major problems became visible. Some were handled in the context of the ambiguity problem. Ambiguity normally is an issue in regard to formal grammars. We used this knowledge to describe why web site architectures are ambiguous and how problematic this for Social Weaving is. 
+
+For the last part of the thesis, we analyzed the functionality of the prototype and the common opportunities of Social Weaving. In order to make the operation of Social Weaver more appealing to the reader, a step-by-step use case was shown on an annotation example with Google Calendar. The sequence of events was enforced with overviews about the interactions between the different modules. Finally we analyzed the prototype with an assessment in three different environments. Using different scripts, we checked how good Social Weaver works for plain and dynamic HTML web sites. Moreover a web application scenario, with Google Calendar, was documented. 
+
+The results showed that Social Weaving is technically possible in any environment. But the expenditure for complex environments might become disproportional. Even after Social Weaver is configured suitable for an environment with the proper scripts, there is no guarantee that the annotations are persistent in a long term. 
+
+Nevertheless of the drawbacks, the proof of concept is a success. The idea of Social Weaving shows great potential and so does the prototype. Just using the simple default matching scripts, which means there is no extra effort, already shows very decent results. Most of the drawbacks are possible to be eliminated with the right amount of work. 
+
+\subsection{Market Potential}
+Earlier, we shortly discussed some potential usage for the industrial and private sector in Section \ref{domainAnalysis}\refname{domainAnalysis}. Social Weaving is a basic idea and not yet bound to a marketable target group. The reason is that Social Weaving is communication on an highly digital level. Since business and everyday life are tightly connected to digital communication, there are multiple opportunities for market applicability. 
+
+\paragraph{Communication with Clients}\label{comm-clients}\mbox{}\\
+Any service-provider who maintains a web platform for its clients (like online-banking, ERP systems, online-markets, web-mail, sports-tracking, ...), often finds itself in the situation, that clients have problems with the interface. Frequently Asked Questions (FAQs), Mail forms, bug reports or hotlines are a quite painful way for the client to describe her problem. This form of abstraction inevitably leads to misunderstandings and frustration. 
+Every service-provider would gain a lot time efficiency and better user satisfaction when using Social Weaving for its system. The communication would be more related to the problem and avoid detours. 
+
+\paragraph{Communcation in Teams}\mbox{}\\
+Communication in teams addresses instances that uses a commonly web platform or application. The platform types are quite similar to the previous Paragraph \ref{comm-clients}. The essential difference is, that we now have communication on the same level. Instead of one consultant who maintains several clients - now every member in the team can read and collaborate. 
+Nevertheless the need for such communication methods is overdue. The larger a team gets, the riskier it becomes to end up in a communication chaos. Every question or problem reported twice is a waste of time and mailing around issues with formal referral to snags, is an unequivocal requirement, for this to happen.
+
+\paragraph{Private Web Companion}\mbox{}\\
+A completely different opportunity for Social Weaving appears for private usage. Imagine you're surfing the web and wish to take notes related to an article you'd like to purchase. In some cases online markets offer such functionality. But even though that's the case - you'd need to register at the platform. Social Weaving can be used to create notes and other kind of markings across different stores for viewing them all together later on. 
+Or if you search for an apartment, you'll probably check on multiple pages and call several people to create appointments. 
+\newpage
+
+\subsection{Future Work}
+This research is a great motivation to think about possible future goals for Social Weaving and the prototype development. First of all an open platform will be created were the code for the whole prototype is freely accessible to everyone (check \url{https://github.com/vikpek/SocialWeaver}). Furthermore an extensive documentation for usage and development will be provided. It would be great to have a platform for script maintenance. Once an user writes a script that supports an environment, she should be able to share it and work on it together with the community. 
+
+Even further developed future goals are adaptations for browser based ERP systems or other business web applications or services.  
+
+As it goes for the functionality, Social Weaving could be extended with a work flow support. Since some problems with user interfaces appear only in certain situations that depend on the previous work flow - it would be a helpful feature to keep track about this information. 
+
+The prototype is available for Firefox only. Support for other browser would make Social Weaving available for an even greater audience.
+
+It would be interesting to go deeper into the idea about an automatic script generator. Instead of the user thinking about the architecture of the web environment, it could be possible to determine the needed information automatically. This would be a great acquisition, since no manual configuration for new environments would be necessary. 
+
+
+

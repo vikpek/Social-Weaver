@@ -1,0 +1,94 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction}{10}{section.1}
+\contentsline {section}{\numberline {2}Contribution}{12}{section.2}
+\contentsline {paragraph}{Personal Contribution}{14}{section*.3}
+\contentsline {section}{\numberline {3}Social Weaver - Conceptual Level}{16}{section.3}
+\contentsline {subsection}{\numberline {3.1}The WHY-WHAT-WHO-Model}{16}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}WHY Dimension}{16}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}WHAT Dimension}{17}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}WHO Dimension}{17}{subsubsection.3.1.3}
+\contentsline {subsection}{\numberline {3.2}Domain Analysis}{19}{subsection.3.2}
+\contentsline {paragraph}{Web Site Re-engineering Using RMM}{21}{section*.4}
+\contentsline {paragraph}{Source Code Independent Reverse Engineering of Dynamic Web Sites}{24}{section*.5}
+\contentsline {subsection}{\numberline {3.3}Use Cases}{26}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}What is Social Weaver}{27}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}Requirements for Social Weaver}{28}{subsection.3.5}
+\contentsline {subsubsection}{\numberline {3.5.1}Browser Plugin}{30}{subsubsection.3.5.1}
+\contentsline {subsubsection}{\numberline {3.5.2}Server Application}{32}{subsubsection.3.5.2}
+\contentsline {subsubsection}{\numberline {3.5.3}Social Weaver - Script Support}{33}{subsubsection.3.5.3}
+\contentsline {section}{\numberline {4}Social Weaver - Implementation Level}{35}{section.4}
+\contentsline {subsection}{\numberline {4.1}Social Weaver - Firefox Plugin}{35}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Requirements for the Plugin}{42}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Visualizing}{42}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}User View Management}{46}{subsubsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.3}Communication}{49}{subsubsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.4}Creating Anchors}{50}{subsubsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.5}Uniform Sending Format}{52}{subsubsection.4.2.5}
+\contentsline {subsubsection}{\numberline {4.2.6}Parsing Incoming Messages}{53}{subsubsection.4.2.6}
+\contentsline {subsubsection}{\numberline {4.2.7}Web Element Identification}{54}{subsubsection.4.2.7}
+\contentsline {paragraph}{Algorithm Performance}{57}{section*.9}
+\contentsline {subsection}{\numberline {4.3}Social Weaver - Web Service}{58}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Used Technologies}{58}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Web Service Architecture}{63}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Requirements for the Web Service}{64}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}Incoming Messages}{65}{subsubsection.4.6.1}
+\contentsline {subsubsection}{\numberline {4.6.2}User Session Synchronization}{66}{subsubsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.3}Persistence}{68}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}Decoupling Web Service and Target Web View}{68}{subsubsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.5}Decoupling Web Service and Plugin}{69}{subsubsection.4.6.5}
+\contentsline {subsubsection}{\numberline {4.6.6}Message Parsing}{69}{subsubsection.4.6.6}
+\contentsline {subsubsection}{\numberline {4.6.7}Generating Messages}{71}{subsubsection.4.6.7}
+\contentsline {subsection}{\numberline {4.7}Social Weaver - Script Support}{72}{subsection.4.7}
+\contentsline {subsection}{\numberline {4.8}Requirements for the Script Support}{74}{subsection.4.8}
+\contentsline {subsubsection}{\numberline {4.8.1}Information Container}{74}{subsubsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.2}Decoupling}{75}{subsubsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.3}Syntax}{75}{subsubsection.4.8.3}
+\contentsline {subsubsection}{\numberline {4.8.4}Plugin Extension}{76}{subsubsection.4.8.4}
+\contentsline {subsubsection}{\numberline {4.8.5}Default Matching Procedure}{77}{subsubsection.4.8.5}
+\contentsline {subsubsection}{\numberline {4.8.6}Relation to URL set}{78}{subsubsection.4.8.6}
+\contentsline {subsection}{\numberline {4.9}Ambiguity Problem}{79}{subsection.4.9}
+\contentsline {subsubsection}{\numberline {4.9.1}Ambiguous Grammar}{79}{subsubsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.2}Ambiguity for Element Matching}{80}{subsubsection.4.9.2}
+\contentsline {subsubsection}{\numberline {4.9.3}Parameter Data Object Model Tree}{82}{subsubsection.4.9.3}
+\contentsline {subsubsection}{\numberline {4.9.4}Effects of Web Evolution Element Matching}{84}{subsubsection.4.9.4}
+\contentsline {section}{\numberline {5}Social Weaver Analysis}{87}{section.5}
+\contentsline {subsection}{\numberline {5.1}Social Weaver in Action}{87}{subsection.5.1}
+\contentsline {subsubsection}{\numberline {5.1.1}Google Calendar}{87}{subsubsection.5.1.1}
+\contentsline {subsubsection}{\numberline {5.1.2}Challenges}{87}{subsubsection.5.1.2}
+\contentsline {subsubsection}{\numberline {5.1.3}Initial Scenario}{89}{subsubsection.5.1.3}
+\contentsline {subsubsection}{\numberline {5.1.4}Update Procedure}{89}{subsubsection.5.1.4}
+\contentsline {subsubsection}{\numberline {5.1.5}Matching Procedure}{90}{subsubsection.5.1.5}
+\contentsline {subsubsection}{\numberline {5.1.6}Scenario Execution}{90}{subsubsection.5.1.6}
+\contentsline {subsection}{\numberline {5.2}Social Weaver Assessment}{97}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Script Types}{99}{subsubsection.5.2.1}
+\contentsline {paragraph}{Default Script}{99}{section*.16}
+\contentsline {paragraph}{Specified Script}{100}{section*.17}
+\contentsline {subsubsection}{\numberline {5.2.2}Scenario: Plain HTML}{100}{subsubsection.5.2.2}
+\contentsline {paragraph}{Default Script: University of Innsbruck}{101}{section*.18}
+\contentsline {paragraph}{Specified Script: University of Innsbruck}{102}{section*.19}
+\contentsline {subsubsection}{\numberline {5.2.3}Scenario: Complex HTML}{102}{subsubsection.5.2.3}
+\contentsline {paragraph}{Default Script: Amazon}{104}{section*.20}
+\contentsline {paragraph}{Specified Script: Amazon}{105}{section*.21}
+\contentsline {subsubsection}{\numberline {5.2.4}Scenario: Web 2.0}{105}{subsubsection.5.2.4}
+\contentsline {paragraph}{What is Web 2.0}{105}{section*.22}
+\contentsline {paragraph}{Scenario Description}{106}{section*.23}
+\contentsline {paragraph}{Default Script: Google Calendar}{108}{section*.24}
+\contentsline {paragraph}{Specified Script: Google Calendar}{108}{section*.25}
+\contentsline {section}{\numberline {6}Conclusion}{112}{section.6}
+\contentsline {subsection}{\numberline {6.1}Summary}{112}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Market Potential}{114}{subsection.6.2}
+\contentsline {paragraph}{Communication with Clients}{114}{section*.26}
+\contentsline {paragraph}{Communcation in Teams}{114}{section*.27}
+\contentsline {paragraph}{Private Web Companion}{114}{section*.28}
+\contentsline {subsection}{\numberline {6.3}Future Work}{116}{subsection.6.3}
+\contentsline {section}{Appendices}{117}{section*.29}
+\contentsline {section}{\numberline {A}Use Cases}{117}{Appendix.1.A}
+\contentsline {subsection}{\numberline {A.1}Akteure}{117}{subsection.1.A.1}
+\contentsline {subsection}{\numberline {A.2}Use Cases}{118}{subsection.1.A.2}
+\contentsline {subsubsection}{\numberline {A.2.1}Web Element Marking}{118}{subsubsection.1.A.2.1}
+\contentsline {subsubsection}{\numberline {A.2.2}Web Element Annotating}{119}{subsubsection.1.A.2.2}
+\contentsline {subsubsection}{\numberline {A.2.3}Displaying Annotations}{120}{subsubsection.1.A.2.3}
+\contentsline {subsubsection}{\numberline {A.2.4}Client: Sending Annotations}{121}{subsubsection.1.A.2.4}
+\contentsline {subsubsection}{\numberline {A.2.5}Client: Receiving Annotations}{122}{subsubsection.1.A.2.5}
+\contentsline {subsubsection}{\numberline {A.2.6}Server: Sending Annotations}{123}{subsubsection.1.A.2.6}
+\contentsline {subsubsection}{\numberline {A.2.7}Server: Receiving Annotations}{124}{subsubsection.1.A.2.7}

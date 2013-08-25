@@ -7,5 +7,6 @@
         <field:display field="url" id="s_at_ac_uibk_qe_sowe_Anchor_url" object="${anchor}" z="I0k836jE5GkW0DtEquJ80VVbrtU="/>
         <field:display field="lastModifiedTimestamp" id="s_at_ac_uibk_qe_sowe_Anchor_lastModifiedTimestamp" object="${anchor}" z="fKAbvyfv3I78oySBeXq5VKLgvSk="/>
         <field:display field="payload" id="s_at_ac_uibk_qe_sowe_Anchor_payload" object="${anchor}" z="wpuLLy8iOfKEGSb8UapTWok76fc="/>
+        <field:display field="binaryPayload" id="s_at_ac_uibk_qe_sowe_Anchor_binaryPayload" object="${anchor}" z="bAiCRdA/1tKo20H4naGSwsSs+6g="/>
     </page:show>
 </div>

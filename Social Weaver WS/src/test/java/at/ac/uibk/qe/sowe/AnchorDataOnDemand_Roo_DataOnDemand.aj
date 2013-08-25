@@ -24,11 +24,17 @@ privileged aspect AnchorDataOnDemand_Roo_DataOnDemand {
     
     public Anchor AnchorDataOnDemand.getNewTransientAnchor(int index) {
         Anchor obj = new Anchor();
+        setBinaryPayload(obj, index);
         setLastModifiedTimestamp(obj, index);
         setOid(obj, index);
         setPayload(obj, index);
         setUrl(obj, index);
         return obj;
+    }
+    
+    public void AnchorDataOnDemand.setBinaryPayload(Anchor obj, int index) {
+        byte[] binaryPayload = String.valueOf(index).getBytes();
+        obj.setBinaryPayload(binaryPayload);
     }
     
     public void AnchorDataOnDemand.setLastModifiedTimestamp(Anchor obj, int index) {

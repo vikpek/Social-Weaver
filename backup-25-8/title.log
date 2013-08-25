@@ -1,0 +1,1566 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (TeX Live 2011) (format=pdflatex 2011.7.3)  25 AUG 2013 17:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**title.tex
+(./title.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen105
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/babel/english.ldf
+Language: english 2005/03/30 v3.3o English support from the babel system
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count89
+\lst@gtempboxa=\box26
+\lst@token=\toks15
+\lst@length=\count90
+\lst@currlwidth=\dimen106
+\lst@column=\count91
+\lst@pos=\count92
+\lst@lostspace=\dimen107
+\lst@width=\dimen108
+\lst@newlines=\count93
+\lst@lineno=\count94
+\lst@maxwidth=\dimen109
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count95
+\lst@skipnumbers=\count96
+\lst@framebox=\box27
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count97
+\FV@InFile=\read1
+\FV@TabBox=\box28
+\c@FancyVerbLine=\count98
+\FV@StepNumber=\count99
+\FV@OutFile=\write3
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2011/04/17 v6.82g Hypertext links for LaTeX
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2011/04/23 v1.4 Bundle oberdiek, subset hyperref (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2011/04/23 v1.4 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2011/04/23 v1.4 Subsetting bundle oberdiek (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Defining keys (HO)
+Package: pdftexcmds 2011/04/22 v0.16 Utilities of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/04/04 v1.12 Provides string conversions (HO)
+Package: bigintcalc 2011/01/30 v1.2 Expandable big integer calculations (HO)
+Package: bitset 2011/01/30 v1.1 Data type bit set (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provides unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/01/30 v1.0 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/04/23 v1.7 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+Package: refcount 2010/12/01 v3.2 Data extraction from references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options of hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen110
+\Hy@linkcounter=\count100
+\Hy@pagecounter=\count101
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2011/04/17 v6.82g Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count102
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4026.
+Package hyperref Info: Link nesting OFF on input line 4031.
+Package hyperref Info: Hyper index ON on input line 4034.
+Package hyperref Info: Plain pages OFF on input line 4041.
+Package hyperref Info: Backreferencing OFF on input line 4046.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4264.
+\c@Hy@tempcnt=\count103
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4617.
+\Fld@menulength=\count104
+\Field@Width=\dimen111
+\Fld@charsize=\dimen112
+Package hyperref Info: Hyper figures OFF on input line 5701.
+Package hyperref Info: Link nesting OFF on input line 5706.
+Package hyperref Info: Hyper index ON on input line 5709.
+Package hyperref Info: backreferencing OFF on input line 5716.
+Package hyperref Info: Link coloring OFF on input line 5721.
+Package hyperref Info: Link coloring with OCG OFF on input line 5726.
+Package hyperref Info: PDF/A mode OFF on input line 5731.
+LaTeX Info: Redefining \ref on input line 5771.
+LaTeX Info: Redefining \pageref on input line 5775.
+\Hy@abspage=\count105
+\c@Item=\count106
+\c@Hfootnote=\count107
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2011/04/17 v6.82g Hyperref driver for pdfTeX
+\Fld@listcount=\count108
+\c@bookmark@seq@number=\count109
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip43
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen113
+\extrarowheight=\dimen114
+\NC@list=\toks16
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\TX@col@width=\dimen115
+\TX@old@table=\dimen116
+\TX@old@col=\dimen117
+\TX@target=\dimen118
+\TX@delta=\dimen119
+\TX@cols=\count110
+\TX@ftn=\toks17
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+\@enLab=\toks18
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen120
+)
+(/Volumes/H2D2/vikpek/Library/texmf/tex/latex/floatflt/floatflt.sty
+Package: floatflt 1997/07/16 v. 1.31
+\c@OptionTest=\count111
+\figbox=\box29
+\tabbox=\box30
+\pagebox=\box31
+\ffigcount=\count112
+\ftabcount=\count113
+\fftest=\count114
+\hangcount=\count115
+\nosuccesstryfig=\count116
+\nosuccesstrytab=\count117
+\figgutter=\dimen121
+\tabgutter=\dimen122
+\htdone=\dimen123
+\pageht=\dimen124
+\startpageht=\dimen125
+\tabbredd=\dimen126
+\floatfltwidth=\dimen127
+\fltitemwidth=\dimen128
+\outputpretest=\toks19
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2011/03/10 v0.4n Insert pages of external PDF documents (AM)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count118
+\calc@Bcount=\count119
+\calc@Adimen=\dimen129
+\calc@Bdimen=\dimen130
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count120
+\calc@Cskip=\skip48
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2010/10/06 v2.0c eso-pic (RN)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/local/texlive/2011/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2011/03/10 v0.4n Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box32
+\AM@toc@title=\toks20
+\c@AM@survey=\count121
+\AM@templatesizebox=\box33
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/xr.sty
+Package: xr 1994/05/28 v5.02 eXternal References (DPC)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+\SC@BOXWD=\dimen131
+\SC@CAPWD=\dimen132
+\SC@tempdima=\dimen133
+\SC@tempdimb=\dimen134
+\c@SC@C=\count122
+\SC@BOX=\box34
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/epigraph/epigraph.sty
+Package: epigraph 2009/09/02 v1.5c typesetting epigraphs
+\beforeepigraphskip=\skip49
+\afterepigraphskip=\skip50
+\epigraphwidth=\skip51
+\epigraphrule=\skip52
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/appendix/appendix.sty
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count123
+\c@@ppsavesec=\count124
+\c@@ppsaveapp=\count125
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/mathpazo.sty
+Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
+\symupright=\mathgroup4
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+)) (./title.aux)
+\openout1 = `title.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for T1+pplx on input line 83.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/t1pplx.fd
+File: t1pplx.fd 2004/09/06 font definitions for T1/pplx.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count126
+\scratchdimen=\dimen135
+\scratchbox=\box35
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen136
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Managing graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count132
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring OFF on input line 83.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count133
+)
+LaTeX Info: Redefining \ref on input line 83.
+LaTeX Info: Redefining \pageref on input line 83.
+LaTeX Info: Redefining \nameref on input line 83.
+
+(./title.out) (./title.out)
+\@outlinefile=\write4
+\openout4 = `title.out'.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2009/05/30 v1.1 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 117.
+)
+\CenteringLeftskip=\skip53
+\RaggedLeftLeftskip=\skip54
+\RaggedRightLeftskip=\skip55
+\CenteringRightskip=\skip56
+\RaggedLeftRightskip=\skip57
+\RaggedRightRightskip=\skip58
+\CenteringParfillskip=\skip59
+\RaggedLeftParfillskip=\skip60
+\RaggedRightParfillskip=\skip61
+\JustifyingParfillskip=\skip62
+\CenteringParindent=\skip63
+\RaggedLeftParindent=\skip64
+\RaggedRightParindent=\skip65
+\JustifyingParindent=\skip66
+)
+\big@size=\dimen137
+
+<images/sowebird+uibk.png, id=309, 481.8pt x 472.46512pt>
+File: images/sowebird+uibk.png Graphic file (type png)
+
+<use images/sowebird+uibk.png>
+Package pdftex.def Info: images/sowebird+uibk.png used on input line 89.
+(pdftex.def)             Requested size: 195.0pt x 191.21756pt.
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 97.
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 98.
+LaTeX Font Info:    Try loading font information for OT1+pplx on input line 108
+.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1pplx.fd
+File: ot1pplx.fd 2004/09/06 font definitions for OT1/pplx.
+)
+LaTeX Font Info:    Try loading font information for OML+zplm on input line 108
+.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omlzplm.fd
+File: omlzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OML/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMS+zplm on input line 108
+.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omszplm.fd
+File: omszplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMS/zplm.
+)
+LaTeX Font Info:    Try loading font information for OMX+zplm on input line 108
+.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/omxzplm.fd
+File: omxzplm.fd 2002/09/08 Fontinst v1.914 font definitions for OMX/zplm.
+)
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 108
+.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1
+
+{/usr/local/texlive/2011/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/sowebird+uibk.png>] [2]
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 129.
+ (./title.toc
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <12> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 2.
+ [3] [4])
+\tf@toc=\write5
+\openout5 = `title.toc'.
+
+ [5] (./title.lof
+
+LaTeX Warning: Citation `van2009requirements' on page 6 undefined on input line
+ 5.
+
+
+LaTeX Warning: Citation `antoniol2000web' on page 6 undefined on input line 6.
+
+
+LaTeX Warning: Citation `antoniol2000web' on page 6 undefined on input line 7.
+
+
+LaTeX Warning: Citation `draheim2005source' on page 6 undefined on input line 8
+.
+
+[6]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 46.
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+))
+\tf@lof=\write6
+\openout6 = `title.lof'.
+
+ [7]
+(./abstract.tex
+LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 1.
+) [8] (./acknowledgment.tex) [9] (./introduction.tex
+<images/socialweaver.png, id=548, 736.85287pt x 722.7pt>
+File: images/socialweaver.png Graphic file (type png)
+
+<use images/socialweaver.png>
+Package pdftex.def Info: images/socialweaver.png used on input line 6.
+(pdftex.def)             Requested size: 142.26378pt x 139.53094pt.
+) [10 <./images/socialweaver.png>] [11]
+(./contribution.tex
+Underfull \vbox (badness 2884) has occurred while \output is active []
+
+ [12]
+LaTeX Font Info:    Try loading font information for OMS+pplx on input line 11.
+
+LaTeX Font Info:    No file OMSpplx.fd. on input line 11.
+
+
+LaTeX Font Warning: Font shape `OMS/pplx/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 11.
+
+<images/idea-social-weaving.png, id=566, 1051.7694pt x 339.1872pt>
+File: images/idea-social-weaving.png Graphic file (type png)
+
+<use images/idea-social-weaving.png>
+Package pdftex.def Info: images/idea-social-weaving.png used on input line 23.
+(pdftex.def)             Requested size: 369.88582pt x 119.2866pt.
+ [13]
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--41
+
+ []
+
+[14 <./images/idea-social-weaving.png>]
+<images/sowe-nest.png, id=579, 363.2772pt x 272.6988pt>
+File: images/sowe-nest.png Graphic file (type png)
+
+<use images/sowe-nest.png>
+Package pdftex.def Info: images/sowe-nest.png used on input line 43.
+(pdftex.def)             Requested size: 227.62204pt x 170.86906pt.
+) [15 <./images/sowe-nest.png>]
+(./socialweaver-abstract.tex
+
+LaTeX Warning: Citation `wiegers2003software' on page 16 undefined on input lin
+e 8.
+
+
+LaTeX Warning: Citation `van2009requirements' on page 16 undefined on input lin
+e 10.
+
+
+Overfull \hbox (3.59996pt too wide) in paragraph at lines 10--11
+\T1/pplx/m/n/12 cep-tual level and put these into a re-la-tion-ship with the \T
+1/pplx/m/it/12 WHY/WHAT/WHO-
+ []
+
+<images/why-what-who-model.png, id=588, 556.9608pt x 409.0482pt>
+File: images/why-what-who-model.png Graphic file (type png)
+
+<use images/why-what-who-model.png>
+Package pdftex.def Info: images/why-what-who-model.png used on input line 16.
+(pdftex.def)             Requested size: 284.52756pt x 208.96759pt.
+
+
+LaTeX Warning: Citation `van2009requirements' on page 16 undefined on input lin
+e 17.
+
+[16]
+
+LaTeX Warning: Citation `van2009requirements' on page 17 undefined on input lin
+e 41.
+
+[17 <./images/why-what-who-model.png>]
+Overfull \hbox (4.73987pt too wide) in paragraph at lines 43--44
+\T1/pplx/m/n/12 the-sis it be-comes ob-vi-ous what com-po-nents have what func-
+tions to achieve
+ []
+
+[18]
+Overfull \hbox (0.76984pt too wide) in paragraph at lines 65--66
+[]\T1/pplx/m/n/12 describes the en-vi-ron-ment that is vis-i-ble with-ing a bro
+wser.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+[19] [20]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+<images/rmm-phases.png, id=627, 614.295pt x 405.515pt>
+File: images/rmm-phases.png Graphic file (type png)
+
+<use images/rmm-phases.png>
+Package pdftex.def Info: images/rmm-phases.png used on input line 112.
+(pdftex.def)             Requested size: 284.52756pt x 187.82619pt.
+
+
+LaTeX Warning: Citation `antoniol2000web' on page 21 undefined on input line 11
+3.
+
+[21]
+
+LaTeX Warning: Citation `antoniol2000web' on page 22 undefined on input line 13
+0.
+
+<images/rmm-example.png, id=639, 512.91624pt x 387.4475pt>
+File: images/rmm-example.png Graphic file (type png)
+
+<use images/rmm-example.png>
+Package pdftex.def Info: images/rmm-example.png used on input line 133.
+(pdftex.def)             Requested size: 256.0748pt x 193.43358pt.
+
+
+LaTeX Warning: Citation `antoniol2000web' on page 22 undefined on input line 13
+4.
+
+
+LaTeX Warning: Citation `antoniol2000web' on page 22 undefined on input line 13
+4.
+
+LaTeX Font Info:    Font shape `T1/pplx/bx/it' in size <12> not available
+(Font)              Font shape `T1/pplx/b/it' tried instead on input line 139.
+
+LaTeX Warning: Citation `batini1992conceptual' on page 22 undefined on input li
+ne 140.
+
+[22 <./images/rmm-phases.png>]
+
+LaTeX Warning: Citation `antoniol2000web' on page 23 undefined on input line 14
+3.
+
+[23 <./images/rmm-example.png>]
+
+LaTeX Warning: Citation `draheim2005source' on page 24 undefined on input line 
+153.
+
+
+LaTeX Warning: Citation `draheim2004generator' on page 24 undefined on input li
+ne 155.
+
+<images/revangie-formchart.png, id=656, 668.4975pt x 200.75pt>
+File: images/revangie-formchart.png Graphic file (type png)
+
+<use images/revangie-formchart.png>
+Package pdftex.def Info: images/revangie-formchart.png used on input line 158.
+(pdftex.def)             Requested size: 312.9803pt x 93.99104pt.
+
+
+LaTeX Warning: Citation `draheim2005source' on page 24 undefined on input line 
+159.
+
+
+LaTeX Warning: Citation `draheim2005source' on page 24 undefined on input line 
+159.
+
+
+LaTeX Warning: Citation `draheim2005form' on page 24 undefined on input line 16
+5.
+
+[24 <./images/revangie-formchart.png>] [25]
+<images/plugin-usecase-diagram.png, id=669, 641.2758pt x 536.7252pt>
+File: images/plugin-usecase-diagram.png Graphic file (type png)
+
+<use images/plugin-usecase-diagram.png>
+Package pdftex.def Info: images/plugin-usecase-diagram.png used on input line 1
+88.
+(pdftex.def)             Requested size: 369.88582pt x 309.58917pt.
+
+<images/server-usecase-diagram.png, id=670, 402.303pt x 379.1766pt>
+File: images/server-usecase-diagram.png Graphic file (type png)
+
+<use images/server-usecase-diagram.png>
+Package pdftex.def Info: images/server-usecase-diagram.png used on input line 1
+95.
+(pdftex.def)             Requested size: 227.62204pt x 214.53604pt.
+ [26 <./images/plugin-usecase-diagram.png>] <images/sowe-module-overview.png, i
+d=676, 743.4174pt x 427.3566pt>
+File: images/sowe-module-overview.png Graphic file (type png)
+
+<use images/sowe-module-overview.png>
+Package pdftex.def Info: images/sowe-module-overview.png used on input line 205
+.
+(pdftex.def)             Requested size: 369.88582pt x 212.6279pt.
+ [27 <./images/server-usecase-diagram.png>] <images/sowe-prototype-use-case.png
+, id=686, 939.0282pt x 648.9846pt>
+File: images/sowe-prototype-use-case.png Graphic file (type png)
+
+<use images/sowe-prototype-use-case.png>
+Package pdftex.def Info: images/sowe-prototype-use-case.png used on input line 
+227.
+(pdftex.def)             Requested size: 369.88582pt x 255.63806pt.
+ [28 <./images/sowe-module-overview.png>] [29 <./images/sowe-prototype-use-case
+.png>]
+
+LaTeX Warning: Citation `van2009requirements' on page 30 undefined on input lin
+e 248.
+
+[30] [31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 297--300
+
+ []
+
+[33]
+Overfull \hbox (36.06795pt too wide) in paragraph at lines 301--302
+\T1/pplx/m/n/12 web page or ap-pli-ca-tion. As ex-am-ple a script re-lated to \
+T1/pplx/m/it/12 http://www.opensource.org/
+ []
+
+<images/script-usage-basic.png, id=741, 316.0608pt x 369.0588pt>
+File: images/script-usage-basic.png Graphic file (type png)
+
+<use images/script-usage-basic.png>
+Package pdftex.def Info: images/script-usage-basic.png used on input line 310.
+(pdftex.def)             Requested size: 199.16928pt x 232.57584pt.
+
+Overfull \hbox (0.97063pt too wide) in paragraph at lines 322--323
+[]\T1/pplx/m/n/12 Default match-ing pro-ce-dure should be pro-vided (so the ove
+r-all func-
+ []
+
+) [34] (./socialweaver-concrete.tex
+Overfull \hbox (0.58pt too wide) in paragraph at lines 9--10
+\T1/pplx/m/n/12 Foun-da-tion[][][]. It is be-ing dis-tributed un-der mul-ti-ple
+ li-censes un-der Mozilla
+ []
+
+[35 <./images/script-usage-basic.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 22--22
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+[36] <images/example-panel.png, id=786, 658.46pt x 717.68124pt>
+File: images/example-panel.png Graphic file (type png)
+
+<use images/example-panel.png>
+Package pdftex.def Info: images/example-panel.png used on input line 26.
+(pdftex.def)             Requested size: 199.16928pt x 217.08008pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+[37 <./images/example-panel.png>]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 41.
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--50
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+<images/example-widget.png, id=804, 202.7575pt x 177.66376pt>
+File: images/example-widget.png Graphic file (type png)
+
+<use images/example-widget.png>
+Package pdftex.def Info: images/example-widget.png used on input line 58.
+(pdftex.def)             Requested size: 199.16928pt x 174.52405pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / dev-[]guide /
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 71--71
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--76
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+
+LaTeX Warning: Citation `fielding2000principled' on page 39 undefined on input 
+line 76.
+
+[39 <./images/example-widget.png>] [40]
+Overfull \hbox (8.18083pt too wide) in paragraph at lines 94--95
+\T1/pplx/m/n/12 ment can be han-dled as a jQuery ob-ject. This way []\T1/cmtt/m
+/n/12 click(function(){...})
+ []
+
+[41]
+
+LaTeX Warning: Citation `van2009requirements' on page 42 undefined on input lin
+e 113.
+
+<images/abstract2concrete-1.png, id=878, 361.35pt x 309.7974pt>
+File: images/abstract2concrete-1.png Graphic file (type png)
+
+<use images/abstract2concrete-1.png>
+Package pdftex.def Info: images/abstract2concrete-1.png used on input line 131.
+
+(pdftex.def)             Requested size: 284.52756pt x 243.93837pt.
+ [42] [43 <./images/abstract2concrete-1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--143
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+<images/annotation-rectangle-sample.png, id=914, 1284.8pt x 779.91376pt>
+File: images/annotation-rectangle-sample.png Graphic file (type png)
+
+<use images/annotation-rectangle-sample.png>
+Package pdftex.def Info: images/annotation-rectangle-sample.png used on input l
+ine 149.
+(pdftex.def)             Requested size: 369.88582pt x 224.52693pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--154
+[][][]$\T1/cmtt/m/n/10 https : / / addons . mozilla . org / en-[]US / developer
+s / docs / sdk / latest / modules /
+ []
+
+[44 <./images/annotation-rectangle-sample.png>]
+<images/annotation-rectangle-sample2.png, id=929, 1284.8pt x 780.9175pt>
+File: images/annotation-rectangle-sample2.png Graphic file (type png)
+
+<use images/annotation-rectangle-sample2.png>
+Package pdftex.def Info: images/annotation-rectangle-sample2.png used on input 
+line 163.
+(pdftex.def)             Requested size: 341.43306pt x 207.52602pt.
+ [45] [46 <./images/annotation-rectangle-sample2.png>] <images/mode-logos.png, 
+id=943, 548.7702pt x 185.493pt>
+File: images/mode-logos.png Graphic file (type png)
+
+<use images/mode-logos.png>
+Package pdftex.def Info: images/mode-logos.png used on input line 181.
+(pdftex.def)             Requested size: 369.88582pt x 125.02971pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[47 <./images/mode-logos.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
+Overfull \hbox (0.22478pt too wide) in paragraph at lines 206--207
+[]\T1/pplx/m/n/12 The mode sys-tem could be a start-ing point for ex-tend-ing S
+o-cial Weaver
+ []
+
+<images/plugin-architecture.png, id=951, 1018.5252pt x 554.07pt>
+File: images/plugin-architecture.png Graphic file (type png)
+
+<use images/plugin-architecture.png>
+Package pdftex.def Info: images/plugin-architecture.png used on input line 209.
+
+(pdftex.def)             Requested size: 369.88582pt x 201.2151pt.
+ [48 <./images/plugin-architecture.png>]
+
+LaTeX Warning: Citation `fielding2000principled' on page 49 undefined on input 
+line 217.
+
+
+LaTeX Warning: Reference `creating_triplets' on page 49 undefined on input line
+ 223.
+
+[49] <images/component-plugin-diagram.png, id=985, 718.3638pt x 539.616pt>
+File: images/component-plugin-diagram.png Graphic file (type png)
+
+<use images/component-plugin-diagram.png>
+Package pdftex.def Info: images/component-plugin-diagram.png used on input line
+ 256.
+(pdftex.def)             Requested size: 312.9803pt x 235.1016pt.
+ [50] [51 <./images/component-plugin-diagram.png>]
+<images/anchor-example-uibk.png, id=1014, 999.735pt x 611.28375pt>
+File: images/anchor-example-uibk.png Graphic file (type png)
+
+<use images/anchor-example-uibk.png>
+Package pdftex.def Info: images/anchor-example-uibk.png used on input line 298.
+
+(pdftex.def)             Requested size: 284.52756pt x 173.97516pt.
+ [52 <./images/anchor-example-uibk.png>]
+[53] <images/matching-algorithm.png, id=1057, 629.2308pt x 410.4936pt>
+File: images/matching-algorithm.png Graphic file (type png)
+
+<use images/matching-algorithm.png>
+Package pdftex.def Info: images/matching-algorithm.png used on input line 376.
+(pdftex.def)             Requested size: 369.88582pt x 241.30595pt.
+ [54] [55 <./images/matching-algorithm.png>] [56] [57]
+<images/ws-technologies-logos.png, id=1111, 495.7722pt x 321.8424pt>
+File: images/ws-technologies-logos.png Graphic file (type png)
+
+<use images/ws-technologies-logos.png>
+Package pdftex.def Info: images/ws-technologies-logos.png used on input line 42
+6.
+(pdftex.def)             Requested size: 284.52756pt x 184.71417pt.
+
+
+LaTeX Warning: Citation `fowler2006gui' on page 58 undefined on input line 432.
+
+
+<images/mvc-expl.png, id=1112, 277.9986pt x 291.9708pt>
+File: images/mvc-expl.png Graphic file (type png)
+
+<use images/mvc-expl.png>
+Package pdftex.def Info: images/mvc-expl.png used on input line 435.
+(pdftex.def)             Requested size: 227.62204pt x 239.0701pt.
+ [58 <./images/ws-technologies-logos.png>] [59 <./images/mvc-expl.png>] [60]
+
+LaTeX Warning: Citation `fielding2000architectural' on page 61 undefined on inp
+ut line 488.
+
+
+Underfull \hbox (badness 1117) in paragraph at lines 498--499
+\T1/pplx/m/n/12 dif-fer-ent cases where these op-er-a-tions slightly dif-fer. I
+t de-pends
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 498--499
+\T1/pplx/m/n/12 whether the URI be-longs to a sin-gle re-source en-tity (like f
+or in-
+ []
+
+[61] [62]
+<images/sowe-mvc-view-screenshot.png, id=1174, 674.52pt x 679.53876pt>
+File: images/sowe-mvc-view-screenshot.png Graphic file (type png)
+
+<use images/sowe-mvc-view-screenshot.png>
+Package pdftex.def Info: images/sowe-mvc-view-screenshot.png used on input line
+ 523.
+(pdftex.def)             Requested size: 199.16928pt x 200.64883pt.
+ [63] [64 <./images/sowe-mvc-view-screenshot.png>]
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+) [65]
+[66] <images/sowe-ws-uml-package.png, id=1227, 1982.40625pt x 1896.08376pt>
+File: images/sowe-ws-uml-package.png Graphic file (type png)
+
+<use images/sowe-ws-uml-package.png>
+Package pdftex.def Info: images/sowe-ws-uml-package.png used on input line 600.
+
+(pdftex.def)             Requested size: 369.88582pt x 353.77892pt.
+ [67 <./images/sowe-ws-uml-package.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 622--622
+[][][]$\T1/cmtt/m/n/10 http : / / docs . oracle . com / javaee / 6 / api / java
+x / persistence / package-[]summary .
+ []
+
+<images/component-server-diagram.png, id=1236, 622.9674pt x 364.2408pt>
+File: images/component-server-diagram.png Graphic file (type png)
+
+<use images/component-server-diagram.png>
+Package pdftex.def Info: images/component-server-diagram.png used on input line
+ 625.
+(pdftex.def)             Requested size: 369.88582pt x 216.273pt.
+ [68] [69 <./images/component-server-diagram.png>] [70] [71] [72] [73] [74] [75
+] [76]
+Underfull \vbox (badness 2790) has occurred while \output is active []
+
+ [77]
+[78] <images/ambiguous-grammar.png, id=1395, 424.4658pt x 298.716pt>
+File: images/ambiguous-grammar.png Graphic file (type png)
+
+<use images/ambiguous-grammar.png>
+Package pdftex.def Info: images/ambiguous-grammar.png used on input line 859.
+(pdftex.def)             Requested size: 284.52756pt x 200.2435pt.
+ [79]
+<images/dom-tree-example.png, id=1409, 738.5994pt x 454.3374pt>
+File: images/dom-tree-example.png Graphic file (type png)
+
+<use images/dom-tree-example.png>
+Package pdftex.def Info: images/dom-tree-example.png used on input line 904.
+(pdftex.def)             Requested size: 369.88582pt x 227.52863pt.
+ [80 <./images/ambiguous-grammar.png>]
+[81 <./images/dom-tree-example.png>] [82]
+<images/dom-paramaterized-tree-example.png, id=1449, 738.5994pt x 454.3374pt>
+File: images/dom-paramaterized-tree-example.png Graphic file (type png)
+
+<use images/dom-paramaterized-tree-example.png>
+Package pdftex.def Info: images/dom-paramaterized-tree-example.png used on inpu
+t line 939.
+(pdftex.def)             Requested size: 369.88582pt x 227.52863pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [83 <./images/dom-paramaterized-tree-example.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
+[]\T1/pplx/m/n/12 In the pre-vi-ous sec-tion we al-ready de-ter-mined the pa-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 949--950
+\T1/pplx/m/n/12 ram-e-ter DOM path for the el-e-ment []\T1/cmtt/m/n/12 Construc
+tion \T1/pplx/m/n/12 which is
+ []
+
+
+Underfull \hbox (badness 1314) in paragraph at lines 949--950
+[]\T1/cmtt/m/n/12 \#0<html>,\#0<body>,\#0<ul>,\#1<li>\T1/pplx/m/n/12 . This pa-
+ram-e-ter is enough
+ []
+
+[84]
+<images/dom-paramaterized-modified-tree-example.png, id=1473, 522.753pt x 454.3
+374pt>
+File: images/dom-paramaterized-modified-tree-example.png Graphic file (type png
+)
+ <use images/dom-paramaterized-modified-tree-example.png>
+Package pdftex.def Info: images/dom-paramaterized-modified-tree-example.png use
+d on input line 976.
+(pdftex.def)             Requested size: 369.88582pt x 321.4726pt.
+
+<images/component-wholesystem-diagram.png, id=1474, 1542.7236pt x 688.4922pt>
+File: images/component-wholesystem-diagram.png Graphic file (type png)
+
+<use images/component-wholesystem-diagram.png>
+Package pdftex.def Info: images/component-wholesystem-diagram.png used on input
+ line 984.
+(pdftex.def)             Requested size: 369.88582pt x 165.07341pt.
+ [85 <./images/dom-paramaterized-modified-tree-example.png>] [86 <./images/comp
+onent-wholesystem-diagram.png>])
+(./analysis.tex
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+) [87]
+<images/gcal-plain.png, id=1504, 1278.7775pt x 679.53876pt>
+File: images/gcal-plain.png Graphic file (type png)
+
+<use images/gcal-plain.png>
+Package pdftex.def Info: images/gcal-plain.png used on input line 38.
+(pdftex.def)             Requested size: 284.52756pt x 151.1995pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [88 <./images/gcal-plain.png>] [89]
+<images/sequence-update.png, id=1536, 801.7152pt x 719.3274pt>
+File: images/sequence-update.png Graphic file (type png)
+
+<use images/sequence-update.png>
+Package pdftex.def Info: images/sequence-update.png used on input line 78.
+(pdftex.def)             Requested size: 369.88582pt x 331.88246pt.
+
+<images/sequence-matching-process.png, id=1538, 801.7152pt x 554.07pt>
+File: images/sequence-matching-process.png Graphic file (type png)
+
+<use images/sequence-matching-process.png>
+Package pdftex.def Info: images/sequence-matching-process.png used on input lin
+e 93.
+(pdftex.def)             Requested size: 369.88582pt x 255.63618pt.
+
+<images/gcal-marking-mode.png, id=1539, 1231.60126pt x 661.47125pt>
+File: images/gcal-marking-mode.png Graphic file (type png)
+
+<use images/gcal-marking-mode.png>
+Package pdftex.def Info: images/gcal-marking-mode.png used on input line 102.
+(pdftex.def)             Requested size: 369.88582pt x 198.65486pt.
+ [90] [91 <./images/sequence-update.png>]
+[92 <./images/sequence-matching-process.png> <./images/gcal-marking-mode.png>]
+<images/gcal-commentbox.png, id=1558, 383.4325pt x 605.26125pt>
+File: images/gcal-commentbox.png Graphic file (type png)
+
+<use images/gcal-commentbox.png>
+Package pdftex.def Info: images/gcal-commentbox.png used on input line 115.
+(pdftex.def)             Requested size: 113.81102pt x 179.64954pt.
+ [93 <./images/gcal-commentbox.png>]
+<images/sequence-marking-process.png, id=1569, 1017.5616pt x 1116.8124pt>
+File: images/sequence-marking-process.png Graphic file (type png)
+
+<use images/sequence-marking-process.png>
+Package pdftex.def Info: images/sequence-marking-process.png used on input line
+ 135.
+(pdftex.def)             Requested size: 369.88582pt x 405.97162pt.
+
+<images/gcal-combined.png, id=1570, 1278.7775pt x 679.53876pt>
+File: images/gcal-combined.png Graphic file (type png)
+
+<use images/gcal-combined.png>
+Package pdftex.def Info: images/gcal-combined.png used on input line 145.
+(pdftex.def)             Requested size: 369.88582pt x 196.55312pt.
+ [94] [95 <./images/sequence-marking-process.png>] [96 <./images/gcal-combined.
+png>]
+<images/assessments-results.png, id=1590, 671.1474pt x 376.2858pt>
+File: images/assessments-results.png Graphic file (type png)
+
+<use images/assessments-results.png>
+Package pdftex.def Info: images/assessments-results.png used on input line 171.
+
+(pdftex.def)             Requested size: 486.92271pt x 272.99881pt.
+ [97] [98 <./images/assessments-results.png>] [99] <images/3d-uibk.png, id=1619
+, 1192.455pt x 792.9625pt>
+File: images/3d-uibk.png Graphic file (type png)
+
+<use images/3d-uibk.png>
+Package pdftex.def Info: images/3d-uibk.png used on input line 224.
+(pdftex.def)             Requested size: 369.88582pt x 245.96103pt.
+
+<images/bad-example-backgroundbox.png, id=1621, 472.6458pt x 257.763pt>
+File: images/bad-example-backgroundbox.png Graphic file (type png)
+
+<use images/bad-example-backgroundbox.png>
+Package pdftex.def Info: images/bad-example-backgroundbox.png used on input lin
+e 239.
+(pdftex.def)             Requested size: 227.62204pt x 124.13388pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+[]|\T1/pplx/m/n/12 Level of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
+\T1/pplx/m/n/12 Match-ing
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 249--249
+[]|\T1/pplx/m/n/12 Level of An-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 249--249
+\T1/pplx/m/n/12 chor Re-li-a-bil-
+ []
+
+
+Overfull \hbox (27.85199pt too wide) in paragraph at lines 237--256
+ [] 
+ []
+
+[100] [101 <./images/3d-uibk.png>]
+<images/3d-amazon.png, id=1638, 874.26625pt x 876.27374pt>
+File: images/3d-amazon.png Graphic file (type png)
+
+<use images/3d-amazon.png>
+Package pdftex.def Info: images/3d-amazon.png used on input line 263.
+(pdftex.def)             Requested size: 369.88582pt x 370.73337pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+[]|\T1/pplx/m/n/12 Level of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 282--282
+\T1/pplx/m/n/12 Match-ing
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 284--284
+[]|\T1/pplx/m/n/12 Level of An-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 284--284
+\T1/pplx/m/n/12 chor Re-li-a-bil-
+ []
+
+
+Overfull \hbox (25.19998pt too wide) in paragraph at lines 277--293
+[] 
+ []
+
+[102 <./images/bad-example-backgroundbox.png>] [103 <./images/3d-amazon.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [104]
+<images/web2.png, id=1662, 1008.76875pt x 667.49374pt>
+File: images/web2.png Graphic file (type png)
+ <use images/web2.png>
+Package pdftex.def Info: images/web2.png used on input line 301.
+(pdftex.def)             Requested size: 284.52756pt x 188.27196pt.
+
+
+LaTeX Warning: Citation `o2005web' on page 105 undefined on input line 306.
+
+[105 <./images/web2.png>]
+<images/3d-gcal.png, id=1672, 707.64375pt x 787.94376pt>
+File: images/3d-gcal.png Graphic file (type png)
+
+<use images/3d-gcal.png>
+Package pdftex.def Info: images/3d-gcal.png used on input line 314.
+(pdftex.def)             Requested size: 369.88582pt x 411.86119pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+[]|\T1/pplx/m/n/12 Level of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 335--335
+\T1/pplx/m/n/12 Match-ing
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 337--337
+[]|\T1/pplx/m/n/12 Level of An-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 337--337
+\T1/pplx/m/n/12 chor Re-li-a-bil-
+ []
+
+
+Overfull \hbox (25.19998pt too wide) in paragraph at lines 330--344
+[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [106]
+[107 <./images/3d-gcal.png>] [108]
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+[]|\T1/pplx/m/n/12 Level of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--391
+\T1/pplx/m/n/12 Match-ing
+ []
+
+
+Underfull \hbox (badness 2158) in paragraph at lines 393--393
+[]|\T1/pplx/m/n/12 Level of An-
+ []
+
+
+Underfull \hbox (badness 3009) in paragraph at lines 393--393
+\T1/pplx/m/n/12 chor Re-li-a-bil-
+ []
+
+
+Overfull \hbox (42.8248pt too wide) in paragraph at lines 387--400
+[][] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [109]
+[110] [111] (./conclusion.tex [112]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [113]
+[114] [115]) [116] (./appendix.tex (./usecases.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 1454) in paragraph at lines 24--25
+\T1/pplx/m/n/12 an-no-table. In case his cur-
+ []
+
+
+Underfull \hbox (badness 2762) in paragraph at lines 30--31
+[]|\T1/pplx/m/n/12 Starting po-si-tion is that the
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [117]
+Underfull \hbox (badness 1132) in paragraph at lines 49--50
+\T1/pplx/m/n/12 What types are avail-able de-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [118]
+Underfull \hbox (badness 4660) in paragraph at lines 63--64
+[]|\T1/pplx/m/n/12 Already an-no-tated web el-e-
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 69--70
+[]|\T1/pplx/m/n/12 At this stage we as-sume an
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [119]
+Underfull \hbox (badness 1533) in paragraph at lines 83--84
+\T1/pplx/m/n/12 vide syn-chro-niza-tion be-tween
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [120]
+Underfull \hbox (badness 1297) in paragraph at lines 103--104
+[]|\T1/pplx/m/n/12 Annotations cre-ated by other
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [121]
+Underfull \hbox (badness 2744) in paragraph at lines 124--125
+\T1/pplx/m/n/12 the server needs to be
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 126--127
+\T1/pplx/m/n/12 the re-quest may come
+ []
+
+
+Underfull \hbox (badness 2042) in paragraph at lines 134--135
+[]|\T1/pplx/m/n/12 This use case does not
+ []
+
+
+Underfull \hbox (badness 7186) in paragraph at lines 134--135
+\T1/pplx/m/n/12 dif-fer-ent users. This
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 134--135
+\T1/pplx/m/n/12 ses-sion pro-vides a syn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+\T1/pplx/m/n/12 chronous view for all
+ []
+
+[122]
+Underfull \hbox (badness 2913) in paragraph at lines 150--151
+[]|\T1/pplx/m/n/12 Assuming the web ser-
+ []
+
+
+Underfull \hbox (badness 1127) in paragraph at lines 150--151
+\T1/pplx/m/n/12 be able to parse it and
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123]
+[124])
+No file title.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
+(./title.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
+Package rerunfilecheck Info: File `title.out' has not changed.
+(rerunfilecheck)             Checksum: 392B8277E6DDD31F269793BB96D4F6AC;5725.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 166.
+ ) 
+Here is how much of TeX's memory you used:
+ 10608 strings out of 493633
+ 156313 string characters out of 3143378
+ 372708 words of memory out of 3000000
+ 12905 multiletter control sequences out of 15000+200000
+ 78456 words of font info for 122 fonts, out of 3000000 for 9000
+ 831 hyphenation exceptions out of 8191
+ 37i,8n,51p,1027b,1930s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.34} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.33} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.32} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.31} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.30} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.29} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.28} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.27} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.26} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.25} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.24} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{/usr/local/texlive/2011/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
+live/2011/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/local/texli
+ve/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2011/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2011/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></usr/local/texlive/2011
+/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2011/texmf-d
+ist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2011/texmf-dis
+t/fonts/type1/public/cm-super/sftt1200.pfb></usr/local/texlive/2011/texmf-dist/
+fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/t
+ype1/urw/palatino/uplbi8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/u
+rw/palatino/uplr8a.pfb></usr/local/texlive/2011/texmf-dist/fonts/type1/urw/pala
+tino/uplri8a.pfb>
+Output written on title.pdf (124 pages, 9008647 bytes).
+PDF statistics:
+ 1983 PDF objects out of 2073 (max. 8388607)
+ 1749 compressed objects within 18 object streams
+ 730 named destinations out of 1000 (max. 500000)
+ 839 words of extra memory for PDF output out of 10000 (max. 10000000)
+
