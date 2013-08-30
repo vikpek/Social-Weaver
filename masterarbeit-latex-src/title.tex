@@ -116,7 +116,6 @@ Dr.~Michael \textsc{Felderer}
 Dr.~Dirk \textsc{Draheim}
 \end{flushright}
 \end{minipage}
-
 \vfill
 
 % Bottom of the page
@@ -125,39 +124,45 @@ Dr.~Dirk \textsc{Draheim}
 \end{center}
 \end{titlepage}
 
-\newpage
+\cleardoublepage
+
+
+\input{abstract}
+\cleardoublepage
+\input{acknowledgment}
+\cleardoublepage
+
+
 \tableofcontents
-\newpage
+\cleardoublepage
 \listoffigures
-\newpage
+\cleardoublepage
 %\listoftables
 %\newpage
 %\lstlistoflistings
 %\newpage
 
-\input{abstract}
-\newpage
-\input{acknowledgment}
-\newpage
 \input{introduction}
-\newpage
+\clearpage
 \input{contribution}
-\newpage
+\clearpage
 \input{socialweaver-abstract}
-\newpage
+\clearpage
 \input{socialweaver-concrete}
-\newpage
+\clearpage
 \input{analysis}
-\newpage
+\clearpage
 \input{conclusion}
-\newpage
+
+\cleardoublepage
 
 
 \begin{appendices}
 \input{appendix}
 \end{appendices}
 
-\newpage
+\cleardoublepage
+
 \bibliographystyle{plain}
 \bibliography{references}
 \nocite{*}
